@@ -1,0 +1,30 @@
+global:
+  scrape_interval: 15s     #Server端抓取数据的时间间隔
+  scrape_timeout: 10s      #数据抓取的超时时间 
+  evaluation_interval: 15s #评估报警规则的时间间隔
+
+  external_labels:
+    monitor: 'prometheus-monitor'
+
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets:
+      - localhost:9093
+
+rule_files:
+#  - '/opt/prometheus-2.3.2/rules/1.yml'
+  - /opt/prometheus-2.3.2/rules/*.rules
+
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    static_configs:
+      #- targets: ['10.90.4.5:9100']
+      - targets: ['10.90.4.5_yunwei:9100']
+
+  - job_name: 'jxbank'
+    scrape_interval: 5s
+    static_configs:
+      #- targets: ['10.90.2.6:9100','10.90.2.14:9100','10.90.2.11:9100','10.90.2.13:9100','10.90.2.16:9100','10.90.2.10:9100','10.90.2.17:9100','10.90.2.3:9100','10.90.2.5:9100','10.90.2.2:9100']
+      - targets: ['10.90.2.6_jx-admin-1:9100','10.90.2.14_jx-datainner-2:9100','10.90.2.11_jx-schedule:9100','10.90.2.13_jx-datainner-1:9100','10.90.2.16_jx-admin-1:9100','10.90.2.10_jx-frontmanager-2:9100','10.90.2.17_jx-product-2:9100','10.90.2.3_jx-frontmanager-1:9100','10.90.2.5_jx-product-1:9100','10.90.2.2_jx-gateway:9100','10.90.2.37_jx-eureka-3:9100','10.90.2.19_jx-eureka-2:9100','10.90.2.20_jx-eureka-1:9100','10.90.2.22_jx_cacheapp01:9100','10.90.2.49_jx_filapp01:9100','10.90.1.2_jx_frt01:9100','10.90.1.17_jx_frt02:9100','10.90.1.6_jx_backend01:9100']

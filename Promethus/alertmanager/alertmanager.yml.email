@@ -1,0 +1,30 @@
+global:
+  resolve_timeout: 5m
+  smtp_require_tls: false
+  smtp_smarthost: 58.247.137.138:587
+  smtp_from: zhangxiying@kq300061.com
+  smtp_auth_username: zhangxiying
+  smtp_auth_identity: zhangxiying
+  smtp_auth_password: 136446851q5
+
+templates: 
+- 'template/*.tmpl'
+
+route:
+  group_by: ['alertname']
+  group_wait: 10s
+  group_interval: 10s
+  repeat_interval: 1h
+  receiver: 'default-receiver'
+receivers:
+  - name: default-receiver
+    email_configs:
+      - to: 865747339@qq.com
+    webhook_configs:
+      - url: 'http://localhost:8080/webhook'
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'dev', 'instance','test']

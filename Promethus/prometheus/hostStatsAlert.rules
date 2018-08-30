@@ -1,0 +1,18 @@
+groups:
+  - name: hostStatsAlert
+    rules:
+    - record: job:requests:sum
+      expr: sum(http_requests_total) by (job)
+  - name: node_exporter
+    rules:
+    - alert: NodeExporterDown
+      expr: up == 0
+      for: 5m 
+      labels:
+        severity: page
+        currentvalue: $value
+        itemname: $labels.expr
+      annotations:
+        summary: "Instance {{ $labels.instance }} down"
+        description: "{{ $labels.instance }} of job {{ $labels.job }} has been down for more than 5 minutes."
+

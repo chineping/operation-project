@@ -1,0 +1,24 @@
+global:
+  resolve_timeout: 5m
+
+templates: 
+- 'template/*.tmpl'
+
+route:
+  group_by: ['alertname', 'instance', 'type']
+  group_wait: 30s     #初次发警报的延时
+  group_interval: 5m  #初始警报组如果已经发送，需要等待多长时间再发送同组新产生的其他报警
+  repeat_interval: 3h #如果警报已经成功发送，间隔多长时间再重复发送
+  receiver: 'default-receiver'
+
+receivers:
+  - name: default-receiver
+    webhook_configs:
+      - url: 'http://localhost:8080/webhook'
+
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'instance', 'mountpoint']

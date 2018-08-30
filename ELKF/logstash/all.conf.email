@@ -1,0 +1,22 @@
+input {
+   beats {
+        port => 5044
+         }
+}
+output {
+      if [message] =~ "ERROR" {
+        email {
+           port => "587"
+           #address => "smtp.xx.com"
+           address => "ip"
+           authentication => "plain"
+           subject => "警告:%{[service]} 出现 Jboss Log Error"
+           username => "username"
+           password => "password"
+           from => "xx"
+           to => "xx,xx"
+           via => "smtp"
+           body => "主机:%{[service]} \n 日志类型:%{type} \n error_message:%{message}"
+                }
+                              }
+ }

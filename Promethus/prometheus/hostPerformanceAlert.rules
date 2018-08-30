@@ -1,0 +1,36 @@
+groups:
+- name: hostPerformanceAlert
+  rules:
+  - alert: hostCpuUsageAlert
+    expr: (sum(avg without (cpu)(irate(node_cpu{mode!='idle'}[5m]))) by (instance)) * 100 > 75
+    #expr: (100 - (avg by (instance) (irate(node_cpu{job="kubernetes-node-exporter",mode="idle"}[5m])) * 100)) > 75
+    for: 5m
+    labels:
+      severity: page
+    annotations:
+      summary: "Instance {{ $labels.instance }} CPU usgae high"
+      description: "{{ $labels.instance }} CPU usage above 75% (current value: {{ $value }})"
+  - alert: hostMemUsageAlert
+    #expr: (node_memory_MemTotal - node_memory_MemAvailable)/node_memory_MemTotal > 0.7
+    expr: (node_memory_MemTotal - (node_memory_MemFree+node_memory_Buffers+node_memory_Cached )) / node_memory_MemTotal * 100 > 70
+    for: 5m
+    labels:
+      severity: page
+    annotations:
+      summary: "Instance {{ $labels.instance }} MEM usgae high"
+      description: "{{ $labels.instance }} MEM usage above 70% (current value: {{ $value }})"
+  - alert: hostDiskUsageAlert
+    expr: ceil(node_filesystem_avail_bytes{mountpoint="/", device="/dev/vda1"} /1024 / 1024 / 1024) < 10
+    for: 5m
+    labels:
+      severity: page
+    annotations:
+      description: "{{$labels.instance}}: Disk Usage is below 10GB (current value is: {{ $value }}" 
+  - alert: hostFilesystemUsage
+    expr: (node_filesystem_size{device="rootfs"} - node_filesystem_free{device="rootfs"}) / node_filesystem_size{device="rootfs"} * 100 > 80
+    for: 5m
+    labels:
+      severity: page
+    annotations:
+      description: "{{$labels.instance}}: Filesystem usage is above 80% (current value is: {{ $value }}"
+ 
