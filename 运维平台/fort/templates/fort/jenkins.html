@@ -1,0 +1,69 @@
+{% extends 'fort/base.html' %}
+{% load static %}
+{% block title %}Jenkins列表{% endblock %}
+
+{% block css %}
+    <link href="{% static 'index.css' %}" rel="stylesheet" />
+{% endblock %}
+
+{% block content %}
+<!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      Jenkins列表
+      <small>Jenkins List</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> 主页</a></li>
+      <li class="active">Jenkins列表</li>
+    </ol>
+      <hr />
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+
+    <div class="table-responsive">
+        <table id="jenkins_table" class="table table-hover table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>Jenkins项目名</th>
+                    <th>Jenkins—url</th>
+                </tr>
+            </thead>
+            <tbody>
+             {% for jenkin in jenkins %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ jenkin.job_name }}</td>
+                    <td>{{ jenkin.build_url }}</td>
+                </tr>
+            {% empty %}
+                <tr>后台没有存储项目！</tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+  </section>
+  <!-- /.content -->
+
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'plugins/datatables/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'plugins/datatables/dataTables.bootstrap.min.js' %}"></script>
+    <script>
+        $(function () {
+            $('#jenkins_table').DataTable({
+              "paging": true,       <!-- 允许分页 -->
+              "lengthChange": true, <!-- 允许改变每页显示的行数 -->
+              "searching": true,    <!-- 允许内容搜索 -->
+              "ordering": true,     <!-- 允许排序 -->
+              "info": true,         <!-- 显示信息 -->
+              "autoWidth": true
+            });
+        });
+    </script>
+
+{% endblock %}
