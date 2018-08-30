@@ -1,0 +1,4 @@
+- hosts: "{{ host }}"
+  name: yum install redis
+  roles:
+    - redis

@@ -1,0 +1,21 @@
+---
+
+ntp_driftfile: /var/lib/ntp/drift
+ntp_server: [1.cn.pool.ntp.org, 2.cn.pool.ntp.org]
+ntp_restrict:
+  - "restrict -4 default kod notrap nomodify nopeer noquery"
+  - "restrict -6 default kod notrap nomodify nopeer noquery"
+  - "restrict 127.0.0.1"
+  - "restrict 1.cn.pool.ntp.org"
+  - "restrict 2.cn.pool.ntp.org"
+
+ntp_crypto: no
+ntp_includefile: /etc/ntp/crypto/pw
+ntp_keys: /etc/ntp/keys
+ntp_trustedkey: no
+ntp_requestkey: no
+ntp_controlkey: no
+ntp_statistics: no
+ntp_broadcast: no 
+ntp_broadcastclient: no         
+ntp_multicastclient: no

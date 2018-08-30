@@ -1,0 +1,9 @@
+# Default limit for number of user's processes to prevent
+# accidental fork bombs.
+# See rhbz #432903 for reasoning.
+
+*          -    nproc     4096
+root       -    nproc     unlimited
+
+# limits.d/90-nofile.conf
+*          -    nofile     655360

@@ -1,0 +1,4 @@
+- name: tar remote apache-tomcat-8.5.29.tar.gz
+  unarchive: src={{ tomcat_path }}/files/apache-tomcat-8.5.29.tar.gz dest=/opt copy=yes mode=0755
+- name: remove website dir
+  shell: rm -rf /opt/apache-tomcat-8.5.29/webapps/*

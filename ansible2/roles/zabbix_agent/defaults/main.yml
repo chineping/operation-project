@@ -1,0 +1,5 @@
+
+user: techops
+files: [
+  { src: "zabbix-agent-3.2.3-1.el6.x86_64.rpm", dest: '/home/techops/zabbix-agent-3.2.3-1.el6.x86_64.rpm', mode: '0644' }
+]

@@ -1,0 +1,27 @@
+---
+- hosts: stge
+  vars:
+    user: ningyu
+    password: "$6$rounds=656000$E5cPtR/lsaePWKTC$l3rfura4OINiXipZSVTR1O7QKbHoX4nuo12BdvNf6aNsi6JwKT/Izw5IuRuj8N3Wx8uEZm7Rg7O9QveXvw9IH1"
+  remote_user: techops
+  gather_facts: False
+  become: yes
+  tasks:
+  - name: Add user {{ user }}
+    user: name={{user}} comment="{{ user }}" password={{ password }}
+  - name: Config /etc/sudoers
+    lineinfile: dest=/etc/sudoers state=present  line='{{item}}' validate='visudo -cf %s'
+    with_items:
+           - "{{ user}} ALL=(ALL) NOPASSWD: ALL"
+           - "Defaults: {{user}}  !requiretty"
+#  - name: add directories for {{ user }}
+#    file:
+#      path: "{{ item }}"
+#      state: directory
+#      owner: "{{ user }}"
+#      group: "{{ user }}"
+#      mode: 0755
+#      recurse: yes
+#    with_items:  
+#      - "/data/es"
+#      - "/data/kafka"

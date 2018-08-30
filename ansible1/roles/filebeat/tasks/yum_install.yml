@@ -1,0 +1,24 @@
+#- name: Add Elasticsearch GPG key
+#  rpm_key:
+#    key: https://packages.elastic.co/GPG-KEY-elasticsearch
+#    state: present
+
+- name: Add Filebeat repository
+  template:
+    src: filebeat.repo.j2
+    dest: /etc/yum.repos.d/filebeat.repo
+    mode: 0644
+
+- name: Yum Filebeat
+  yum: 
+    pkg: filebeat
+    state: latest
+
+- name: Copy Filebeat configuration
+  template:
+    src: filebeat.yml.j2
+    dest: "/etc/filebeat/filebeat.yml"
+    owner: root
+    group: root
+    mode: 0644
+

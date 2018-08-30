@@ -1,0 +1,30 @@
+- name: tar remote package
+  unarchive: 
+    src: "{{ nodeexporter_path }}/files/node_exporter-0.16.0.linux-amd64.tar.gz" 
+    dest: /opt 
+    copy: yes 
+    mode: 0755
+
+- name: rename node_exporter
+  shell: mv /opt/node_exporter-0.16.0.linux-amd64 "{{ pro_path }}"
+
+- name: make data dir
+  shell: mkdir -pv "{{ pro_path }}/data/textfile_collector"
+
+- name: configure node-exporter
+  copy: 
+    src: "{{ nodeexporter_path }}/templates/node_exporter.conf.j2" 
+    dest: "{{ pro_path }}" 
+    mode: 0755
+
+- name: configure start service
+  copy: 
+    src: "{{ nodeexporter_path }}/templates/node_exporter.service.j2" 
+    dest: "{{ sys_path }}" 
+    mode: 0755
+
+- name: start service
+  service: 
+    name: node-exporter.service 
+    state: started 
+    enabled: yes

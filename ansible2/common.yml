@@ -1,0 +1,13 @@
+---
+# This playbook deploys the whole application stack in this site.
+
+
+- name: basic system tunning
+  hosts: shan
+  remote_user: root
+  become: yes
+  gather_facts: False
+  
+  roles:
+    - common
+

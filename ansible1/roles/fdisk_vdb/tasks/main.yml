@@ -1,0 +1,9 @@
+- name: New Disk Partition
+  script: disk.sh "{{ disk }}"
+
+- name: New Disk Format(ext4)
+  filesystem: fstype=ext4 dev="{{ partition }}"
+
+- name: New Disk Mount
+  mount: name="{{ mountDir }}" src="{{ partition }}" fstype=ext4 state=mounted
+

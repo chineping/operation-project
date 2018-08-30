@@ -1,0 +1,10 @@
+ntpserver01: 10.15.252.1
+ntpserver02: 10.15.252.2
+
+files: [
+  { src: 'CentOS-Base.repo', dest: '/etc/yum.repos.d/CentOS-Base.repo', mode: '0644', force: 'yes' },
+  { src: '10gen.repo', dest: '/etc/yum.repos.d/10gen.repo', mode: '0644', force: 'yes' },
+  { src: 'epel.repo', dest: '/etc/yum.repos.d/epel.repo', mode: '0644', force: 'yes' },
+  { src: 'remi.repo', dest: '/etc/yum.repos.d/remi.repo', mode: '0644', force: 'yes' },
+  { src: 'rpmforge.repo', dest: '/etc/yum.repos.d/rpmforge.repo', mode: '0644', force: 'yes' },
+]

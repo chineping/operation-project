@@ -1,0 +1,13 @@
+- name: cp zabbix-agent-3.0.9-1.el7.x86_64.rpm to remote host
+  copy: src={{ zabbix_path }}/files/zabbix-agent-3.0.9-1.el7.x86_64.rpm dest=/usr/local
+
+- name: rpm install zabbix-agent
+  shell: rpm -ivh /usr/local/zabbix-agent-3.0.9-1.el7.x86_64.rpm
+
+- name: Copy zabbix-agent configuration
+  template:
+    src: zabbix_agentd.conf.j2
+    dest: "/etc/zabbix/zabbix_agentd.conf"
+    owner: root
+    group: root
+    mode: 0644

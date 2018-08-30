@@ -1,0 +1,13 @@
+- name: cp filebeat-5.6.9-x86_64.rpm to remote host
+  copy: src={{ filebeat_path }}/files//filebeat-5.6.9-x86_64.rpm dest=/usr/local
+
+- name: rpm install filebeat
+  shell: rpm -ivh /usr/local/filebeat-5.6.9-x86_64.rpm
+
+- name: Copy Filebeat configuration
+  template:
+    src: filebeat.yml.j2
+    dest: "/etc/filebeat/filebeat.yml"
+    owner: root
+    group: root
+    mode: 0644

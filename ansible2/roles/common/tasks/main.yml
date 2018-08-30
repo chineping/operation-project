@@ -1,0 +1,48 @@
+---
+# This playbook contains common plays that will be run on all nodes.
+
+- name: configure nameserver
+  template:
+    src: resolv.conf.j2
+    dest: /etc/resolv.conf
+    owner: root
+    group: root
+    mode: 0644
+
+#- name: Configure yum repostry 
+#  copy:
+#    src: "{{ item.src }}"
+#    dest: "{{ item.dest }}"
+#    mode: "{{ item.mode }}"
+#    force: "{{ item.force }}"
+#  with_items: "{{ files }}"
+#  tags: yum
+
+#- name: Install ntp
+#  yum: name=ntp state=present
+#  tags: ntp
+#
+#- name: Configure ntp file
+#  template: src=ntp.conf.j2 dest=/etc/ntp.conf
+#  tags: ntp
+#  notify: restart ntp
+
+#- name: Start the ntp service
+#  service: name=ntpd state=started enabled=yes
+#  tags: ntp
+
+- name: Set the limit of openfile and noproc
+  template:
+    src: 90-nproc.conf.j2
+    dest: /etc/security/limits.d/90-nproc.conf
+    owner: root
+    group: root
+    mode: 0644
+- name: configure limits.conf file
+  template:
+    src: limits.conf.j2
+    dest: /etc/security/limits.conf
+    owner: root
+    group: root
+    mode: 0644
+

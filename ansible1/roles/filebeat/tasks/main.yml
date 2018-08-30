@@ -1,0 +1,4 @@
+---
+- include: yum_install.yml
+
+#- include: rpm_install.yml

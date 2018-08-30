@@ -1,0 +1,146 @@
+[ucloud]
+U-Nginx-01	ansible_host=10.15.51.112
+U-Nginx-02	ansible_host=10.15.11.67
+U-Server-01	ansible_host=10.15.43.47
+U-Server-02	ansible_host=10.15.67.177
+U-Platform-01	ansible_host=10.15.30.184
+U-Platform-02	ansible_host=10.15.76.10
+U-Platform-03	ansible_host=10.15.98.251
+U-Official-01	ansible_host=10.15.32.57
+U-Official-02	ansible_host=10.15.35.91
+importer	ansible_host=10.15.195.14
+openvpn	ansible_host=10.15.80.80
+
+[ucloud:vars]
+ansible_port=60000
+ansible_user=techops
+
+#[data]
+#nginx01		ansible_host=192.168.252.1
+#tomcat01	ansible_host=192.168.252.3
+#tomcat02	ansible_host=192.168.252.4
+#ops	ansible_host=192.168.252.5	ansible_user=root
+#master	ansible_host=192.168.252.100	ansible_user=zytong
+#slave	ansible_host=192.168.252.101	ansible_user=zytong
+#[data:vars]
+#ansible_port=60000
+#ansible_user=zyt
+
+[bjdata]
+data01	ansible_host=192.168.252.10	
+data02	ansible_host=192.168.252.11	
+data03	ansible_host=192.168.252.12	
+[bjdata:vars]
+ansible_port=60000
+ansible_user=techops
+
+[gitlab]
+gitlab_node	ansible_host=172.18.201.18
+[gitlab:vars]
+ansible_port=6022
+ansible_user=techops
+
+[mao]
+u-mao-platform-01	ansible_host=10.15.66.142
+u-mao-platform-02	ansible_host=10.15.83.62
+u-mao-server-01	ansible_host=10.15.27.178
+u-mao-server-02	ansible_host=10.15.165.213
+[mao:vars]
+ansible_port=60000
+ansible_user=techops
+#ansible_ssh_pass=uX0VJKKT1XxwKiv8N0j3
+
+[monitor]
+mo	ansible_host=10.15.126.44
+uc	ansible_host=10.15.52.189
+[monitor:vars]
+ansible_port=60000
+ansible_user=techops
+
+[shan]
+u-shan-server01	ansible_host=10.15.67.227
+u-shan-server02	ansible_host=10.15.8.173
+u-shan-scheduler	ansible_host=10.15.16.81
+u-shan-algorithm01	ansible_host=10.15.152.203
+u-shan-algorithm02	ansible_host=10.15.42.25
+u-shan-platform01	ansible_host=10.15.89.245
+u-shan-platform02	ansible_host=10.15.115.248
+u-luyin	ansible_host=10.15.188.183
+[shan:vars]
+ansible_port=60000
+ansible_user=techops
+
+[log]
+u-mao-server-01	ansible_host=10.15.27.178
+u-mao-server-02	ansible_host=10.15.165.213
+[log:vars]
+ansible_port=60000
+ansible_user=techops
+
+#[RS]
+#zstackManager	ansible_host=192.168.30.2
+#ZNode01	ansible_host=192.168.30.5
+#ZNode02	ansible_host=192.168.30.6
+#nginx	ansible_host=192.168.30.3
+#[RS:vars]
+#ansible_user=root
+#ansible_ssh_pass=Zytong@2017
+#
+#[tp]
+#template	ansible_host=192.168.30.28
+#[tp:vars]
+#ansible_user=root
+#ansible_ssh_pass=Zytong@2017
+#
+#[l7]
+#CentOS7	ansible_host=192.168.30.220	 ansible_user=root
+
+[CallCenter]
+callCenter01	ansible_host=10.15.82.97
+[CallCenter:vars]
+ansible_port=60000
+ansible_user=techops
+
+[zibenjia]
+capiyslist01	ansible_host=10.15.188.183
+[zibenjia:vars]
+ansible_port=60000
+ansible_user=techops
+
+
+[test]
+cctest	ansible_host=192.168.30.204
+catdetective	ansible_host=192.168.30.17
+flashcat	ansible_host=192.168.30.26
+capitalist	ansible_host=192.168.30.23
+toproperty	ansible_host=192.168.30.12
+nginx01	ansible_host=192.168.30.203
+nginx02	ansible_host=192.168.30.214
+haproxy01	ansible_host=192.168.30.196
+haproxy02	ansible_host=192.168.30.210
+jenkins	ansible_host=192.168.30.185
+[test:vars]
+ansible_user=techops
+
+[DB]
+192.168.252.1	ansible_host=192.168.252.1 ansible_user=zyt
+192.168.252.3	ansible_host=192.168.252.3 ansible_user=zyt
+192.168.252.4	ansible_host=192.168.252.4 ansible_user=zyt
+192.168.252.5	ansible_host=192.168.252.5 ansible_user=root
+192.168.252.100	ansible_host=192.168.252.100 ansible_user=zytong
+192.168.252.101	ansible_host=192.168.252.101 ansible_user=zytong
+[DB:vars]
+ansible_port=60000
+
+
+
+[stge]
+10.15.18.249 	ansible_host=10.15.18.249
+10.15.70.163 	ansible_host=10.15.70.163
+10.15.139.142	ansible_host=10.15.139.142
+10.15.55.199 	ansible_host=10.15.55.199
+10.15.176.26 	ansible_host=10.15.176.26
+[stge:vars]
+ansible_user=techops
+#ansible_user=root
+#ansible_port=60000

@@ -1,0 +1,4 @@
+---
+nodeexporter_path: /etc/ansible/roles/node_exporter
+pro_path: /opt/node_exporter-0.16.0
+sys_path: /usr/lib/systemd/system

@@ -1,0 +1,13 @@
+---
+# This playbook deploys the whole application stack in this site.
+
+
+- name: apply zabbix_agent configuration to all nodes
+  hosts: ucloud
+  remote_user: techops
+  become: yes
+  gather_facts: True
+  
+  roles:
+    - zabbix_agent
+

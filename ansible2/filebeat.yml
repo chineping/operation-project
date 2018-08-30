@@ -1,0 +1,11 @@
+---
+#this ansible playbook will depoly ntp on RedHat or Debain 
+
+- name: install ntp service and set ntpserver
+  hosts: ucloud
+  remote_user: techops
+  become: yes
+  gather_facts: True
+
+  roles:
+    - filebeat

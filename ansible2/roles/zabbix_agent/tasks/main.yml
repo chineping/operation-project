@@ -1,0 +1,58 @@
+---
+# This playbook contains common plays that will be run on all nodes.
+
+#- name: Configure yum repostry 
+#  template: src=CentOS-Base.repo.j2 dest=/etc/yum.repos.d/CentOS-Base.repo
+#  tags: yum
+#
+#- name: Install ntp
+#  yum: name=ntp state=present
+#  tags: ntp
+#
+#- name: Configure ntp file
+#  template: src=ntp.conf.j2 dest=/etc/ntp.conf
+#  tags: ntp
+#  notify: restart ntp
+#
+#- name: Start the ntp service
+#  service: name=ntpd state=started enabled=yes
+#  tags: ntp
+#
+#- name: Set the limit of openfile and noproc
+#  template: src=nofile-proc.conf.j2 dest=/etc/security/limits.d/nofile-proc.conf
+#
+#- name: Disable unnecessary services 
+#  service: name='{{item}}' state=stopped enabled=no
+#  with_items:
+#    - postfix
+#    - NetworkManager
+#    - kdump
+#    - firewalld
+#    - irqbalance
+#    - tuned
+#  tags: srv
+- name: Copy zabbix_agent to target server
+  copy:
+    src: "{{ item.src }}"
+    dest: "{{ item.dest }}"
+    mode: "{{ item.mode }}"
+  with_items: "{{ files }}"
+  tags: zabbix_agent
+
+- name: install zabbix_agent
+  command: yum localinstall /home/{{ user }}/zabbix-agent-3.2.3-1.el6.x86_64.rpm -y
+
+- name: Copy zabbix_agent to target server
+  template: src=zabbix_agentd.config.j2 dest=/etc/zabbix/zabbix_agentd.conf
+  tags: zabbix_agent
+
+- name: start zabbix_agent
+  service:
+    name: zabbix-agent
+    state: started
+    enabled: yes
+
+- name: delete zabbix_agent rpm file
+  file:
+    path: /home/{{ user }}/zabbix-agent-3.2.3-1.el6.x86_64.rpm
+    state: absent

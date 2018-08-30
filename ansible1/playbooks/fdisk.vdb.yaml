@@ -1,0 +1,8 @@
+- hosts: "{{ host }}"
+  user: root
+  vars:
+    disk: /dev/vdb
+    partition: /dev/vdb1
+    mountDir: /opt
+  roles:
+    - fdisk_vdb

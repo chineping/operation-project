@@ -1,0 +1,20 @@
+---
+- hosts: stge
+  gather_facts: False
+  vars:
+    user: ningyu
+    auth_file: "/home/{{ user }}/.ssh/authorized_keys"
+  remote_user: techops
+  become: yes
+  tasks:
+    - name: create ssh directory
+      file: path="/home/{{ user }}/.ssh" state=directory mode=0700 owner={{ user }} group={{ user }}
+    - name: create authorized_keys file
+      file: path='{{auth_file}}' state=touch mode=0644 owner={{ user }} group={{ user }}
+    - name: add user key
+      lineinfile: dest='{{auth_file}}' state=present line='{{item}}'
+      with_items:
+        #- "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAwv31KnpnIVELxkOKdLh16KKLWvlVQEFlY2phfwez5BvvHwP5WQuIiNgUVVRBfMftI/XtofZzeViNkadlTI3Ax2gz3Mk6WYhJK5RRotp54qMfaZ8qLpNJs7uB4yMoZr2WDHdxrsd7E483IfjYvWQqY3s657d1EBiuA32lsWg7Kc0= jiangzhangyu@ziyitong.com.cn"
+        #- "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDWg+6zi2S8axvuUDBpP/U1yyv6EUdLS0Zeubp+ZWMC2+qF1ca2BCoIXqAty0cfvG/SXfSHuS91gv7qvda69jVX1uT2Opi+blBv43ACzk9EkPWUA5xarLvto6ekin8u6mWoQq+/uyMYZz4HAAswCTFeSVGarmfA99kzbJGp5I28/ip4/7fLKSR1fAYfecS/6ZWAtl1wCJhlqvA+6ZqJKXL40LniecC1lm3cUznn6p0V8Ie1rmK+4eR5VF56cdRa4eVxz4acACWHQTE3sBRGOzvJmXfWke11LITApFH+NogXh0P2UVb1HLIO44Ht+8Ml1RTvdybe6guRM88kIdNapvuRX197L1ipD0frplOnmQAsTOQADBgYhtsc93setWObbi5kdoNaBTxlVZQh8a3QZFFj72vCGLssOQapO3ramQxhxzglRGpTGShwqBGV64+Im0xj3RAf3vkhdKeV1gh+DHUm0qhSOvFNSOUN/cPJbox8D8LFKQHF5Pc/4pgxrGgHQhbXY1w9B5o/QyCQZ7a6t3khewhvnfvvYmsOeiMxJQBPqd9N1uFTF3Tyd5vDZaOOHeym/4Vg0v40g/JsUNDTZDl9MQNy8FH/t/LwUdH2exUWjfW+7lahzLWpM2ebPWfJrxaTEEFoMVGlBkq3YE2i8nXZ8+YL32FTyE5kU1NNpWr8RQ== Warren@Warren"
+        #- "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA70BFWJPIuhU5c7fjoXpS1mUQZS2BE9RBOFs70oFe7A4KWKvkp15/j/YLX4qao4XXRnNDN9QyKp1CM7MedB5tA7exbK/vPFSCGD/p8My4MuWxsQBwMh4TPoIVqdmfQwK9j3pLt34mVqtdPN7LS1D98f04TfgySFNjvHyEQ92XlYyS6sE/NPcHc4odWUaFq23xUB6od11Xc277HLtPwUwYb7gKZxrUO3ByK4DWfkwSbvIlS3hVVFaaohF16YsRipnvvPximx5OyclkFDCyqxbp18x/zJIVhHXA2jwT/hlpeNl6Hg57Imv8DaC+FESNCO6plv6RlpvRJYhGrRj/VQIovw== zhujian@zhujian"
+        - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuXtI2eXFd1BHg6dbY25qxJcJ9iwgoDDyWlAFMe2z7RudvXddw3gDqTzg32YzH4d2JDVbP9Vy7Ajq+PVZGKQdJrqx898IeknBalECoRlZTwrmeVA31dst7qbSPXe4idEnYUpzGBpAjXXcarO97nN/eAt16dSenQTUyar4q7Y99N08QHaumcocEeILUg1mxlHOyoVoqq3aqPBNQfFsjzZw5rJD+rED7HvZDl3+W9+4Oev/obLYzagKT7OdAU862PoXRyh1IohaSFbwqDNxoyEs+k2dXCHW6GFVmsYE9lz9RkxU7kg/uOu25T/WRg/L0quQwzMMXDPSt2kgyekGYIQLV ningyu@s3.datastore.ziyitong.com.cn"
