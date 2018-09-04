@@ -1,0 +1,13 @@
+[Unit]
+Description=Prometheus
+Documentation=https://prometheus.io/
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/prometheus-2.3.2/prometheus --config.file=/opt/prometheus-2.3.2/prometheus.yml --storage.tsdb.path=/opt/prometheus-2.3.2/data/prometheus --storage.tsdb.retention=30d --web.enable-lifecycle
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
