@@ -1,0 +1,34 @@
+---
+- hosts: "{{ host }}"
+  user: root
+  vars:
+    IP: "{{ ansible_eth0['ipv4']['address'] }}"
+    dir_check: /root/diskspace
+    file_check: /root/diskspace/diskspace_"{{ IP }}".txt
+    dir_pull: /etc/ansible/playbooks/check_diskspace/{{ host }}
+  tasks:
+    
+    - name: mkdir /root/diskspace
+      file: 
+        path: "{{ dir_check }}"
+        state: directory
+
+    - name: get_ip > txt
+      shell: echo "{{ IP }}" > "{{ file_check }}"
+      
+    - name: get /dev/vda1 diskspace
+      shell: df -h|grep -A 0 "/dev/vda1" >> "{{ file_check }}"
+    
+    - name: get /dev/vdb1 diskspace
+      shell: df -h|grep -A 0 "/dev/vdb1" >> "{{ file_check }}"
+    
+    - name: yum install rsync
+      yum: 
+        name: rsync
+        state: present
+    
+    - name: pull diskspace.txt 
+      synchronize:
+        src: "{{ file_check }}"
+        dest: "{{ dir_pull }}" 
+        mode: pull
