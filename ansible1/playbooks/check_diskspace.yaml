@@ -4,7 +4,7 @@
   vars:
     IP: "{{ ansible_eth0['ipv4']['address'] }}"
     dir_check: /root/diskspace
-    file_check: /root/diskspace/diskspace_"{{ IP }}".txt
+    file_check: /root/diskspace/diskspace_{{ IP }}.txt
     dir_pull: /etc/ansible/playbooks/check_diskspace/{{ host }}
   tasks:
     
@@ -13,9 +13,14 @@
         path: "{{ dir_check }}"
         state: directory
 
-    - name: get_ip > txt
-      shell: echo "{{ IP }}" > "{{ file_check }}"
+    #- name: get_ip > txt
+    #  shell: echo "{{ IP }}" > "{{ file_check }}"
       
+    - name: get remote ip
+      copy: 
+        content: "{{ IP }}"
+        dest: "{{ file_check }}"
+  
     - name: get /dev/vda1 diskspace
       shell: df -h|grep -A 0 "/dev/vda1" >> "{{ file_check }}"
     
