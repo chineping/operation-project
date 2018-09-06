@@ -1,13 +1,30 @@
 - name: Add group ops
-  group: name=ops state=present
-- name: Add user {{ user1 }}
-  user: name={{user1}} shell=/bin/bash state=present groups=ops password={{ '1q@W#E$R' |password_hash('sha512') }}
-- name: Add user {{ user2 }}
-  user: name={{user2}} shell=/bin/bash state=present groups=ops password={{ '1q@W#E$R' |password_hash('sha512') }}
+  group: 
+    name: ops 
+    state: present
+
+- name: Add username
+  user: 
+    name: '{{item}}' 
+    shell: /bin/bash
+    state: present 
+    groups: ops 
+    create_home: yes
+    home: /home/'{{item}}'
+    password: "{{ '***' |password_hash('sha512') }}"
+  with_items:
+        - taojh
+        - zhangxy
+
 - name: Config /etc/sudoers
-  lineinfile: dest=/etc/sudoers state=present  line='{{item}}' validate='visudo -cf %s'
+  lineinfile: 
+    dest: /etc/sudoers 
+    state: present 
+    line: '{{item}}' 
+    validate: 'visudo -cf %s'
   with_items:
         - "%ops  ALL=(ALL:ALL)     NOPASSWD: ALL"
+
 #- name: Config /etc/ssh/sshd_config
 #  shell: sed -ri 's/.*PasswordAuthentication\s+yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
 #- name: reload sshd service
