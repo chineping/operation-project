@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二手房信息</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container">
+      <ol class="breadcrumb my-4">
+        <li class="breadcrumb-item active">二手房信息</li>
+      </ol>
+      <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th>id</th>
+            <th>totalPrice</th>
+{#            <th>title</th>#}
+            <th>houseType</th>
+            <th>constructionArea</th>
+            <th>unitPrice</th>
+            <th>listingTime</th>
+            <th>toward</th>
+            <th>floor</th>
+            <th>buildingtype</th>
+            <th>hasElevator</th>
+            <th>decorationType</th>
+            <th>yearOfRight</th>
+            <th>buildyear</th>
+            <th>useful</th>
+            <th>lastSell</th>
+            <th>last30DayLead</th>
+            <th>attention</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in list %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ item.totalPrice }}</td>
+{#                    <td>{{ item.title }}</td>#}
+                    <td>{{ item.houseType }}</td>
+                    <td>{{ item.constructionArea }}</td>
+                    <td>{{ item.unitPrice }}</td>
+                    <td>{{ item.listingTime }}</td>
+                    <td>{{ item.toward }}</td>
+                    <td>{{ item.floor }}</td>
+                    <td>{{ item.buildingtype }}</td>
+                    <td>{{ forloop.hasElevator }}</td>
+                    <td>{{ item.decorationType }}</td>
+                    <td>{{ item.yearOfRight }}</td>
+                    <td>{{ item.buildyear }}</td>
+                    <td>{{ item.useful }}</td>
+                    <td>{{ item.lastSell }}</td>
+                    <td>{{ item.last30DayLead }}</td>
+                    <td>{{ item.attention }}</td>
+                </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>

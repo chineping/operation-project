@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-title" content="掌上链家">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+	<meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" target-densitydpi=device-dpi>
+    <meta name="applicable-device" content="mobile">
+        <link rel="canonical" href="https://sh.lianjia.com/ershoufang/pudong/pg1a2a3p2"/>
+		<meta http-equiv="cleartype" content="on">
+	<meta name="location" content="province=上海;city=上海;coord=121.4804,31.2368">
+	<meta name="description" content="链家浦东50-70平,70-90平200-300万二手房网是广受当地用户好评的二手房出售买卖平台，为买浦东二手房的用户提供二手房及优质浦东50-70平,70-90平200-300万二手房出售信息，链家浦东50-70平,70-90平200-300万保证有需要进行浦东二手房买卖的用户放心交易">
+	<meta name="keywords" content="浦东50-70平,70-90平200-300万二手房出售,浦东50-70平,70-90平200-300万二手房网,浦东50-70平,70-90平200-300万二手房买卖,浦东50-70平,70-90平200-300万二手房">
+	<meta http-equiv="Cache-Control" content="no-transform " />
+	<title>浦东50-70平,70-90平200-300万二手房_浦东50-70平,70-90平200-300万二手房出售第1页(链家网)</title>
+	<link href="/favicon.ico" type="image/x-icon" rel="icon">
+		<script type="text/javascript">
+	;(function(f,i){var b=i.documentElement;var e=f.navigator.appVersion;var g=e.match(/android/gi);var c=e.match(/iphone/gi);var k=f.devicePixelRatio;var j=1,d=1;if(c){if(k>=3){j=3}else{if(k>=2){j=2}else{j=1}}}else{j=1}d=1/j;var h=i.querySelector('meta[name="viewport"]');if(!h){h=i.createElement("meta");h.setAttribute("name","viewport");if(b.firstElementChild){b.firstElementChild.appendChild(h)}else{var a=i.createElement("div");a.appendChild(h);i.write(a.innerHTML)}}if(j){h.setAttribute("content","initial-scale="+d+", maximum-scale="+d+", minimum-scale="+d+", user-scalable=no,uc-fitscreen=yes");b.style.fontSize=16*j+"px"}window.DPR=j})(window,document);
+	</script>
+			<!-- 静态资源 -->
+			<link rel="stylesheet" href="https://s1.ljcdn.com/hulk-web/static/m/asset/common/base.css?_v=20180920163849ee4">
+	<link rel="stylesheet" href="https://s1.ljcdn.com/hulk-web/static/m/asset/common/im/index.css?_v=20180920163849ee4">
+		<!--cssInlie样式内容-->
+    	<!--动态样式内容-->
+        <link rel="stylesheet" href="https://s1.ljcdn.com/hulk-web/static/m/asset/pages/ershoufangSearch/index.css?_v=20180920163849ee4">
+        <!-- 百度官方号相关 -->
+    	<!-- /静态资源 -->
+	</head>
+<body>
+<!-- 百度官方号相关 -->
+<div class="wrapper" data-logmsg="010A1A6403BE5E02146601A609857064">
+	<div class="main_start" id="main_start">
+		<!--页面-->
+		<!--TODO here-->
+        
+<section class="page page_ershoufang">
+
+    	<div class="download_fixed" data-mark="download_bottom">
+	<a href="javascript:;" data-mark="download_bottom_close_btn" class="close">关闭</a>
+	<a href="javascript:;" data-mark="download_app" data-detail_info='{"icon":"https:\/\/s1.ljcdn.com\/hulk-web\/static\/m\/images\/common\/logo300x300.png?_v=20180920163849ee4","title":"\u4f7f\u7528\u94fe\u5bb6APP","sub_title":"\u67e5\u770b\u66f4\u591a\u4e0a\u6d77\u7cbe\u9009\u4e8c\u624b\u623f","button_text":"\u7acb\u5373\u6253\u5f00","channel":"ershoufangliebiao","feature":null,"type":2,"awaken_app_info":{"type":"scheme","download_url":"https:\/\/package1.ljcdn.com\/channel_packages\/homelink_secondhand\/channel\/Android_lianjia_m.apk","scheme":"lianjia:\/\/erShou\/list?cityID=310000&searchCondition=pudong\/pg1a2a3p2&ssid=9e7f0d66-e8f8-4cbe-a861-21ffd7b943de&uuid=4e071327-41de-480e-aa90-ca1b6caa0017&refer=&current_url=https%253A%252F%252Fm.lianjia.com%252Fsh%252Fershoufang%252Fpudong%252Fpg1a2a3p2"}}' data-info="ljweb_mod=download_card_bottom" class="lazyload_ulog" data-evtid="10380" data-ulog="ljweb_mod=download_card_bottom">
+		<div class="logo">使用链家APP</div>
+		<div class="slog"><p class="title">使用链家APP</p><p class="sub-title">查看更多上海精选二手房</p></div>
+		<div class="btn">立即打开</div>
+	</a>
+</div>
+	<!--头部-->
+<header class="header header_white">
+	<div class="flexbox left">
+		<a href="javascript:history.back();" class="header_back"></a>
+		<a href="/city/" class="city_wrap">
+			<span class="switch_city"><em class="city">上海</em><i class="icon_pull"></i></span>
+		</a>
+	</div>
+	<a href="/sh/" class="logo_wrap center"><span class="logo">链家网</span></a>
+	<a href="/my/index/" class="my right"><i class="icon_user"></i></a>
+</header>
+<!--/头部-->
+
+    <div class="content_area">
+        <!--搜索框-->
+                    <a href="/sh/ershoufang/search/"><div class="search_box search_c"><form action=""><i class="icon_search_gray"></i><input type="text" class="input" placeholder="请输入小区或商圈名称" data-mark="search_input" disabled=""></form></div></a>
+                <!--/搜索框-->
+        <!--房源列表-->
+        <div class="mod_box house_lists">
+            <!--筛选条-->
+            <div class="tab_bar flexbox" data-mark="booth">
+                            <div class="tab_tit box_col active" data-mark="booth_area" ><h2 class="tit">浦东</h2><i class="icon_triangle_down"></i></div>
+                                        <div class="tab_tit box_col active" data-mark="booth_price"><h2 class="tit">200-300万</h2><i class="icon_triangle_down"></i></div>
+                                        <div class="tab_tit box_col q_frame" data-mark="booth_model"><h2 class="tit">房型</h2><i class="icon_triangle_down"></i></div>
+                                        <div class="tab_tit box_col active q_more" data-mark="booth_more" ><h3 class="tit">更多</h3><i class="icon_triangle_down"></i></div>
+                        </div>
+            <!--/筛选条-->
+
+            <div class="sort_bar" data-mark="btn_sort"><i class="icon_sort"></i><span>排序</span></div>
+
+                        <!-- 导流弹窗 -->
+            <div style="display: none;" data-mark="diversion_layer_zhijie" data-ljweb_mod="diversion_layer_zhijie" data-layer_info='{"icon":"https:\/\/s1.ljcdn.com\/hulk-web\/static\/m\/images\/common\/logo300x300.png?_v=20180920163849ee4","title":"\u94fe\u5bb6APP","sub_title":"\u67e5\u770b\u66f4\u591a\u4e0a\u6d779\u6708\u65b0\u4e0a\u623f\u6e90","button_text":"\u7acb\u5373\u4e0b\u8f7d","default_picture_url":"https:\/\/s1.ljcdn.com\/hulk-web\/static\/m\/images\/common\/photo_none_large.png?_v=20180920163849ee4","extInfo":false,"layer_type":2,"awaken_app_info":{"type":"scheme","download_url":"https:\/\/package1.ljcdn.com\/channel_packages\/homelink_secondhand\/channel\/Android_lianjia_m.apk","scheme":"lianjia:\/\/erShou\/list?cityID=310000&searchCondition=pudong\/pg1a2a3p2&ssid=9e7f0d66-e8f8-4cbe-a861-21ffd7b943de&uuid=4e071327-41de-480e-aa90-ca1b6caa0017&refer=&current_url=https%253A%252F%252Fm.lianjia.com%252Fsh%252Fershoufang%252Fpudong%252Fpg1a2a3p2"}}'></div>
+            
+                        <div class="mod_cont lazyload_ulog" data-evtid="13294" data-ulog="pid=lianjiamweb&event=SearchRequest&fb_query_id=97299430682193920">
+                <ul class="lists" data-mark="list_container" data-info="total=1469">
+                    <div class="sem_card_hover">
+                        
+                    </div>
+                        <li class="download_card arrow">
+    <span>保存搜索条件，获取最新房源</span>
+    <div class="download_btn lazyload_ulog" data-evtid="10380" data-ulog="ljweb_mod=download_shaixuan" data-mark="download_app" data-info="ljweb_mod=download_shaixuan" data-detail_info='{"awaken_app_info":{"type":"scheme","download_url":"https:\/\/package1.ljcdn.com\/channel_packages\/homelink_secondhand\/channel\/Android_lianjia_m.apk","scheme":"lianjia:\/\/erShou\/list?cityID=310000&searchCondition=pudong\/pg1a2a3p2&ssid=9e7f0d66-e8f8-4cbe-a861-21ffd7b943de&uuid=4e071327-41de-480e-aa90-ca1b6caa0017&refer=&current_url=https%253A%252F%252Fm.lianjia.com%252Fsh%252Fershoufang%252Fpudong%252Fpg1a2a3p2"}}'>安装APP</div>
+</li>
+        <li class="pictext">
+        <a href="/sh/ershoufang/107100328528.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="富特三村新出  精装全南两房  满五唯一税费少  视线好"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">富特三村新出  精装全南两房  满五唯一税费少  视线好</div>
+                <div class="item_other text_cut" title="富特三村二手房">2室1厅/57.15m²/南/富特三村</div>
+                <div class="item_minor"><span class="price_total"><em>263</em><span class="unit">万</span></span><span class="unit_price">46020元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107000296639.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170402/a95f8969-e1ad-4c2c-9c15-fe85e77a2f56.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="华高一村 满五唯一 可改两室 采光充足 视野开阔 刚需"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">华高一村 满五唯一 可改两室 采光充足 视野开阔 刚需</div>
+                <div class="item_other text_cut" title="华高一村二手房">1室1厅/57.5m²/南/华高一村</div>
+                <div class="item_minor"><span class="price_total"><em>249</em><span class="unit">万</span></span><span class="unit_price">43305元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100483374.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-01af1774-41a2-4b9f-be88-3b33fe8bf688.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="富特四村 满五唯一 精美双南户型  精装修地铁6号线"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">富特四村 满五唯一 精美双南户型  精装修地铁6号线</div>
+                <div class="item_other text_cut" title="富特四村二手房">2室1厅/58.31m²/南/富特四村</div>
+                <div class="item_minor"><span class="price_total"><em>238</em><span class="unit">万</span></span><span class="unit_price">40817元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100204193.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-1a72e7a8-5d86-4ab2-a2e3-c2ade1f3f082.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="毛坯原始户型，景观楼层，看房有钥匙，一手动迁"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">毛坯原始户型，景观楼层，看房有钥匙，一手动迁</div>
+                <div class="item_other text_cut" title="新高苑(一至三期)二手房">1室1厅/57.36m²/南/新高苑(一至三期)</div>
+                <div class="item_minor"><span class="price_total"><em>270</em><span class="unit">万</span></span><span class="unit_price">47072元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107000003747.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-e41d7fc2-f456-49c8-ae74-a74acae4de17.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="两房朝南，一梯两户，主卧带阳台，全明简装修"
+                        class="lazyload"
+                    >
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">两房朝南，一梯两户，主卧带阳台，全明简装修</div>
+                <div class="item_other text_cut" title="阳光苑二手房">2室1厅/69.6m²/南/阳光苑</div>
+                <div class="item_minor"><span class="price_total"><em>243</em><span class="unit">万</span></span><span class="unit_price">34914元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag two"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满两年二手房">满两年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001272573.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170312/ed7960ad-3c88-40be-a4ac-0f7c8b93bce3.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="东义路21弄 低于市场20万急售 满五唯一 邻6号线 速约"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">东义路21弄 低于市场20万急售 满五唯一 邻6号线 速约</div>
+                <div class="item_other text_cut" title="东义路21弄二手房">2室1厅/55.77m²/南/东义路21弄</div>
+                <div class="item_minor"><span class="price_total"><em>200</em><span class="unit">万</span></span><span class="unit_price">35862元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100656697.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-47522b7b-b575-47a8-9a45-08282107b670.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="芳华路新上大一房 总价低单价低 中间楼层 看房有钥匙"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">芳华路新上大一房 总价低单价低 中间楼层 看房有钥匙</div>
+                <div class="item_other text_cut" title="芳华路713弄二手房">1室1厅/58.79m²/南/芳华路713弄</div>
+                <div class="item_minor"><span class="price_total"><em>275</em><span class="unit">万</span></span><span class="unit_price">46777元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001387585.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://s1.ljcdn.com/hulk-web/static/m/images/common/photo_none.png?_v=20180920163849ee4"
+                        alt="满五年唯一，售后公房，视野开阔，采光好！"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">满五年唯一，售后公房，视野开阔，采光好！</div>
+                <div class="item_other text_cut" title="上南十村二手房">2室1厅/52.09m²/南/上南十村</div>
+                <div class="item_minor"><span class="price_total"><em>290</em><span class="unit">万</span></span><span class="unit_price">55673元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100098561.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-c0159cad-6686-49c1-a8fe-26b401dd4ab7.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="次新小区  交通便利  商场 学 校 公交站 菜市场"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">次新小区  交通便利  商场 学 校 公交站 菜市场</div>
+                <div class="item_other text_cut" title="中虹家园二手房">2室1厅/69.06m²/南/中虹家园</div>
+                <div class="item_minor"><span class="price_total"><em>260</em><span class="unit">万</span></span><span class="unit_price">37649元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100454678.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-6a9d76d7-d888-4929-987d-8c470db9716b.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="诚意出售 普通住宅税费少 11号线地铁800米 价格面谈"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">诚意出售 普通住宅税费少 11号线地铁800米 价格面谈</div>
+                <div class="item_other text_cut" title="永泰花苑二手房">1室1厅/54.53m²/南/永泰花苑</div>
+                <div class="item_minor"><span class="price_total"><em>288</em><span class="unit">万</span></span><span class="unit_price">52815元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100357623.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-8a8c1017-fa99-4879-a8a2-8d7ab9e0cdde.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="近地铁丨中装一室丨楼层二楼丨置换诚意出售丨随时看房"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">近地铁丨中装一室丨楼层二楼丨置换诚意出售丨随时看房</div>
+                <div class="item_other text_cut" title="沙田公寓二手房">1室1厅/54.92m²/南/沙田公寓</div>
+                <div class="item_minor"><span class="price_total"><em>212</em><span class="unit">万</span></span><span class="unit_price">38602元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag two"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满两年二手房">满两年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107002050349.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170625/4d531547-5942-48b0-b6ce-8751975cc3ce.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="配套齐全交通便利，精装一房不容错过！"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">配套齐全交通便利，精装一房不容错过！</div>
+                <div class="item_other text_cut" title="周康四村二手房">1室1厅/56.1m²/南/周康四村</div>
+                <div class="item_minor"><span class="price_total"><em>265</em><span class="unit">万</span></span><span class="unit_price">47238元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100525805.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-8b351ad0-9619-449a-a8c3-7bbf75561310.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="好房记得收入囊中，不要为她人做嫁衣裳，正中钥匙房"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">好房记得收入囊中，不要为她人做嫁衣裳，正中钥匙房</div>
+                <div class="item_other text_cut" title="高行绿洲(五期)二手房">1室1厅/54.18m²/南/高行绿洲(五期)</div>
+                <div class="item_minor"><span class="price_total"><em>223</em><span class="unit">万</span></span><span class="unit_price">41160元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag two"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满两年二手房">满两年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100514516.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-87188e99-306b-449e-8ae0-017128f4bf60.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="新出小套 高楼层 产权清晰无增值税 无个税 中装全送"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">新出小套 高楼层 产权清晰无增值税 无个税 中装全送</div>
+                <div class="item_other text_cut" title="幸福小镇(公寓)二手房">1室1厅/53.31m²/南/幸福小镇(公寓)</div>
+                <div class="item_minor"><span class="price_total"><em>266</em><span class="unit">万</span></span><span class="unit_price">49897元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100152779.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-8a122575-58b2-4638-af7a-bdd49604e27f.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="东边套，精装，满五唯一，视野开阔！"
+                        class="lazyload"
+                    >
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">东边套，精装，满五唯一，视野开阔！</div>
+                <div class="item_other text_cut" title="杉林新月环林东路879弄二手房">1室1厅/50.88m²/南/杉林新月环林东路879弄</div>
+                <div class="item_minor"><span class="price_total"><em>250</em><span class="unit">万</span></span><span class="unit_price">49136元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100423451.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-7607eada-fa36-4701-8acc-568461bcde31.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="此房采光好，南北格局，中间楼层。"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">此房采光好，南北格局，中间楼层。</div>
+                <div class="item_other text_cut" title="杨思路502弄二手房">2室1厅/54.35m²/南/杨思路502弄</div>
+                <div class="item_minor"><span class="price_total"><em>293</em><span class="unit">万</span></span><span class="unit_price">53910元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100664338.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/9daf567d-6f9a-4537-b26f-6f7dbc61db1a.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="新上房源满五唯一税费少，近地铁，中间楼层，拎包入住"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">新上房源满五唯一税费少，近地铁，中间楼层，拎包入住</div>
+                <div class="item_other text_cut" title="培育苑二手房">1室2厅/51.46m²/南/培育苑</div>
+                <div class="item_minor"><span class="price_total"><em>275</em><span class="unit">万</span></span><span class="unit_price">53440元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag new"  style="background-color:rgba(103,206,103,0.15);color:rgb(103,206,103)" title="新上二手房">新上</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107002318201.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20180106/565c148a-ea3d-4f28-b917-7ef4c305829e.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="园西小区 2室1厅 212万"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">园西小区 2室1厅 212万</div>
+                <div class="item_other text_cut" title="园西小区二手房">2室1厅/58.57m²/南/园西小区</div>
+                <div class="item_minor"><span class="price_total"><em>212</em><span class="unit">万</span></span><span class="unit_price">36197元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100448558.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-2320ef38-5fff-46c4-8833-eaaf3b743047.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="星纳家园小户型一室一厅毛坯房！"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">星纳家园小户型一室一厅毛坯房！</div>
+                <div class="item_other text_cut" title="星纳家园二手房">1室1厅/52m²/南/星纳家园</div>
+                <div class="item_minor"><span class="price_total"><em>219</em><span class="unit">万</span></span><span class="unit_price">42116元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107002087671.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-e226615c-1bff-4c56-8718-1a19c9f662c0.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="满五唯一，看房方便。交通便利，多路公交"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">满五唯一，看房方便。交通便利，多路公交</div>
+                <div class="item_other text_cut" title="浦东大道2511弄二手房">2室1厅/63.04m²/南/浦东大道2511弄</div>
+                <div class="item_minor"><span class="price_total"><em>290</em><span class="unit">万</span></span><span class="unit_price">46003元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107100395259.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-b50c1239-0311-45a3-96cb-17f427209f8b.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="心圆西苑 川中南校 次新电梯房 送阁楼"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">心圆西苑 川中南校 次新电梯房 送阁楼</div>
+                <div class="item_other text_cut" title="心圆西苑二手房">1室1厅/58.95m²/南/心圆西苑</div>
+                <div class="item_minor"><span class="price_total"><em>255</em><span class="unit">万</span></span><span class="unit_price">43257元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag two"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满两年二手房">满两年</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107000758811.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170807/fc48e392-a5df-47f5-8e13-a70fe8332892.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="曙光南桥小区温馨小两房，双房朝南，精装修，环境好"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">曙光南桥小区温馨小两房，双房朝南，精装修，环境好</div>
+                <div class="item_other text_cut" title="曙光南桥小区二手房">2室1厅/68.81m²/南/曙光南桥小区</div>
+                <div class="item_minor"><span class="price_total"><em>250</em><span class="unit">万</span></span><span class="unit_price">36332元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001202603.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170513/172c392b-09c0-4da6-821f-3d47ffeb2cfe.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="刚需两房的福音，户型小，功能齐，满五唯一采光"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">刚需两房的福音，户型小，功能齐，满五唯一采光</div>
+                <div class="item_other text_cut" title="莲溪二村二手房">2室1厅/55.83m²/南/莲溪二村</div>
+                <div class="item_minor"><span class="price_total"><em>288</em><span class="unit">万</span></span><span class="unit_price">51586元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001226487.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20161210/cb056f96-cfb6-436b-8ac8-6da551775d64.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="顶层送阁楼，可改两房，无遮挡，采光好，价格可谈"
+                        class="lazyload"
+                    >
+                                            <span class="focus_text">优选</span>
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">顶层送阁楼，可改两房，无遮挡，采光好，价格可谈</div>
+                <div class="item_other text_cut" title="三林世博家园(新浦路91弄)二手房">1室1厅/55.1m²/南/三林世博家园(新浦路91弄)</div>
+                <div class="item_minor"><span class="price_total"><em>259</em><span class="unit">万</span></span><span class="unit_price">47006元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag two"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满两年二手房">满两年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001472573.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170211/3e2f0553-beb0-49f6-a732-93b9418a28a3.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="满五唯一 装修挺干净要求不高可以直接拎包入住"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">满五唯一 装修挺干净要求不高可以直接拎包入住</div>
+                <div class="item_other text_cut" title="莱阳北小区二手房">2室1厅/60.07m²/南/莱阳北小区</div>
+                <div class="item_minor"><span class="price_total"><em>285</em><span class="unit">万</span></span><span class="unit_price">47445元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001684681.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20161208/16a8d613-7da5-4185-b8d4-ad40c934a90e.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="房子一手动迁满五年唯一+看房方便+老装修"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">房子一手动迁满五年唯一+看房方便+老装修</div>
+                <div class="item_other text_cut" title="惠德新邨二手房">2室1厅/55.96m²/南/惠德新邨</div>
+                <div class="item_minor"><span class="price_total"><em>280</em><span class="unit">万</span></span><span class="unit_price">50036元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag subway_house"  style="background-color:rgba(89,171,253,0.15);color:rgb(89,171,253)" title="地铁二手房">地铁</span>
+                                                                                <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001789625.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170408/52a600b7-0f16-4399-bd71-5ce60f0ad566.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="小两房送天井，满五年唯一，价可谈随时签字。"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">小两房送天井，满五年唯一，价可谈随时签字。</div>
+                <div class="item_other text_cut" title="万馨佳园二手房">2室1厅/63.97m²/南/万馨佳园</div>
+                <div class="item_minor"><span class="price_total"><em>278</em><span class="unit">万</span></span><span class="unit_price">43458元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107001992995.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20170413/12cbe078-e881-4dce-949d-855c6693f1dd.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="满五唯一 精装修 双南2房 采光通风好 随时看房"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">满五唯一 精装修 双南2房 采光通风好 随时看房</div>
+                <div class="item_other text_cut" title="艾南小区二手房">2室1厅/59.41m²/南/艾南小区</div>
+                <div class="item_minor"><span class="price_total"><em>280</em><span class="unit">万</span></span><span class="unit_price">47131元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107002159019.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/310000-inspection/test-b20336b1-a569-4fb9-a4f3-6b46c295c099.png!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="小上海新城  一手动迁  满五唯一 有钥匙 随时看房"
+                        class="lazyload"
+                    >
+                                                                                <span class="tip">房主自荐</span>                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">小上海新城  一手动迁  满五唯一 有钥匙 随时看房</div>
+                <div class="item_other text_cut" title="小上海新城二手房">1室1厅/57.06m²/南/小上海新城</div>
+                <div class="item_minor"><span class="price_total"><em>255</em><span class="unit">万</span></span><span class="unit_price">44690元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag haskey"  style="background-color:rgba(51,190,133,0.15);color:rgb(51,190,133)" title="随时看房二手房">随时看房</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+                  <li class="pictext">
+        <a href="/sh/ershoufang/107002286205.html" class="a_mask post_ulog post_ulog_action" data-evtid_action="13298" data-ulog_action="pid=lianjiamweb&event=mModuleClick&fb_query_id=97299430682193920" ></a>
+            <div class="flexbox">
+            <div class="mod_media">
+                <div class="media_main">
+                    <img
+                        src="https://s1.ljcdn.com/hulk-web/static/m/images/common/default_lianjia_small.png?_v=20180920163849ee4"
+                        origin-src="https://image1.ljcdn.com/shfdfs-image/20171220/2a5fc62d-f0f3-476e-9c67-47d5382889d7.jpg!m_fill,w_210,h_164,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_50"
+                        alt="品质小区 精装1居 满五唯一 随时可看"
+                        class="lazyload"
+                    >
+                                                                                                </div>
+            </div>
+            <div class="item_list">
+                <div class="item_main">品质小区 精装1居 满五唯一 随时可看</div>
+                <div class="item_other text_cut" title="海尚康庭二手房">1室2厅/58.62m²/南/海尚康庭</div>
+                <div class="item_minor"><span class="price_total"><em>235</em><span class="unit">万</span></span><span class="unit_price">40089元/平</span></div>
+                <div class="tag_box">
+                                                                            <span class="tag five"  style="background-color:rgba(242,161,47,0.15);color:rgb(242,161,47)" title="满五年二手房">满五年</span>
+                                                                                <span class="tag elevator"  style="background-color:rgba(123,189,255,0.15);color:rgb(123,189,255)" title="有电梯二手房">有电梯</span>
+                                                                    </div>
+            </div>
+        </div>
+            </li>
+
+    
+          
+                                 
+                <li class="loading_box" data-mark="loading_dom"><a href="/sh/ershoufang/pudong/pg2a2a3p2/"><i class="loading"></i><span>加载中…</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/房源列表-->
+    </div>
+
+    <div class="layer_fixed b" style="display: none" data-mark="sort_layer">
+        <div class="content">
+            <ul class="lists">
+                            <li class="li active" data-act="sort" data-query="id=0"><a href="/sh/ershoufang/pudong/a2a3p2/">默认</a></li>
+                            <li class="li" data-act="sort" data-query="id=32"><a href="/sh/ershoufang/pudong/co32a2a3p2/">最新发布</a></li>
+                            <li class="li" data-act="sort" data-query="id=21"><a href="/sh/ershoufang/pudong/co21a2a3p2/">总价从低到高</a></li>
+                            <li class="li" data-act="sort" data-query="id=22"><a href="/sh/ershoufang/pudong/co22a2a3p2/">总价从高到低</a></li>
+                            <li class="li" data-act="sort" data-query="id=41"><a href="/sh/ershoufang/pudong/co41a2a3p2/">单价从低到高</a></li>
+                            <li class="li" data-act="sort" data-query="id=12"><a href="/sh/ershoufang/pudong/co12a2a3p2/">面积从大到小</a></li>
+                        </ul>
+        </div>
+    </div>
+    <div data-mark="download_layer" data-info='{"awaken_app_info":{"type":"scheme","download_url":"https:\/\/package1.ljcdn.com\/channel_packages\/homelink_secondhand\/channel\/Android_lianjia_m.apk","scheme":"lianjia:\/\/erShou\/list?cityID=310000&searchCondition=pudong\/pg1a2a3p2&ssid=9e7f0d66-e8f8-4cbe-a861-21ffd7b943de&uuid=4e071327-41de-480e-aa90-ca1b6caa0017&refer=&current_url=https%253A%252F%252Fm.lianjia.com%252Fsh%252Fershoufang%252Fpudong%252Fpg1a2a3p2"}}' style="display: none;"></div>
+
+    <!--底部:导航当前页用h1着重强调-->
+<footer class="footer">
+	<div class="nav">
+			<span class="location"><a href="/sh/">链家网上海站</a></span>
+				<span class="location"><i class="crumb"></i><a href="/sh/ershoufang/" title="上海二手房">上海二手房</a></span>
+				<i class="crumb"></i><h1 class="cur" title="浦东二手房"><a href="/sh/ershoufang/pudong/">浦东二手房</a></h1>
+			</div>
+		<div class="link_box">
+        <div class="link_tit">
+                    <h3 class="li text_cut active" data-act="foot_nav" data-mark="foot_nav">区域二手房</h3>
+                    <h3 class="li text_cut" data-act="foot_nav" data-mark="foot_nav">热门推荐</h3>
+                    <h3 class="li text_cut" data-act="foot_nav" data-mark="foot_nav">周边城市</h3>
+                </div>
+        <div class="link_cont">
+                    <ul class="gridbox col_3 contlists active" data-mark="foot_navs">
+                            <li class="box_col"><a href="/sh/ershoufang/zhongyuanliangwancheng/">中远两湾城二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/wanxiangzhen/">万祥镇二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/yanghang/">杨行二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/jianada/">加拿大二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/meiguo/">美国二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/xuanqiao/">宣桥二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/songnan/">淞南二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/huangpubinjiang/">黄浦滨江二手房</a></li>
+                            <li class="box_col"><a href="/sh/ershoufang/luxiang/">吕巷二手房</a></li>
+                        </ul>
+                    <ul class="gridbox col_3 contlists" data-mark="foot_navs">
+                            <li class="box_col"><a href="/sh/ershoufang/">上海二手房</a></li>
+                            <li class="box_col"><a href="/sh/ditiefang/">上海地铁房</a></li>
+                            <li class="box_col"><a href="/sh/loupan/fang/">上海新房</a></li>
+                            <li class="box_col"><a href="/sh/zufang/">上海租房</a></li>
+                            <li class="box_col"><a href="/sh/ditiezufang/">上海地铁租房</a></li>
+                            <li class="box_col"><a href="/sh/yezhu/">上海卖房</a></li>
+                            <li class="box_col"><a href="/sh/jingjiren/">上海经纪人</a></li>
+                            <li class="box_col"><a href="/sh/chengjiao/">上海二手房成交</a></li>
+                            <li class="box_col"><a href="/sh/wenda/">上海问答</a></li>
+                        </ul>
+                    <ul class="gridbox col_3 contlists" data-mark="foot_navs">
+                            <li class="box_col"><a href="/jx/ershoufang/">嘉兴二手房</a></li>
+                            <li class="box_col"><a href="/wx/ershoufang/">无锡二手房</a></li>
+                            <li class="box_col"><a href="/sx/ershoufang/">绍兴二手房</a></li>
+                            <li class="box_col"><a href="/zj/ershoufang/">镇江二手房</a></li>
+                            <li class="box_col"><a href="/nj/ershoufang/">南京二手房</a></li>
+                            <li class="box_col"><a href="/cz/ershoufang/">滁州二手房</a></li>
+                            <li class="box_col"><a href="/hf/ershoufang/">合肥二手房</a></li>
+                            <li class="box_col"><a href="/qd/ershoufang/">青岛二手房</a></li>
+                            <li class="box_col"><a href="/xz/ershoufang/">徐州二手房</a></li>
+                        </ul>
+                </div>
+    </div>
+		<div class="info">
+		<div class="icon_box">
+			<a href="javascript:;" data-mark="download_app" data-info="ljweb_mod=bottom_logo_iphone&download_url=https%3A%2F%2Fpackage1.ljcdn.com%2Fchannel_packages%2Fhomelink_secondhand%2Fchannel%2FAndroid_lianjia_m.apk" data-detail_info='{"awaken_app_info":{"type":"scheme","download_url":"https:\/\/package1.ljcdn.com\/channel_packages\/homelink_secondhand\/channel\/Android_lianjia_m.apk","scheme":"lianjia:\/\/erShou\/list?cityID=310000&searchCondition=pudong\/pg1a2a3p2&ssid=9e7f0d66-e8f8-4cbe-a861-21ffd7b943de&uuid=4e071327-41de-480e-aa90-ca1b6caa0017&refer=&current_url=https%253A%252F%252Fm.lianjia.com%252Fsh%252Fershoufang%252Fpudong%252Fpg1a2a3p2"}}' title="iPhone客户端" class="icon_iphone lazyload_ulog" data-evtid="10380" data-ulog="ljweb_mod=bottom_logo_iphone" rel="nofollow">iPhone客户端</a>
+			<a href="javascript:;" data-mark="download_app" data-info="ljweb_mod=bottom_logo_android&download_url=https%3A%2F%2Fpackage1.ljcdn.com%2Fchannel_packages%2Fhomelink_secondhand%2Fchannel%2FAndroid_lianjia_m.apk" data-detail_info='{"awaken_app_info":{"type":"scheme","download_url":"https:\/\/package1.ljcdn.com\/channel_packages\/homelink_secondhand\/channel\/Android_lianjia_m.apk","scheme":"lianjia:\/\/erShou\/list?cityID=310000&searchCondition=pudong\/pg1a2a3p2&ssid=9e7f0d66-e8f8-4cbe-a861-21ffd7b943de&uuid=4e071327-41de-480e-aa90-ca1b6caa0017&refer=&current_url=https%253A%252F%252Fm.lianjia.com%252Fsh%252Fershoufang%252Fpudong%252Fpg1a2a3p2"}}' title="Android客户端" class="icon_android lazyload_ulog" data-evtid="10380" data-ulog="ljweb_mod=bottom_logo_android" rel="nofollow">Android客户端</a>
+		</div>
+		<div class="copyright">
+			<p class="company">链家网（北京）科技有限公司</p>
+			<p class="record">网络经营许可证 京ICP备16057509号-2</p>
+			<div class="record" style="">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802024019" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://s1.ljcdn.com/hulk-web/static/m/images/common/beian.png?_v=20180920163849ee4" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#727373;">京公网安备 11010802024019号</p></a>
+		 	</div>
+		</div>
+	</div>
+</footer>
+<!--/底部-->
+
+</section>
+<section class="layer_fixed filter_box" style="display: none;" data-mark="panel_box">
+    <!--头部筛选条-->
+    <header class="tab_bar flexbox">
+        <div class="tab_tit box_col" data-mark="button_area" ><span class="tit">区域</span><i class="icon_triangle_down"></i></div>
+        <div class="tab_tit box_col" data-mark="button_price"><span class="tit">价格</span><i class="icon_triangle_down"></i></div>
+        <div class="tab_tit box_col" data-mark="button_model"><span class="tit">房型</span><i class="icon_triangle_down"></i></div>
+        <div class="tab_tit box_col" data-mark="button_more" ><span class="tit">更多</span><i class="icon_triangle_down"></i></div>
+    </header>
+    <!--/头部筛选条-->
+
+    <div class="content">
+        <!--区域-->
+        <div class="filter_item lists_area" data-mark="panel_area">
+            <div class="area_list">
+                <div class="nav" data-mark="level1">
+                    <ul class="level1">
+                        <li class="li" data-act="s1" data-info="id=district&name=区域">区域</li>
+                                                <li class="li" data-act="s1" data-info="id=subway_line&name=地铁">地铁</li>
+                                            </ul>
+                </div>
+                <div class="guide" data-mark="level2">
+                    <ul class="level2 active">
+                                        
+                                                    <li class="li" data-act="s2" data-info="id=0&res=&name=区域&jump="><a href="/sh/ershoufang/a2a3p2/" title="不限二手房">不限</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310115&res=pudong&name=浦东&jump="><a href="/sh/ershoufang/pudong/a2a3p2/" title="浦东二手房">浦东</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310112&res=minhang&name=闵行&jump="><a href="/sh/ershoufang/minhang/a2a3p2/" title="闵行二手房">闵行</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310113&res=baoshan&name=宝山&jump="><a href="/sh/ershoufang/baoshan/a2a3p2/" title="宝山二手房">宝山</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310104&res=xuhui&name=徐汇&jump="><a href="/sh/ershoufang/xuhui/a2a3p2/" title="徐汇二手房">徐汇</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310107&res=putuo&name=普陀&jump="><a href="/sh/ershoufang/putuo/a2a3p2/" title="普陀二手房">普陀</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310110&res=yangpu&name=杨浦&jump="><a href="/sh/ershoufang/yangpu/a2a3p2/" title="杨浦二手房">杨浦</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310105&res=changning&name=长宁&jump="><a href="/sh/ershoufang/changning/a2a3p2/" title="长宁二手房">长宁</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310117&res=songjiang&name=松江&jump="><a href="/sh/ershoufang/songjiang/a2a3p2/" title="松江二手房">松江</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310114&res=jiading&name=嘉定&jump="><a href="/sh/ershoufang/jiading/a2a3p2/" title="嘉定二手房">嘉定</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310101&res=huangpu&name=黄浦&jump="><a href="/sh/ershoufang/huangpu/a2a3p2/" title="黄浦二手房">黄浦</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310106&res=jingan&name=静安&jump="><a href="/sh/ershoufang/jingan/a2a3p2/" title="静安二手房">静安</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310108&res=zhabei&name=闸北&jump="><a href="/sh/ershoufang/zhabei/a2a3p2/" title="闸北二手房">闸北</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310109&res=hongkou&name=虹口&jump="><a href="/sh/ershoufang/hongkou/a2a3p2/" title="虹口二手房">虹口</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310118&res=qingpu&name=青浦&jump="><a href="/sh/ershoufang/qingpu/a2a3p2/" title="青浦二手房">青浦</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310120&res=fengxian&name=奉贤&jump="><a href="/sh/ershoufang/fengxian/a2a3p2/" title="奉贤二手房">奉贤</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310116&res=jinshan&name=金山&jump="><a href="/sh/ershoufang/jinshan/a2a3p2/" title="金山二手房">金山</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310230&res=chongming&name=崇明&jump="><a href="/sh/ershoufang/chongming/a2a3p2/" title="崇明二手房">崇明</a></li>
+                                                    <li class="li" data-act="s2" data-info="id=310333&res=shanghaizhoubian&name=上海周边&jump="><a href="/sh/ershoufang/shanghaizhoubian/a2a3p2/" title="上海周边二手房">上海周边</a></li>
+                        
+                                        </ul>
+                </div>
+                                <div class="cont" data-mark="level3">
+                    <ul class="level3">
+                                                                        <li class="li" data-act="s3" data-info="id=0&res=pudong&name=浦东&jump=" ><a href="/sh/ershoufang/pudong/a2a3p2/" title="上海城市不限附近二手房">不限</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900123&res=beicai&name=北蔡&jump=" ><a href="/sh/ershoufang/beicai/a2a3p2/" title="上海城市北蔡附近二手房">北蔡</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000290&res=biyun&name=碧云&jump=" ><a href="/sh/ershoufang/biyun/a2a3p2/" title="上海城市碧云附近二手房">碧云</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=613000291&res=caolu&name=曹路&jump=" ><a href="/sh/ershoufang/caolu/a2a3p2/" title="上海城市曹路附近二手房">曹路</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000292&res=chuansha&name=川沙&jump=" ><a href="/sh/ershoufang/chuansha/a2a3p2/" title="上海城市川沙附近二手房">川沙</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=613000293&res=datuanzhen&name=大团镇&jump=" ><a href="/sh/ershoufang/datuanzhen/a2a3p2/" title="上海城市大团镇附近二手房">大团镇</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=613000297&res=geqing&name=合庆&jump=" ><a href="/sh/ershoufang/geqing/a2a3p2/" title="上海城市合庆附近二手房">合庆</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000295&res=gaohang&name=高行&jump=" ><a href="/sh/ershoufang/gaohang/a2a3p2/" title="上海城市高行附近二手房">高行</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000294&res=gaodong&name=高东&jump=" ><a href="/sh/ershoufang/gaodong/a2a3p2/" title="上海城市高东附近二手房">高东</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900130&res=huamu&name=花木&jump=" ><a href="/sh/ershoufang/huamu/a2a3p2/" title="上海城市花木附近二手房">花木</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000296&res=hangtou&name=航头&jump=" ><a href="/sh/ershoufang/hangtou/a2a3p2/" title="上海城市航头附近二手房">航头</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000298&res=huinan&name=惠南&jump=" ><a href="/sh/ershoufang/huinan/a2a3p2/" title="上海城市惠南附近二手房">惠南</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900131&res=jinqiao&name=金桥&jump=" ><a href="/sh/ershoufang/jinqiao/a2a3p2/" title="上海城市金桥附近二手房">金桥</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000299&res=jinyang&name=金杨&jump=" ><a href="/sh/ershoufang/jinyang/a2a3p2/" title="上海城市金杨附近二手房">金杨</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=613000300&res=kangqiao&name=康桥&jump=" ><a href="/sh/ershoufang/kangqiao/a2a3p2/" title="上海城市康桥附近二手房">康桥</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900136&res=lujiazui&name=陆家嘴&jump=" ><a href="/sh/ershoufang/lujiazui/a2a3p2/" title="上海城市陆家嘴附近二手房">陆家嘴</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000301&res=laogangzhen&name=老港镇&jump=" ><a href="/sh/ershoufang/laogangzhen/a2a3p2/" title="上海城市老港镇附近二手房">老港镇</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000303&res=lingangxincheng&name=临港新城&jump=" ><a href="/sh/ershoufang/lingangxincheng/a2a3p2/" title="上海城市临港新城附近二手房">临港新城</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000302&res=lianyang&name=联洋&jump=" ><a href="/sh/ershoufang/lianyang/a2a3p2/" title="上海城市联洋附近二手房">联洋</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=613000305&res=nichengzhen&name=泥城镇&jump=" ><a href="/sh/ershoufang/nichengzhen/a2a3p2/" title="上海城市泥城镇附近二手房">泥城镇</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000304&res=nanmatou&name=南码头&jump=" ><a href="/sh/ershoufang/nanmatou/a2a3p2/" title="上海城市南码头附近二手房">南码头</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900138&res=sanlin&name=三林&jump=" ><a href="/sh/ershoufang/sanlin/a2a3p2/" title="上海城市三林附近二手房">三林</a></li>
+                                                <li class="li" data-act="s3" data-info="id=611900139&res=shibo&name=世博&jump=" ><a href="/sh/ershoufang/shibo/a2a3p2/" title="上海城市世博附近二手房">世博</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000307&res=shuyuanzhen&name=书院镇&jump=" ><a href="/sh/ershoufang/shuyuanzhen/a2a3p2/" title="上海城市书院镇附近二手房">书院镇</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900141&res=tangqiao&name=塘桥&jump=" ><a href="/sh/ershoufang/tangqiao/a2a3p2/" title="上海城市塘桥附近二手房">塘桥</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000308&res=tangzhen&name=唐镇&jump=" ><a href="/sh/ershoufang/tangzhen/a2a3p2/" title="上海城市唐镇附近二手房">唐镇</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900143&res=waigaoqiao&name=外高桥&jump=" ><a href="/sh/ershoufang/waigaoqiao/a2a3p2/" title="上海城市外高桥附近二手房">外高桥</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000309&res=wanxiangzhen&name=万祥镇&jump=" ><a href="/sh/ershoufang/wanxiangzhen/a2a3p2/" title="上海城市万祥镇附近二手房">万祥镇</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000310&res=weifang&name=潍坊&jump=" ><a href="/sh/ershoufang/weifang/a2a3p2/" title="上海城市潍坊附近二手房">潍坊</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=613000312&res=xuanqiao&name=宣桥&jump=" ><a href="/sh/ershoufang/xuanqiao/a2a3p2/" title="上海城市宣桥附近二手房">宣桥</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000311&res=xinchang&name=新场&jump=" ><a href="/sh/ershoufang/xinchang/a2a3p2/" title="上海城市新场附近二手房">新场</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611101108&res=yuqiao1&name=御桥&jump=" ><a href="/sh/ershoufang/yuqiao1/a2a3p2/" title="上海城市御桥附近二手房">御桥</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000313&res=yangdong&name=杨东&jump=" ><a href="/sh/ershoufang/yangdong/a2a3p2/" title="上海城市杨东附近二手房">杨东</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000315&res=yuanshen&name=源深&jump=" ><a href="/sh/ershoufang/yuanshen/a2a3p2/" title="上海城市源深附近二手房">源深</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000314&res=yangjing&name=洋泾&jump=" ><a href="/sh/ershoufang/yangjing/a2a3p2/" title="上海城市洋泾附近二手房">洋泾</a></li>
+                                                                                                <li class="li" data-act="s3" data-info="id=611900148&res=zhangjiang&name=张江&jump=" ><a href="/sh/ershoufang/zhangjiang/a2a3p2/" title="上海城市张江附近二手房">张江</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000317&res=zhuqiao&name=祝桥&jump=" ><a href="/sh/ershoufang/zhuqiao/a2a3p2/" title="上海城市祝桥附近二手房">祝桥</a></li>
+                                                <li class="li" data-act="s3" data-info="id=613000316&res=zhoupu&name=周浦&jump=" ><a href="/sh/ershoufang/zhoupu/a2a3p2/" title="上海城市周浦附近二手房">周浦</a></li>
+                                                                    </ul>
+                </div>
+                            </div>
+        </div>
+        <!--/区域-->
+
+        <!--价格-->
+        <div class="filter_item lists_price" data-mark="panel_price">
+            <ul class="price_list ">
+                            <li class="li" data-act="price" data-info="id=0&name=不限"><a href="/sh/ershoufang/pudong/a2a3/" title="上海不限二手房">不限</a></li>
+                            <li class="li" data-act="price" data-info="id=1&name=200万以下"><a href="/sh/ershoufang/pudong/a2a3p1/" title="上海200万以下二手房">200万以下</a></li>
+                            <li class="li" data-act="price" data-info="id=2&name=200-300万"><a href="/sh/ershoufang/pudong/a2a3p2/" title="上海200-300万二手房">200-300万</a></li>
+                            <li class="li" data-act="price" data-info="id=3&name=300-400万"><a href="/sh/ershoufang/pudong/a2a3p3/" title="上海300-400万二手房">300-400万</a></li>
+                            <li class="li" data-act="price" data-info="id=4&name=400-500万"><a href="/sh/ershoufang/pudong/a2a3p4/" title="上海400-500万二手房">400-500万</a></li>
+                            <li class="li" data-act="price" data-info="id=5&name=500-800万"><a href="/sh/ershoufang/pudong/a2a3p5/" title="上海500-800万二手房">500-800万</a></li>
+                            <li class="li" data-act="price" data-info="id=6&name=800-1000万"><a href="/sh/ershoufang/pudong/a2a3p6/" title="上海800-1000万二手房">800-1000万</a></li>
+                            <li class="li" data-act="price" data-info="id=7&name=1000万以上"><a href="/sh/ershoufang/pudong/a2a3p7/" title="上海1000万以上二手房">1000万以上</a></li>
+                            <li class="li" data-info="id=other"><span class="tit">自定义价格</span><input type="tel" class="input" placeholder="最小" data-mark="minPrice_input" data-act="number_input"><em class="connect">-</em><input type="tel" class="input" placeholder="最大" data-mark="maxPrice_input" data-act="number_input"><a href="javascript:;" class="btn" data-act="price" data-info="id=other">确定</a></li>
+            </ul>
+                
+        </div>
+        <!--/价格-->
+
+        <!--房型-->
+        <div class="filter_item lists_model"  data-mark="panel_model">
+            <ul class="model_list q_roomlist">
+                                                                        <li class="li" data-act="check" data-info="id=1&name=一室&key=l" ><span class="model"><a href="/sh/ershoufang/pudong/l1a2a3p2/">一室</a></span></li>
+                                                            <li class="li" data-act="check" data-info="id=2&name=二室&key=l" ><span class="model"><a href="/sh/ershoufang/pudong/l2a2a3p2/">二室</a></span></li>
+                                                            <li class="li" data-act="check" data-info="id=3&name=三室&key=l" ><span class="model"><a href="/sh/ershoufang/pudong/l3a2a3p2/">三室</a></span></li>
+                                                            <li class="li" data-act="check" data-info="id=4&name=四室&key=l" ><span class="model"><a href="/sh/ershoufang/pudong/l4a2a3p2/">四室</a></span></li>
+                                                            <li class="li" data-act="check" data-info="id=5&name=五室&key=l" ><span class="model"><a href="/sh/ershoufang/pudong/l5a2a3p2/">五室</a></span></li>
+                                                            <li class="li" data-act="check" data-info="id=6&name=五室以上&key=l" ><span class="model"><a href="/sh/ershoufang/pudong/l6a2a3p2/">五室以上</a></span></li>
+                                        </ul>
+            <div class="opt_box">
+                <a href="javascript:;" class="btn btn_link" data-act="clear" style="display: none;">清空条件</a>
+                <a href="javascript:;" class="btn btn_green" data-act="submit">确定</a>
+            </div>
+        </div>
+        <!--/房型-->
+
+        <!--更多-->
+        <div class="filter_item lists_more" data-mark="panel_more">
+            <div class="more_list">
+                <dl class="item">
+                    <dt class="item_tit">朝向</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                    <li class="val" data-act="tap" data-info="id=1&key=f&name=朝东"><a href="/sh/ershoufang/pudong/f1a2a3p2/">朝东</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=2&key=f&name=朝南"><a href="/sh/ershoufang/pudong/f2a2a3p2/">朝南</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=3&key=f&name=朝西"><a href="/sh/ershoufang/pudong/f3a2a3p2/">朝西</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=4&key=f&name=朝北"><a href="/sh/ershoufang/pudong/f4a2a3p2/">朝北</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=5&key=f&name=南北"><a href="/sh/ershoufang/pudong/f5a2a3p2/">南北</a></li>
+                                                </ul>
+                    </dd>
+                </dl>
+                <dl class="item">
+                    <dt class="item_tit">面积</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                    <li class="val" data-act="tap" data-info="id=0&key=a&name=不限"><a href="/sh/ershoufang/pudong/p2/">不限</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=1&key=a&name=50平以下"><a href="/sh/ershoufang/pudong/a1p2/">50平以下</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=2&key=a&name=50-70平"><a href="/sh/ershoufang/pudong/a2p2/">50-70平</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=3&key=a&name=70-90平"><a href="/sh/ershoufang/pudong/a3p2/">70-90平</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=4&key=a&name=90-110平"><a href="/sh/ershoufang/pudong/a4p2/">90-110平</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=5&key=a&name=110-130平"><a href="/sh/ershoufang/pudong/a5p2/">110-130平</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=6&key=a&name=130-150平"><a href="/sh/ershoufang/pudong/a6p2/">130-150平</a></li>
+                                                    <li class="val" data-act="tap" data-info="id=7&key=a&name=150平以上"><a href="/sh/ershoufang/pudong/a7p2/">150平以上</a></li>
+                                                </ul>
+                    </dd>
+                </dl>
+                                <dl class="item">
+                    <dt class="item_tit">标签</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=满两年&key=ty" ><a href="/sh/ershoufang/pudong/ty1a2a3p2/">满两年</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=满五年&key=mw" ><a href="/sh/ershoufang/pudong/mw1a2a3p2/">满五年</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=独家&key=tt1" ><a href="/sh/ershoufang/pudong/tt1a2a3p2/">独家</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=新上&key=tt2" ><a href="/sh/ershoufang/pudong/tt2a2a3p2/">新上</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=随时看房&key=tt4" ><a href="/sh/ershoufang/pudong/tt4a2a3p2/">随时看房</a></li>
+                                                                                                            <li class="val spec_val" data-act="check" data-info="id=1&name=不看商业类&key=hu" ><a href="/sh/ershoufang/pudong/hu1a2a3p2/">不看商业类</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=不看地下室&key=nb" ><a href="/sh/ershoufang/pudong/nb1a2a3p2/">不看地下室</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=优选&key=fh" ><a href="/sh/ershoufang/pudong/fh1a2a3p2/">优选</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">类型</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=塔楼&key=bt1" ><a href="/sh/ershoufang/pudong/bt1a2a3p2/">塔楼</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=板楼&key=bt2" ><a href="/sh/ershoufang/pudong/bt2a2a3p2/">板楼</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=板塔结合&key=bt3" ><a href="/sh/ershoufang/pudong/bt3a2a3p2/">板塔结合</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">楼龄</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=5年以内&key=y1" ><a href="/sh/ershoufang/pudong/y1a2a3p2/">5年以内</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=10年以内&key=y2" ><a href="/sh/ershoufang/pudong/y2a2a3p2/">10年以内</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=10-20年&key=y3" ><a href="/sh/ershoufang/pudong/y3a2a3p2/">10-20年</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=20年以上&key=y4" ><a href="/sh/ershoufang/pudong/y4a2a3p2/">20年以上</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">楼层</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=低楼层&key=lc1" ><a href="/sh/ershoufang/pudong/lc1a2a3p2/">低楼层</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=中楼层&key=lc2" ><a href="/sh/ershoufang/pudong/lc2a2a3p2/">中楼层</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=高楼层&key=lc3" ><a href="/sh/ershoufang/pudong/lc3a2a3p2/">高楼层</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">装修</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=精装修&key=de1" ><a href="/sh/ershoufang/pudong/de1a2a3p2/">精装修</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=普通装修&key=de2" ><a href="/sh/ershoufang/pudong/de2a2a3p2/">普通装修</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=毛坯房&key=de3" ><a href="/sh/ershoufang/pudong/de3a2a3p2/">毛坯房</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">电梯</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=有电梯&key=ie2" ><a href="/sh/ershoufang/pudong/ie2a2a3p2/">有电梯</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=无电梯&key=ie1" ><a href="/sh/ershoufang/pudong/ie1a2a3p2/">无电梯</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">用途</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=普通住宅&key=sf1" ><a href="/sh/ershoufang/pudong/sf1a2a3p2/">普通住宅</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=商业类&key=sf2" ><a href="/sh/ershoufang/pudong/sf2a2a3p2/">商业类</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=别墅&key=sf3" ><a href="/sh/ershoufang/pudong/sf3a2a3p2/">别墅</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=四合院&key=sf4" ><a href="/sh/ershoufang/pudong/sf4a2a3p2/">四合院</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=其他&key=sf5" ><a href="/sh/ershoufang/pudong/sf5a2a3p2/">其他</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                                <dl class="item">
+                    <dt class="item_tit">交易权属</dt>
+                    <dd class="item_cont">
+                        <ul class="inline value_lists">
+                                                                                <li class="val" data-act="check" data-info="id=1&name=商品房&key=dp1" ><a href="/sh/ershoufang/pudong/dp1a2a3p2/">商品房</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=公房&key=dp2" ><a href="/sh/ershoufang/pudong/dp2a2a3p2/">公房</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=经适房&key=dp3" ><a href="/sh/ershoufang/pudong/dp3a2a3p2/">经适房</a></li>
+                                                                                                            <li class="val" data-act="check" data-info="id=1&name=其他&key=dp4" ><a href="/sh/ershoufang/pudong/dp4a2a3p2/">其他</a></li>
+                                                                            </ul>
+                    </dd>
+                                    </dl>
+                            </div>
+            <div class="opt_box">
+                <a href="javascript:;" class="btn btn_link" data-act="clear">清空条件</a>
+                <a href="javascript:;" class="btn btn_green q_button" data-act="submit">确定</a>
+            </div>
+        </div>
+        <!--/更多-->
+    </div>
+</section>
+		<!--/页面-->
+																<div class="lianjia_im_entry post_ulog"  data-evtid="13393" data-ulog="pid=lianjiamweb&event=mElementClick&source_type=M消息入口点击&uicode=浦东50-70平,70-90平200-300万二手房_浦东50-70平,70-90平200-300万二手房出售第1页(链家网)">
+    <img class="lianjia_im_icon" src="https://s1.ljcdn.com/hulk-web/static/m/images/common/im_entry.png?_v=20180920163849ee4" alt="">
+</div>			</div>
+</div>
+
+<!-- im资源 -->
+<script src="//s1.ljcdn.com/m-imsdk/js/index.566f2b3fb0e4326b1971.js"></script>
+<link property='stylesheet' rel="stylesheet" href="//s1.ljcdn.com/m-imsdk/css/index.d79a1699f2d4289d1a86699915249905.css"/>
+<script>
+
+	(function () {
+
+		// 提醒用户存在未读消息
+		var setNotice = function () {
+			var unreadNum = window.imsdk.getMsgUnreadNum();
+			var ulog = $('.lianjia_im_entry').data('ulog');
+			var itemTypeIndex = $('.lianjia_im_entry').data('ulog').indexOf('item_type');
+			ulog = itemTypeIndex === -1 ? ulog : ulog.slice(0, itemTypeIndex);
+			if (unreadNum > 0) {
+				$('.lianjia_im_entry').addClass('lianjia_im_notice');
+				$('.lianjia_im_entry').data('ulog', ulog + '&item_type=是');
+			} else {
+				$('.lianjia_im_entry').removeClass('lianjia_im_notice');
+				$('.lianjia_im_entry').data('ulog', ulog + '&item_type=否');
+			}
+		}
+
+		if (!window.imsdk) {
+			var token = document.cookie.match(/lianjia_token=([^;]+)/) && document.cookie.match(/lianjia_token=([^;]+)/)[1];
+			var ucid = String();
+			if (token && ucid) {
+				var env = 'prod'; //当前环境
+				var userInfo = {
+					ucid: ucid,
+					token: token
+				};
+				// 用户传入
+				var config = {
+					ucid: userInfo.ucid, //当前用户的ucid
+					appkey: env === 'test' ? '9ac0405db1f6892673904c88d231a31a' : '2544a2c1cc725067d8c43ca8e92e4db5', //IM 服务分配的应用appkey，区分环境
+					theme: 'lj-theme', //ke-theme 贝壳主题，lj-theme 链家主题
+					model: 'sleeper', //sleeper 初始化无界面 sharp 初始化有界面
+					env: env, //默认线上
+					bizType: 'ljes', //业务方标识，bkes:贝壳二手，ljes:链家二手，bkxf:贝壳新房，ljxf:链家新房
+					apiheader: {
+						'Lianjia-Im-Protocal-Version': '1.1', //目前为1.1
+						'Lianjia-App-Id': 'LIANJIA_MZ_20180801', //IM 服务分配的应用 appid，区分环境
+						'Lianjia-Access-Token': userInfo.token, //当前用户身份token，类比web端linajia_token
+						'Lianjia-Device-Id': userInfo.token, //设备唯一id
+					}
+				}
+				window.imsdk = new LianjiaIM(config); //初始化sdk
+
+				window.imsdk.on('ready', function(){
+					setNotice();
+				});
+				window.imsdk.on('updateNotice', function(){
+					setNotice();
+				});
+			}
+		}
+
+	})()
+
+</script>
+
+	<!--cookie mapping-->
+			        	            <img src='https://cm.e.qq.com/cm.fcg?u=248b9273a849b4bc2bfa58b70247d90a&t=1537933992&p=a02d88b260fb5af2d4b4e70923bc2012&platform=M&gdt_dspid=4169211&gdt_dsp_checksum=a02d88b260fb5af2d4b4e70923bc2012&gdt_dsp_timestamp=1537933992' alt="cookie_mapping_url0" style="display: none;">
+	        		</body>
+<!-- 静态资源 -->
+<script type="text/javascript" src="//s1.ljcdn.com/m-base/release/v02.5/asset/all_b2c1e9546a4511gn.js"></script>
+<script type="text/javascript">
+$ljBridge.ready(function(bridge,webstatus) {
+	
+	var ljweb_channel_key = "m_pages_ershoufangSearch";
+	window.__UDL_CONFIG={"pid":"lianjiamweb","ljweb_channel_key":ljweb_channel_key,"cid":"310000","f":document.referrer};
+	if(ljweb_channel_key == 'm_pages_userFavoriteNewHouse'){
+		window.__UDL_CONFIG['pid'] = 'xinfangm';
+	}
+	!function(e){if(!window.$ULOG||1!==window.$ULOG.state){var n={add:function(e,n,t){e.addEventListener?e.addEventListener(n,t,!1):e.attachEvent?e.attachEvent("on"+n,t):null===e["on"+n]&&(e["on"+n]=t)},remove:function(e,n,t){e.removeEventListener?e.removeEventListener(n,t,!1):e.dispatchEvent?e.detachEvent("on"+n,t):e["on"+n]=null}},t={extend:function(e,n){if(null==e||"object"!=typeof e)return e;if(e.constructor!=Object&&e.constructor!=Array)return e;if(e.constructor==Date||e.constructor==RegExp||e.constructor==Function||e.constructor==String||e.constructor==Number||e.constructor==Boolean)return new e.constructor(e);n=n||new e.constructor;for(var o in e)e.hasOwnProperty(o)&&(n[o]="undefined"==typeof n[o]?t.extend(e[o],null):n[o]);return n},getIndex:function(e,n){if(n.indexOf)return n.indexOf(e);for(var t=0,o=n.length;t<o;t++)if(n[t]===e)return t;return-1},getCookie:function(e){if(document.cookie.length>0){var n=document.cookie.indexOf(e+"=");if(n!=-1){n=n+e.length+1;var t=document.cookie.indexOf(";",n);return t==-1&&(t=document.cookie.length),decodeURIComponent(document.cookie.substring(n,t))}}return""}},o={send:function(e){var n=new Image,t="//dig.lianjia.com/t.gif",o=[];try{e=encodeURIComponent(JSON.stringify(e))}catch(e){}e&&(o.push("r="+ +new Date),o.push("d="+e)),t+="?"+o.join("&"),n.onload=n.onerror=function(){n=null},n.src=t},makeParam:function(n){var o={};return o=t.extend(n,o),o=t.extend(e,o),o.key=void 0===o.key?window.location.href:o.key,o.uuid=void 0===o.uuid?t.getCookie("lianjia_uuid"):o.uuid,o.ssid=void 0===o.ssid?t.getCookie("lianjia_ssid"):o.ssid,o},parseElement:function(e){var n=e.tagName.toLowerCase(),o=e.className.replace(/ /g,""),r=e.id;o=0==o.length?"":"."+o.replace(/ /g,"."),r=0==r.length?"":"#"+r;var i=n+r+o,d=null===e.parentElement?0:t.getIndex(e,Array.prototype.slice.apply(e.parentElement.querySelectorAll(i)));return{selector:i,index:d}},loadTime:+new Date,buffer:[]};window.$ULOG&&void 0===window.$ULOG.state&&window.$ULOG.buffer&&window.$ULOG.buffer.length>0&&(o.buffer=t.extend(window.$ULOG.buffer,[])),window.$ULOG={send:function(e,n){n=n||{},n.evt=e+"";var r=o.makeParam(n);switch(n.evt){case"1":o.send(t.extend(r,{cid:t.getCookie("select_city")||""}));break;case"2":var i=Math.round((+new Date-o.loadTime)/1e3);o.send(t.extend(r,{stt:i}));break;case"3":o.send(t.extend(r,{f:document.referrer||"",cid:t.getCookie("select_city")||""}));break;case"4":break;case"1,3":o.send(t.extend(r,{f:document.referrer||"",cid:t.getCookie("select_city")||""}));break;default:o.send(r)}},update:function(n){for(var t in n)n.hasOwnProperty(t)&&(e[t]=n[t])},state:1};for(var r in o.buffer)if(o.buffer.hasOwnProperty(r)){var i=o.buffer[r];"string"==typeof i?window.$ULOG.send(i):window.$ULOG.send(i[0],i[1])}window.$ULOG.send("1,3"),n.add(window,"beforeunload",function(){window.$ULOG.send("2")}),n.add(document.documentElement,"mousedown",function(e){window.$ULOG.send("4")})}}(window.__UDL_CONFIG||{});
+	});
+</script>
+<!--动态脚本内容-->
+<script type="text/javascript" src="https://s1.ljcdn.com/hulk-web/static/m/asset/pages/ershoufangSearch/index.js?_v=20180920163849ee4"></script>
+<script type="text/javascript" src="https://s1.ljcdn.com/hulk-web/static/m/asset/pages/ershoufangSearch/ejs.js?_v=20180920163849ee4"></script>
+<script>
+$LMB.start('main_start','m_pages_ershoufangSearch',{"fe_root":"https:\/\/s1.ljcdn.com\/hulk-web\/static\/m\/","version":"20180920163849ee4","nation":{"short":"#"},"js_ns":"m_pages_ershoufangSearch","ajax_css_inline":[],"cur_city_id":310000,"cur_city_name":"\u4e0a\u6d77","cur_city_short":"sh","no_more_data":0,"cur_page":"1","selected":{"d":{"district_id":"310115","district_name":"\u6d66\u4e1c","bizcircle_id":null,"bizcircle_name":null,"pinyin":"pudong"},"p":{"id":"2"},"a":{"id":"2"},"l":{"id":null,"name":null},"f":{"id":null,"name":null},"c":{"id":null,"name":null},"sch":{"id":null,"name":null},"ie":{"id":null,"name":null},"sf":{"id":null,"name":null},"dp":{"id":null,"name":"\u4ea4\u6613\u6743\u5c5e"},"rs":{"query":null}},"selected_checkFilter":[],"selected_sortFilter":{"co":0},"maxPrice":300,"minPrice":200,"total":1469});
+</script>
+<script>new Image().src='//dig.lianjia.com/t.gif?r='+(Date.now()/1000|0)+'&d='+encodeURIComponent(JSON.stringify({pid:'lianjiamweb',key:location.href,evt:10050,f:document.referrer,uuid:142857,ssid:9527}))</script>
+<script src="https://s1.ljcdn.com/hulk-web/static/m/asset/common/tingyun.js?_v=20180920163849ee4"></script>
+<script src="https://s1.ljcdn.com/hulk-web/static/m/asset/common/im/index.js?_v=20180920163849ee4"></script>
+<!-- /静态资源 -->
+</html>

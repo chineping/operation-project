@@ -1,0 +1,1752 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="Cache-Control" content="no-transform" /><meta http-equiv="Cache-Control" content="no-siteapp" /><meta http-equiv="Content-language" content="zh-CN" /><meta name="format-detection" content="telephone=no" /><meta name="applicable-device" content="pc"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.lianjia.com/sh/ershoufang/107100328528.html" >
+<meta name="mobile-agent" content="format=html5;url=https://m.lianjia.com/sh/ershoufang/107100328528.html"><script>
+ljConf = {
+    city_id: '310000',
+    city_abbr: 'sh',
+    city_name: '上海',
+    channel: 'ershoufang',
+    page: 'ershoufang_view',
+    pageConfig: {"ajaxroot":"\/\/ajax.api.lianjia.com\/","imAppid":"LIANJIA_WEB_20160624","imAppkey":"6dfdcee27d78b1107fceeca55d80b7bd"},
+    feroot: '//s1.ljcdn.com/feroot/',
+    ucid:'',
+    cdn:'0',
+};
+</script>
+
+<!-- 2017.11.8 市场需求加上新的统计 -->
+<!-- 2017.7.18 开放全国 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9152f8221cb6243a53c83b956842be8a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="https://s1.ljcdn.com/feroot/pc/asset/common/tingyun-rum.js?_v=20180926210301"></script><title>富特三村新出  精装全南两房  满五唯一税费少  视线好_上海外高桥富特三村二手房推荐(上海链家网)</title>
+<meta name="description" content="上海链家网富特三村新出  精装全南两房  满五唯一税费少  视线好二手房房源推荐，外高桥富特三村优质二手房房源推荐，挑选外高桥富特三村优质二手房就到上海链家网." />
+<meta name="keywords" content="富特三村新出  精装全南两房  满五唯一税费少  视线好二手房,上海外高桥富特三村推荐二手房房源,富特三村优质二手房" />
+<link rel="canonical" href="https://sh.lianjia.com/ershoufang/107100328528.html"/>
+<link href="/favicon.ico" type="image/x-icon" rel=icon><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"><link rel="stylesheet" href="https://s1.ljcdn.com/feroot/pc/asset/common.css?_v=20180926210301">
+<link rel="stylesheet" href="https://s1.ljcdn.com/feroot/pc/asset/ershoufang/sellDetail/detailV3.css?_v=20180926210301">
+<!--[if lt IE 9]><script type="text/javascript" src="https://s1.ljcdn.com/feroot/dep/common-require/html5.js?_v=20180926210301"></script><![endif]-->
+<script>
+function RESIZEIMG(b,k,l,m){var c=b.parentNode;var d=parseInt(c.offsetWidth)||k;var e=parseInt(c.offsetHeight)||l;var f=d/e;var g=b.naturalWidth||b.width;var h=b.naturalHeight||b.height;var i=g/h;var j="width";if(f<i){j="height";try{b.style["left"]="-"+parseInt(Math.abs((d-(g*e/h))/2))+"px"}catch(e){}}else if(m){try{b.style["top"]="-"+parseInt(Math.abs((e-(h*d/g))/2))+"px"}catch(e){}};b.style[j]="100%";};
+</script>
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1254525948"]);
+</script>
+
+<script type="text/javascript">
+var _smq = _smq || [];
+_smq.push(['_setAccount', '41331c2', new Date()]);
+_smq.push(['_setDomainName', 'lianjia.com']);
+_smq.push(['pageview']);
+(function() {
+var sm = document.createElement('script'); sm.type = 'text/javascript'; sm.async = true;
+sm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdnmaster.com/sitemaster/collect.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sm, s);
+})();
+</script>
+</head><body><script>
+__STAT_LJ_CONF = {
+    params: {
+        ljweb_group: ['SEARCH','BIGDATA_PC'],
+        ljweb_id: '',
+        ljweb_mod: '',
+        ljweb_bl: '',
+        ljweb_el: '',
+        ljweb_sl: '',
+        ljweb_index: '',
+        ljweb_value: '',
+        ljweb_url: '',
+        ljweb_ljref: (document.cookie.match(/(?:^| )ljref=([^;]*)(?:;|$)/) || ['',''])[1],
+        ljweb_sample: (document.cookie.match(/(?:^| )sample_traffic_test=([^;]*)(?:;|$)/) || ['',''])[1],
+        ljweb_ref: document.referrer,
+        ljweb_cid: '310000',
+        ljweb_channel: 'ershoufang',
+        ljweb_page: 'ershoufang_view',
+        ljweb_source: '',
+        ljweb_stat_id: ''
+    }
+};
+
+
+
+var UT = {
+    send: function() {
+
+    }
+};
+var LjUserTrack = {
+    log: [],
+    initInterval: false,
+    intervalLog: function() {
+        setTimeout(function() {
+            if(window.$ULOG && $ULOG.send) {
+                for(var i = 0, l = LjUserTrack.log.length; i < l; i++) {
+                    LjUserTrack.__send(LjUserTrack.log[i]);
+                }
+
+                for(var m = 0, n = LjUserTrack.logIds.length; m < n; m++) {
+                    LjUserTrack.__sendId(LjUserTrack.logIds[m]);
+                }
+                for(var j = 0, k = LjUserTrack.logDatas.length; j < k; j++) {
+                    LjUserTrack.__sendData(LjUserTrack.logDatas[j].id, LjUserTrack.logDatas[j].data);
+                }
+            } else {
+                LjUserTrack.intervalLog();
+            }
+        }, 16.7);
+    },
+    _start_time: +new Date,
+    logDatas: [],
+    __sendData: function(id, data) {
+        if(id && (typeof(data) == 'object')){
+          data.pid = (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb";
+          data.key = window.location.href;
+          window.$ULOG && $ULOG.send(id, data);
+        }
+    },
+    sendData: function(id, data) {
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__sendData(id, data);
+        } else {
+            LjUserTrack.logDatas.push({id: id, data: data});
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+    },
+    __send: function(data) {
+        var evt_id = data.evt_id || '10043';
+        if('evt_id' in data) {
+            delete data.evt_id;
+        }
+
+        window.$ULOG && $ULOG.send(evt_id, {
+            "pid": (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb",
+            "key": window.location.href,
+            "action": data
+        });
+    },
+    logIds: [],
+    __sendId: function(id) {
+        id && window.$ULOG && window.$ULOG && $ULOG.send(id, {
+            "pid": (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb",
+            "key": window.location.href
+        });
+    },
+    sendId: function(id) {
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__sendId(id);
+        } else {
+            LjUserTrack.logIds.push(id);
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+    },
+    send: function(data, el, config) {
+
+        var utConf = __STAT_LJ_CONF;
+        var params = config || utConf.params,
+            win = window,
+            j;
+
+        data.groupIndex = data.ljweb_group || 0;
+
+        if (params) {
+            for (var d in params) {
+                if(params[d] !== j && data[d] === j) {
+                    data[d] = params[d];
+                }
+            }
+        }
+
+        if(el) {
+            this.checkClick(el, data);
+        }
+
+        data.ljweb_group = params['ljweb_group'][data.groupIndex || 0];
+
+        delete data.groupIndex;
+
+        if(data.typ) {
+            data.ljweb_bl = (data.ljweb_bl || '') + '_' + data.typ;
+            delete data.typ;
+        }
+
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__send(data);
+        } else {
+            LjUserTrack.log.push(data);
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+
+    },
+    checkClick: function(el, data) {
+
+        var TAG_LINK = 'A';
+        var href = '';
+        var elParent = null;
+
+        href = (el.tagName.toUpperCase() === TAG_LINK ? el.getAttribute("href", 2) : '');
+        if(!href && (elParent = el.parentNode) && elParent.nodeType === 1) {
+            href = (elParent.tagName.toUpperCase() === TAG_LINK ? elParent.getAttribute("href", 2) : '');
+        }
+
+        if(href) {
+            data.ljweb_url = href;
+        } else {
+            data.ljweb_url = data.ljweb_url
+                  || el.getAttribute("data-log_url")
+                  || (elParent=el.parentNode||el).getAttribute("data-log_url")
+                  || (
+                        (elParent=elParent.parentNode||elParent)
+                     && (elParent.nodeType === 1)
+                     && elParent.getAttribute("data-log_url")
+                     )
+                  || "";
+        }
+
+        this.attr(el, data);
+
+    },
+    path: function() {
+
+    },
+    attr: function(el, data) {
+        var modId     = el.getAttribute("log-mod");
+        var blAttr    = el.getAttribute("data-bl");
+        var elAttr    = el.getAttribute("data-el");
+        var slAttr    = el.getAttribute("data-sl");
+        var InAttr    = el.getAttribute("data-log_index");
+        var valAttr   = el.getAttribute("data-log_value");
+        var idAttr    = el.getAttribute("data-log_id");
+        var groupAttr = el.getAttribute("data-log_group");
+        var sourceAttr = el.getAttribute("data-log_source");
+        var statIdAttr = el.getAttribute("data-log_statId");
+        var evtId     = el.getAttribute("data-log_evtid");
+
+        data.ljweb_bl    = data.ljweb_bl || blAttr || '';
+        data.ljweb_el    = data.ljweb_el || elAttr || '';
+        data.ljweb_sl    = data.ljweb_sl || slAttr || '';
+        data.ljweb_index = data.ljweb_index || InAttr || '';
+        data.ljweb_value = data.ljweb_value || valAttr || '';
+        data.ljweb_id    = data.ljweb_id || idAttr || '';
+        data.ljweb_source    = data.ljweb_source || sourceAttr || '';
+        data.ljweb_stat_id    = data.ljweb_stat_id || statIdAttr || 0;
+        data.groupIndex  = data.groupIndex || groupAttr || 0;
+        data.evt_id      = data.evt_id || evtId || '';
+
+        if (!modId) {
+            if (el.parentNode && el.parentNode.nodeType === 1 && el.parentNode.tagName.toUpperCase() !== 'BODY') {
+                this.attr(el.parentNode, data);
+            }
+        } else {
+            data.ljweb_mod = modId;
+        }
+    }
+};
+
+;;(function() {
+    var isW3c = !!document.addEventListener;
+
+    LjUserTrack.send({
+        ljweb_mod: 'pv',
+        ljweb_group: 1
+    });
+
+    /*window[isW3c ? 'addEventListener' : 'attachEvent'](
+        (isW3c ? '': 'on') + 'beforeunload',
+        function(e) {
+            var _end_time = +new Date;
+            UT.send({type: 'show', subtype: 'stay', time: (_end_time-UT._start_time)/1000});
+        },
+        false);*/
+})();
+
+
+
+
+
+</script>
+
+<div class="banner"><div class="container"><ul class="channelList"><li><a href="//www.lianjia.com/">首页</a></li><li  class="selected"><a href="https://sh.lianjia.com/ershoufang/" >二手房</a></li><li  class=""><a href="https://sh.fang.lianjia.com/" >新房</a></li><li  class=""><a href="https://sh.lianjia.com/zufang/" >租房</a></li><li  rel="nofollow"  class=""><a href="http://you.lianjia.com/" >旅居</a></li><li  class=""><a href="https://us.lianjia.com" >海外</a></li><li  class=""><a href="https://sh.lianjia.com/xiaoqu/" >小区</a></li><li  class=""><a href="https://sh.lianjia.com/jingjiren/" >经纪人</a></li><li  class=""><a href="https://sh.lianjia.com/wenda/" >指南</a><div class="childList"><a href="https://sh.lianjia.com/wenda/" >问答</a><a href="https://news.lianjia.com/sh/baike/" >百科</a></div></li><li  class=""><a href="https://sh.lianjia.com/tool.html" target="_blank">工具</a></li><li  class=""><a href="https://sh.lianjia.com/yezhu/" target="_blank">发布房源</a></li></ul><div class="banner-right"><div class="login" id="userInfoContainer"><i></i><a href="https://upassport.lianjia.com/login?service=https%3A%2F%2Fwww.lianjia.com%2Fuser%2Fchecklogin%3Fredirect%3Dhttps%253A%252F%252Fsh.lianjia.com%252Fershoufang%252F107100328528.html" id="loginBtn" rel="nofollow">登录</a>/<a href="https://passport.lianjia.com/register/resources/lianjia/register.html?service=https%3A%2F%2Fwww.lianjia.com%2Fuser%2Fchecklogin%3Fredirect%3Dhttps%253A%252F%252Fsh.lianjia.com%252Fershoufang%252F107100328528.html" id="registerBtn" rel="nofollow">注册</a></div><div class="phone"><i></i><span>热线电话1010-9666</span></div></div></div></div>
+
+
+<script type="text/template" id="userInfoTpl">
+  <i></i>
+  <%if(isAgent){%>
+    <a id="userNameContainer" href="<%=$.env.fixedUrl('//agent.lianjia.com/')%>"><%=username%></a>
+  <%}else{%>
+    <a id="userNameContainer" href="<%=$.env.fixedUrl('//user.lianjia.com/')%>" rel="nofollow"><%=username%></a>
+  <%}%>
+  <span id="tipContainer"></span>
+  &nbsp;&nbsp;<a href="<%=logoutUrl%>">退出</a>
+  <span id="pushNewsListContainer"></span>
+</script>
+<script type="text/template" id="pushNewsListTpl">
+  <div class="pushNewsList">
+    <%for(var i in group_by_type){%>
+      <%if(group_by_type[i].unread !== 0 && pushMsgMap.hasOwnProperty(i)){%>
+        <a href="<%=pushMsgMap[i].url%>"><%=$.replaceTpl(pushMsgMap[i].text, {unread:group_by_type[i].unread})%></a>
+      <%}%>
+    <%}%>
+  </div>
+</script>
+
+
+<div class="header"><div class="menu clear"><div class="menuLeft"><a href="/ershoufang/" class="logo"></a><!-- <span class="channelName">二手房</span> --><ul class="typeList"><li class="selected"><a href="/ershoufang/">在售</a></li><li ><a href="/chengjiao/">成交</a></li><li ><a href="/xiaoqu/">小区</a></li><li ><a href="/ditu/">地图找房</a></li></ul></div><div class="search"><div class="input" log-mod="search"><form action="/ershoufang/rs" id="searchForm"><span class="downArrow" data-bl="switch"><span class="state">在售</span><i></i></span><span class="sstate" data-bl="switch"><span data-state="1">在售</span><span data-state="2">成交</span><span data-state="3">小区</span></span><input type="text" id="searchInput" placeholder="请输入关键字搜索" autocomplete="off"><button type="submit" class="searchButton" data-bl="search" data-el="search">&nbsp;<i></i>&nbsp;</button></form><div class="searchMsg" id="searchMsgContainer"></div></div></div></div></div>
+
+
+<script type="text/template" id="searchSuggestionTpl">
+  <div class="searchMsgTitle">
+    <span class="searchMsgName">你可能在找</span>
+  </div>
+  <ul data-bl="sug" data-el="sug">
+  <%for(var i = 0;i < list.length;i++){%>
+    <li>
+      <a href="<%=list[i].url%>" role="addHistory" data-log_index="<%=i+1%>" data-log_value="<%=list[i].title%>">
+        <span class="msgListTitle">
+          <%=list[i].title%>
+          <%if(list[i].region){%>
+            <span class="msgListArea"><%=list[i].region%></span>
+          <%}%>
+        </span>
+        <%if(type === 'sell'){%>
+          <span class="msgListAdd">约<%=list[i].count%>套在售</span>
+        <%}else if(type === 'deal'){%>
+          <span class="msgListAdd">约<%=list[i].count%>套成交</span>
+        <%}%>
+      </a>
+    </li>
+  <%}%>
+  </ul>
+</script>
+
+
+<div class="sellDetailHeader">
+  <div class="title-wrapper" log-mod="detail_header">
+    <div class="content">
+      <div class="title">
+        <h1 class="main" title="富特三村新出  精装全南两房  满五唯一税费少  视线好">富特三村新出  精装全南两房  满五唯一税费少  视线好</h1>
+        <div class="sub" title="小区中间位置，紧靠中国自由贸易试验区邻近地铁6号线..">小区中间位置，紧靠中国自由贸易试验区邻近地铁6号线..</div>
+      </div>
+      <div class="btnContainer  LOGVIEWDATA LOGVIEW"  data-lj_view_evtid="11227" data-lj_action_resblock_id=107100328528 data-lj_action_housedel_id=5011000003281>
+        <div>
+            <div class="action">
+              <button id="follow" class="followbtn">关注房源</button>
+              <span id="favCount" class="count">84</span>人关注
+              <span class="layer-qrcode followLayer" style="display: none;">
+                <span class="icon-qrcode">
+                  <img width="100" height="100" src="//ajax.api.lianjia.com/qr/getDownloadQr?location=follow_app&jweb_channel_key=ershoufang_view" alt="下载链家app">
+                </span>
+                <span class="txt">下载链家APP</span>
+                <span class="sub-txt">房源动态早知道</span>
+                <span class="icon-close"></span>
+              </span>
+            </div>
+            <div class="action hide">
+              <button id="addToCart" data-lj_dianji="10046" class="add-to-cart">预约看房</button>
+              <button data-lj_dianji="10048" class="move-from-cart hide">已加入待看</button>
+              <span id="cartCount" class="count">9</span>人看过
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="intro clear" mod-id="lj-common-bread"><div class="container"><div class="fl l-txt"><a href="/">链家网上海站</a><span class="stp">&nbsp;&gt;&nbsp;</span><a href="/ershoufang/">上海二手房</a><span class="stp">&nbsp;&gt;&nbsp;</span><a href="/ershoufang/pudong/">浦东二手房</a><span class="stp">&nbsp;&gt;&nbsp;</span><a href="/ershoufang/waigaoqiao/">外高桥二手房</a><span class="stp">&nbsp;&gt;&nbsp;</span><a href="/ershoufang/c5011000003281/">富特三村二手房</a><span class="stp">&nbsp;&gt;&nbsp;</span>&nbsp;<span>当前房源</span>&nbsp;</div></div></div>
+
+      
+<div class="overview"><div class="img" id="topImg"><div class="imgContainer"><img class="new-default-icon maxWidth defaultImg" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180926210301" alt="" data-video="false"><span></span></div><div class="thumbnail" id="thumbnail2"><div class="pre"><</div><ul class="smallpic"><li data-src="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.710x400.jpg" data-size="1420x800" data-desc="客厅" data-pic="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.1420x800.jpg"><img src="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.120x80.jpg" alt=""></li><li data-src="https://image1.ljcdn.com/310000-inspection/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.710x400.jpg" data-size="1420x800" data-desc="客厅" data-pic="https://image1.ljcdn.com/310000-inspection/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.1420x800.jpg"><img src="https://image1.ljcdn.com/310000-inspection/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.120x80.jpg" alt=""></li><li data-src="https://image1.ljcdn.com/310000-inspection/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.710x400.jpg" data-size="1420x800" data-desc="卧室A" data-pic="https://image1.ljcdn.com/310000-inspection/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.1420x800.jpg"><img src="https://image1.ljcdn.com/310000-inspection/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.120x80.jpg" alt=""></li><li data-src="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.533x400.jpg" data-size="1066x800" data-desc="户型图" data-pic="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.1066x800.jpg"><img src="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.120x80.jpg" alt=""></li><li data-src="https://image1.ljcdn.com/310000-inspection/test-24189112-1485-4ced-a324-fb019d0fbba9.png.710x400.jpg" data-size="1420x800" data-desc="卧室B" data-pic="https://image1.ljcdn.com/310000-inspection/test-24189112-1485-4ced-a324-fb019d0fbba9.png.1420x800.jpg"><img src="https://image1.ljcdn.com/310000-inspection/test-24189112-1485-4ced-a324-fb019d0fbba9.png.120x80.jpg" alt=""></li></ul><div class="next">></div></div></div><div class="content"><span class="sharethis"><i></i>分享此房源</span><div class="compareBtn LOGCLICK" log-mod="107100328528" data-bl="right_top" data-log_evtid="10231"><span class="compareIcon"></span><span class="compareText">加入对比</span></div><div class="price "><span class="total">263</span><span class="unit"><span>万</span></span><div class="text"><div class="unitPrice"><span class="unitPriceValue">46020<i>元/平米</i></span></div><div class="tax im-talk LOGCLICKDATA" data-ucid="1000000022156814" data-source-port="pc_lianjia_ershou_main_zaixianxiangqing_shoufuyusuan" data-source-extends={"house_code":"107100328528"} data-msg-payload="您好，请问该套房源首付是多少？" data-lj_evtid="13903" data-lj_action_pid="lianjiaweb" data-lj_action_event="WebClick" data-lj_action_source_type="二手房源详情首付预算"><span class="taxtext" >首付及贷款情况请咨询经纪人</span><i></i></div><!-- <div class="tax"><span class="taxtext" title="首付93万 税费"><span>首付93万 </span><span>税费</span><span><span id="PanelTax">13.8</span>万(仅供参考) </span></span><span class="detail" id="lookdetail">详情</span></div> --></div><div class="removeIcon"></div></div><div class="houseInfo"><div class="room"><div class="mainInfo">2室1厅</div><div class="subInfo">高楼层/共6层</div></div><div class="type"><div class="mainInfo" title="南">南</div><div class="subInfo">平层/精装</div></div><div class="area"><div class="mainInfo">57.15平米</div><div class="subInfo">1994年建/板楼</div></div></div><div class="aroundInfo"><div class="communityName"><i></i><span class="label">小区名称</span><a href="/xiaoqu/5011000003281/" target="_blank" class="info ">富特三村</a><a href="#around" class="map">地图</a></div><div class="areaName"><i></i><span class="label">所在区域</span><span class="info"><a href="/ershoufang/pudong/" target="_blank">浦东</a>&nbsp;<a href="/ershoufang/waigaoqiao/" target="_blank">外高桥</a>&nbsp;中环至外环</span><a href="https://sh.lianjia.com/ditiefang/li143685061s100021940/" class="supplement" title="近6号线航津路站" style="color:#394043;">近6号线航津路站</a></div><div class="visitTime"><i></i><span class="label">看房时间</span><span class="info">提前预约随时可看</span></div><div class="houseRecord"><span class="label">链家编号</span><span class="info">107100328528<span class="jubao"><a href="javascript:;" class="report">举报</a><a href="//www.lianjia.com/zhuanti/pfgz" target="blank" class="detail"></a></span></span></div></div><div class="brokerInfo clear" style="position: relative" log-mod="ershoufang_detail_diamond-first"><a class="fl LOGVIEW LOGCLICK" data-log_id="20001" data-bl="agent" data-el="1000000022156814" target="_blank" href="https://dianpu.lianjia.com/1000000022156814"><img class="agent-img" src="https://image1.ljcdn.com/usercenter/images/uc_ehr_avatar/b739bab3-d070-44ba-ac86-8e0307f6c018.jpg.81x108.jpg" alt=""></a><div class="brokerInfoText fr"><div class="brokerName"><a target="_blank" data-log_id="20001" data-bl="agent" data-el="1000000022156814" href="https://dianpu.lianjia.com/1000000022156814" class="name LOGCLICK">刘小娟</a><span ><!-- <a class="lianjiaim-createtalkAll im-talk new-talk LOGCLICK LOGCLICKDATA" data-log_id="20001" data-bl="agentim" data-el="1000000022156814" style="display: none;" title="在线咨询" data-ucid="1000000022156814" data-source-port="PC:ershou_ershoufang_diamond" data-source-extends={"house_code":"107100328528"} data-lj_evtid="11048" data-lj_action_type="Display_Main" data-lj_action_resblock_id="5011000003281" data-lj_action_housedel_id="107100328528" data-lj_action_ucid="1000000022156814"><span class="im-icon"></span>沟通</a> --></span><!-- <span class="tag first" >评分:5.0/<a href="https://dianpu.lianjia.com/1000000022156814/?w=pingjia">25人评价</a></span> --></div><div class="evaluate">评分:5.0/<a href="https://dianpu.lianjia.com/1000000022156814/?w=pingjia">25人评价</a></div><div class="phone" >4008019959<span>转</span>06231<div class="weapp-code" style="display: inline-block;position: absolute;right: 0px;top:40px;"><img style="width:110px;height: 110px;border: 1px solid #F5F5F5;" src="//ajax.api.lianjia.com//qr/contactagent?agent_ucid=1000000022156814&phone=4008019959,06231"><div style="color:#999;font-size:10px;text-align: center;line-height: 18px;margin-top: 5px">微信扫码拨号</div></div></div><span class="agent_chat LOGCLICK LOGCLICKDATA im-talk" data-log_id="20001" data-bl="agentim" data-el="1000000022156814" data-ucid="1000000022156814" data-source-port="PC:ershou_ershoufang_diamond" data-source-extends={"house_code":"107100328528"} data-lj_evtid="11048" data-lj_action_type="Display_Main" data-lj_action_resblock_id="5011000003281" data-lj_action_housedel_id="107100328528" data-lj_action_ucid="1000000022156814"><i></i><span>在线咨询</span></span></div></div><div class="download"><div class="qr-code"><img width="94" height="94" src="//ajax.api.lianjia.com/qr/getDownloadQr?location=right&ljweb_channel_key=ershoufang_view" alt="下载链家app"><span class="text">扫描下载APP 随时查看新房源</span></div></div></div></div>
+
+<div class="tab-wrap">
+  <div class="wrap">
+    <div class="panel-tab">
+      <ul class="clear">
+        <li>
+          <a href="#introduction" class="on">房源信息介绍</a>
+        </li>
+                  <li>
+            <a href="#layout">户型分间</a>
+          </li>
+                                <li>
+          <a href="#calculator" id="taxm">税费贷款</a>
+        </li>
+                <li>
+          <a href="#record">看房记录</a>
+        </li>
+                <li>
+          <a href="#resblockCardContainer">小区简介</a>
+        </li>
+                <li>
+          <a href="#dealPrice">小区成交</a>
+        </li>
+        <li>
+          <a href="#around" class="LOGCLICK" data-log_evtid='10242'  data-bl="supporting">周边配套</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="m-content">
+    <div class="box-l">
+        <!-- 基本信息 -->
+                <div class="focus_intro">
+          <div class="focus_tag">链家优选</div>
+          <p>优选房源拥有更高的竞争力和关注度</p>
+          <a class="actShowFocusLayer">了解更多 ></a>
+
+          <div class="focus_layer">
+              <div class="focus_ul_frame">
+                <h1>了解什么是优选房源</h1>
+                <span class="actCloseFocusLayer">&times</span>
+                <ul class="focus_intro_ul">
+                  <li>
+                    <h3>定价合理</h3>
+                    <p>我们只选择那些报价更符合市场行情的房源。</p>
+                  </li>
+                  <li>
+                    <h3>看房方便</h3>
+                    <p>看房时间方便灵活，可尽量匹配您的时间。</p>
+                  </li>
+                  <li>
+                    <h3>交易灵活</h3>
+                    <p>业主可接受的交易条件十分灵活，达成交易更加迅速。</p>
+                  </li>
+                  <li>
+                    <h3>如何加入优选</h3>
+                    <p>优选房源在链家网会获得更多的曝光机会，如果您是业主并且希望自己的房子也能加入优选房源行列，请联系您的专属维护人或致电10109666了解更多信息。</p>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+                <div class="newwrap baseinform" id="introduction">
+          <div class="" style="width:700px;">
+            <h2><div class="title">基本信息</div></h2>
+            <div class="introContent">
+              <div class="base">
+                <div class="name">基本属性</div>
+                <div class="content">
+                  <ul>
+                                            <li><span class="label">房屋户型</span>2室1厅1厨1卫</li>
+                                            <li><span class="label">所在楼层</span>高楼层 (共6层)</li>
+                                            <li><span class="label">建筑面积</span>57.15㎡</li>
+                                            <li><span class="label">户型结构</span>平层</li>
+                                            <li><span class="label">套内面积</span>暂无数据</li>
+                                            <li><span class="label">建筑类型</span>板楼</li>
+                                            <li><span class="label">房屋朝向</span>南</li>
+                                            <li><span class="label">建筑结构</span>砖混结构</li>
+                                            <li><span class="label">装修情况</span>精装</li>
+                                            <li><span class="label">梯户比例</span>一梯三户</li>
+                                            <li><span class="label">配备电梯</span>无</li>
+                                            <li><span class="label">产权年限</span>70年</li>
+                                      </ul>
+                </div>
+              </div>
+              <div class="transaction">
+                <div class="name">交易属性</div>
+                <div class="content">
+                  <ul>
+                                                                        <li>
+                              <span class="label">挂牌时间</span>
+                              <span>2018-05-28</span>
+                                                          </li>
+                                                                                                <li>
+                              <span class="label">交易权属</span>
+                              <span>商品房</span>
+                                                          </li>
+                                                                                                <li>
+                              <span class="label">上次交易</span>
+                              <span>2002-12-20</span>
+                                                          </li>
+                                                                                                <li>
+                              <span class="label">房屋用途</span>
+                              <span>普通住宅</span>
+                                                          </li>
+                                                                                                <li>
+                              <span class="label">房屋年限</span>
+                              <span>满五年</span>
+                                                          </li>
+                                                                                                <li>
+                              <span class="label">产权所属</span>
+                              <span>共有</span>
+                                                          </li>
+                                                                                                <li>
+                              <span class="label">抵押信息</span>
+                              <span style="display:inline-block;width:64%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;vertical-align:middle;" title="无抵押">
+                                无抵押
+                              </span>
+                            </li>
+                                                                                                <li>
+                              <span class="label">房本备件</span>
+                              <span>已上传房本照片</span>
+                                                          </li>
+                                                              </ul>
+                </div>
+              </div>
+
+              <div class="disclaimer" style="padding-top: 10px;">注：房源所示“房屋用途、交易权属、建成年代、产权年限、建筑结构”仅供参考，购房时请以房本信息为准。</div>
+
+            </div>
+          </div>
+        </div>
+        <!-- 房源特色 -->
+        <div class="newwrap baseinform">
+          <h2><div class="title" style="margin-top:50px;">房源特色</div></h2>
+          <div class="introContent showbasemore">
+                        <div class="tags clear">
+              <div class="name">房源标签</div>
+              <div class="content">
+                                                <a class="tag is_near_subway" href="https://sh.lianjia.com/ershoufang/waigaoqiao/su1/">地铁</a>
+                                                                <a class="tag taxfree" href="https://sh.lianjia.com/ershoufang/waigaoqiao/tf1/">房本满五年</a>
+                                                                <a class="tag is_see_free" href="https://sh.lianjia.com/ershoufang/waigaoqiao/tt4/">随时看房</a>
+                                              </div>
+            </div>
+                                                      <div class="baseattribute clear">
+                  <div class="name">交通出行</div>
+                  <div class="content">
+                    地铁：六号线与十号线、翔殷路隧道，长江路隧道，到达陆家嘴金融贸易区，另有多条公交线到达上海各个地方，例如：996，971，453，81，611，等
+                  </div>
+                </div>
+                              <div class="baseattribute clear">
+                  <div class="name">周边配套</div>
+                  <div class="content">
+                    森兰绿地大型综合社区，内含森兰商都，五*酒店，迪卡侬总部，哈罗公学，牡丹园，高尔夫训练基地，2.7平方公里大型生态公园，综合配套全沪罕见。6号线航津路站。815,453等公交。出门就有大型超市：世纪联华、KFC、麦当劳等，也近自贸区。
+                  </div>
+                </div>
+                              <div class="baseattribute clear">
+                  <div class="name">核心卖点</div>
+                  <div class="content">
+                    小区中间位置，紧靠中国自由贸易试验区邻近地铁6号线..
+                  </div>
+                </div>
+                            <div class="viewmore">展开更多信息</div>
+              <div class="disclaimer">注：土地使用起止年限详见业主土地证明材料或查询相关政府部门的登记文件。</div>
+                      </div>
+        </div>
+        <!-- 房主自荐 -->
+                  <div class="newwrap shuofang">
+            <div class="title clear">
+              <h3>房主自荐</h3>
+              <span>业主在链家网或“链家APP”发表的内容(包括但不限于评论、房屋信息等)仅供参考，且仅表明其个人的立场和观点。业主发表的任何内容均不代表链家的立场或观点，链家亦未对其进行任何授权、同意或确认。如您发现有任何违法、侵权或其他不适宜内容的，请您及时与链家联系。</span>
+            </div>
+            <div class="bd">
+              <div class="txt">
+                <div>
+                  <b>房源特色：</b>
+                  <span>房子两室一厅，总价低，税少。房子是全明房，两个卧室全朝南，全屋光线没得说，经过设计装修房型合理，大出很多使用面积，满五唯一，楼层好，精装修，家具家电全送，离地铁站进近，上班，出行都方便，因现在工作离家比较远，想置换一套离家近的房子，因为这套房子是我们来上海买的第一套房子，非常有感情，换掉有些不舍，望有缘人来，价格看中可谈。</span>
+                </div>
+                                  <div style="margin-top: 10px;">
+                    <b>小区环境：</b>
+                    <span>小区位于保税区繁华地段，联华超市就在小区门口，出小区就是美食一条街，小区内部幽静，绿化好。</span>
+                  </div>
+                              </div>
+                          </div>
+          </div>
+                          <div class="newwrap" id="daikanContainer" log-mod="ershoufang_detail_agent-daikan"></div>
+<script type="text/template" id="daikanTpl">
+  <div class="comment_daikan">
+    <div class="daikan_header clear">
+      <h3><div class="daikan_title fl">经纪人带看反馈</div></h3>
+      <div class="daikan_filter fr">
+        <span class="tag <%=order === 0 ? 'on' : 'LOGCLICK'%>" id="newestComment" data-bl="typ">最新</span>
+        <span class="tag <%=order === 1 ? 'on' : 'LOGCLICK'%>" id="usefulComment" data-bl="typ">最有用</span>
+      </div>
+    </div>
+    <div class="daikan_content">
+      <%for(var i = 0 ; i < agentList.length; i++){%>
+      <%if (agentList[i].agent_information_card === undefined || agentList[i].agent_information_card){%>
+        <div class="daikan_list">
+          <div class="item clear">
+            <a target="_blank" class="item_img fl <%=notFetch ? '': 'LOGVIEW'%> LOGCLICK" href="<%=agentList[i].url%>" data-log_id="20001" data-bl="agent" data-el="<%=agentList[i].agentUcid%>" data-log_index="<%=i+1%>">
+              <%if(agentList[i].photo){%>
+                <img src="<%=agentList[i].photo%>.55x55.jpg" alt="">
+              <%}else{%>
+                <img src="<%=defaultImg%>" alt="">
+              <%}%>
+            </a>
+            <!-- 这里 -->
+            <div class="daikan_item_content fr clear">
+              <div class="fl">
+                <div class="item_title">
+                  <a target="_blank" class="itemAgentName LOGCLICK" href="<%=agentList[i].url%>" data-log_id="20001" data-bl="agent" data-el="<%=agentList[i].agentUcid%>" data-log_index="<%=i+1%>"><%=agentList[i].name%></a>
+                  <%if(agentList[i].appid != '2' && agentList[i].appid != '104') {%>
+                      <div class="dy no_f">
+                          <span class="dy_tag" style="color:#9399a5 !important;background-color:#eff0f2"><%=agentList[i].company_name%></span>
+                          <%if(agentList[i].appid === '3' || agentList[i].appid === '105') {%>
+                              <i class="xiaowenhao"></i><b class="dy_desc">德佑地产是链家集团旗下品牌，致力于为消费者提供个性化的房产服务。</b>
+                          <%}%>
+                      </div>
+                  <%}%>
+                  <%if (agentList[i].agent_information_card){%>
+                  <div class="agentCredentials agent_information_card" data-card_info="<%=agentList[i].agent_information_card%>"></div>
+                  <%}%>
+                  <span class="phone"><%=agentList[i].phone%></span>
+                </div>
+                <div class="des"><%=agentList[i].comment === '' ? '该经纪人还未提交相关评论反馈' : agentList[i].comment%></div>
+                <div class="daikan_item_record"><%=agentList[i].lastestSeeRecordDate%>带客户看过此房，共带看本房<%=agentList[i].agentSeeRecordNum%>次</div>
+              </div>
+              <%
+                var userableStyle = '';
+                if(parseInt(agentList[i].isCurrentUserUseful, 10) === 1){
+                  userableStyle = 'on';
+                }else if(agentList[i].comment === ''){
+                  userableStyle = 'none';
+                }
+              %>
+
+                <%if(agentList[i].isValid){%>
+                  <span class="agent_chat im-talk fr LOGCLICK LOGCLICKDATA" data-ucid="<%=agentList[i].agentUcid%>" data-log_id="20001" data-bl="agentim" data-el="<%=agentList[i].agentUcid%>" data-log_index="<%=i+1%>" data-source-port="PC:ershou_ershoufang_comments" data-lj_evtid="11048" data-lj_action_type="Display_Tour" data-lj_action_resblock_id="<%=resblockId%>" data-lj_action_housedel_id="<%=houseCode%>" data-lj_action_ucid="<%=agentList[i].agentUcid%>" data-source-extends=<%=JSON.stringify(newHouseCode)%> >
+                    <i></i>
+                    <span>咨询</span>
+                  </span>
+                <%}%>
+              <div class="item_useable_btn fr <%=userableStyle%>" data-index="<%=i%>">
+                <i data-index="<%=i%>"></i>
+                <span data-index="<%=i%>">
+                  <%=isChangingIndex === i ? '请求中' : '有用'%><%if(agentList[i].totalUsefulNum != 0){%>(<%=agentList[i].totalUsefulNum%>)<%}%>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      <%}%>
+      <%}%>
+      <div class="daikanPager clear">
+        <div class="fr">
+          <%=currentPage%>/<%=totalPageNum%>
+          <div class="daikanPagerBtn daikan_left_arrow <%if(currentPage === 1){%>disable<%}else{%>LOGCLICK<%}%>" id="prePageComment" data-bl="switch"><span><</span></div>
+          <div class="daikanPagerBtn daikan_right_arrow <%if(currentPage === parseInt(totalPageNum, 10)){%>disable<%}else{%>LOGCLICK<%}%>" id="nextPageComment" data-bl="switch"><span>></span></div>
+        </div>
+      </div>
+      <div class="daikan_content_loading" <%=isFetching ? 'style="display:block;"' : ''%> ></div>
+    </div>
+  </div>
+</script>
+
+                <!-- 户型分间 -->
+
+
+                  <div class="newwrap">
+            <div class="layout-wrapper" id="layout">
+              <div class="layout">
+                <h3><div class="title">户型分间</div></h3>
+                                  <div class="frame frameItem">
+                    <!--  -->
+                                          <div class="agent-tips">
+                        <div class="fr">
+                          <div>
+                            <a class="name" href="https://dianpu.lianjia.com/1000000022156814" target="_blank">刘小娟</a>
+                                                        <span class="tag">/房源维护人</span>
+                            <a class="lianjiaim-createtalkAll im-talk new-talk LOGCLICKDATA" style="display: none;" title="在线咨询" data-ucid="1000000022156814" data-source-port="PC:ershou_ershoufang_huxingzhuanjia" data-lj_evtid="11048" data-lj_action_type="Display_Housetype" data-lj_action_resblock_id="5011000003281" data-lj_action_housedel_id="107100328528" data-lj_action_ucid="1000000022156814" data-source-extends={"house_code":"107100328528"}>
+                              <span class="im-icon"></span>
+                            </a>
+                          </div>
+                            <p>4008772335转27132</p>
+                        </div>
+                        <div class="fl">
+                          <a class="name" href="https://dianpu.lianjia.com/1000000022156814" target="_blank">
+                            <img class="agent-icon" src="https://image1.ljcdn.com/usercenter/images/uc_ehr_avatar/b739bab3-d070-44ba-ac86-8e0307f6c018.jpg.40x40.jpg" alt="刘小娟">
+                          </a>
+                        </div>
+                      </div>
+                                      </div>
+                <div class="content">
+                  <div class="clear"></div>
+                  <div class="imgdiv" data-img="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png">
+                     <img src="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.240x180.jpg" alt="富特三村新出  精装全南两房  满五唯一税费少  视线好户型图">
+                     <span class="setbig">
+                        <i></i>
+                        <label>查看原图</label>
+                     </span>
+                  </div>
+                  <div class="des">
+                    <div class="info">
+                      <div class="list">
+                        <div id="infoList">
+                                                <div class="row">
+                          <div class="col">客厅</div>
+                          <div class="col">15.76平米</div>
+                          <div class="col">无</div>
+                          <div class="col">无窗</div>
+                        </div>
+                                                <div class="row">
+                          <div class="col">卧室A</div>
+                          <div class="col">8.96平米</div>
+                          <div class="col">南</div>
+                          <div class="col">普通窗</div>
+                        </div>
+                                                <div class="row">
+                          <div class="col">卧室B</div>
+                          <div class="col">13.03平米</div>
+                          <div class="col">南</div>
+                          <div class="col">普通窗</div>
+                        </div>
+                                                <div class="row">
+                          <div class="col">卫生间</div>
+                          <div class="col">3.82平米</div>
+                          <div class="col">西</div>
+                          <div class="col">普通窗</div>
+                        </div>
+                                                <div class="row">
+                          <div class="col">阳台</div>
+                          <div class="col">3.71平米</div>
+                          <div class="col">南 西</div>
+                          <div class="col">普通窗</div>
+                        </div>
+                                                </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="justify_fix"></span>
+                  <p class="disclaimer">注：户型图标注的面积不同于房本面积，存在测量误差，购房请以房本面积为准。</p>
+                </div>
+                                              </div>
+            </div>
+          </div>
+                <!-- 房源照片 -->
+                <div class="newwrap">
+          <div class="content-wrapper housePic">
+            <h3><div class="title">房源照片</div></h3>
+            <div class="container">
+              <div class="list">
+                                  <div data-index="0">
+                    <img src="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.710x400.jpg" alt="客厅">
+                    <span class="name">客厅</span>
+                  </div>
+                                    <div data-index="1">
+                    <img src="https://image1.ljcdn.com/310000-inspection/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.710x400.jpg" alt="客厅">
+                    <span class="name">客厅</span>
+                  </div>
+                                    <div data-index="2">
+                    <img src="https://image1.ljcdn.com/310000-inspection/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.710x400.jpg" alt="卧室A">
+                    <span class="name">卧室A</span>
+                  </div>
+                                    <div data-index="3">
+                    <img src="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.533x400.jpg" alt="户型图">
+                    <span class="name">户型图</span>
+                  </div>
+                                    <div data-index="4">
+                    <img src="https://image1.ljcdn.com/310000-inspection/test-24189112-1485-4ced-a324-fb019d0fbba9.png.710x400.jpg" alt="卧室B">
+                    <span class="name">卧室B</span>
+                  </div>
+                                  <!-- <div>
+                  <img src="//placehold.it/450x338" alt="">
+                  <span class="name">客厅A 18平米 南 落地窗</span>
+                </div> -->
+                <div class="left_fix"></div><div class="left_fix"></div></div>
+            </div>
+            <div class="more">查看更多图片</div>
+          </div>
+        </div>
+                <!-- 对口学校 -->
+                        <!-- 税费计算器、房贷计算器 -->
+        <div class="newwrap">
+                      <div class="calculator" id="calculator">
+  <div class="cal-title" id="calculatorTab">
+    <div class="tax-tab select" data-target="#taxCalculator">
+      <h3 class="title">税费计算器</h3>
+    </div>
+    <div class="loan-tab title" data-target="#loanCalculator">房贷计算器</div>
+    <p class="calculatorTabpropmt">税费、房贷信息仅供参考，具体金额请以实际发生为准。</p>
+  </div>
+  <div class="tax" id="taxCalculator">
+    <div class="option">
+      <div class="row">
+        <label for="">住宅类型：</label>
+        <div class="content select-content">
+          <span class="itemName">普通住宅</span>
+          <span class="arrow"></span>
+          <ul>
+            <li>普通住宅</li>
+            <li>非普通住宅</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">卖房家庭唯一：</label>
+        <div class="content select-content">
+          <span class="itemName">唯一</span>
+          <span class="arrow"></span>
+          <ul>
+            <li>唯一</li>
+            <li>不唯一</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">距上次交易：</label>
+        <div class="content select-content">
+          <span class="itemName">满五年</span>
+          <span class="arrow"></span>
+          <ul>
+            <li>满五年</li>
+            <li>满两年</li>
+            <li>不满两年</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">买房家庭首套：</label>
+        <div class="content select-content">
+          <span class="itemName">首套</span>
+          <span class="arrow"></span>
+          <ul>
+            <li>首套</li>
+            <li>二套</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">计征方式：</label>
+        <div class="content select-content">
+          <span class="itemName">总价</span>
+          <span class="arrow"></span>
+          <ul>
+            <li>总价</li>
+            <li>差价</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">房屋面积：</label>
+        <div class="content bord"><input type="text"><span class="unit">平方米</span></div>
+      </div>
+      <div class="row">
+        <label for="">房屋总价：</label>
+        <div class="content bord"><input type="text"><span class="unit">万元</span></div>
+      </div>
+      <div class="row" style="display:none;">
+        <label for="">买卖差价：</label>
+        <div class="content bord"><input type="text"><span class="unit">万元</span></div>
+      </div>
+      <div class="row btn"><button>开始计算</button></div>
+    </div>
+     <div class="tax-right">
+       <div class="result">
+         <div class="total">
+           <span class="name">合计</span>
+           <span class="value" id="totalTax">2545452.71</span>
+           <span class="unit">元</span>
+         </div>
+         <div class="item">
+           <span class="name">契税：</span>
+           <span class="value" id="deedTax">132451</span>
+           <span class="unit">元</span>
+         </div>
+         <div class="item">
+           <span class="name">增值税：</span>
+           <span class="value" id="businessTax">132451</span>
+           <span class="unit">元</span>
+         </div>
+         <div class="item">
+           <span class="name">个税：</span>
+           <span class="value" id="incomeTax">132451</span>
+           <span class="unit">元</span>
+         </div>
+       </div>
+       <div class="pie" id="taxPie"></div>
+     </div>
+  </div>
+  <div class="loan" id="loanCalculator">
+    <div class="option">
+      <div class="row">
+        <label for="">贷款类型：</label>
+        <div class="content select-content">
+          <span class="itemName"></span>
+          <span class="arrow"></span>
+          <ul>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">贷款金额：</label>
+        <div class="content select select-content">
+          <span class="itemName"></span>
+          <span class="arrow"></span>
+          <ul>
+          </ul>
+        </div>
+        <div class="input bord">
+          <input type="text" class="mixInput">
+          <span>万元</span>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">贷款期限：</label>
+        <div class="content select-content">
+          <span class="itemName"></span>
+          <span class="arrow"></span>
+          <ul>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">商贷年利率：</label>
+        <div class="content select select-content">
+          <span class="itemName"></span>
+          <span class="arrow"></span>
+          <ul>
+          </ul>
+        </div>
+        <div class="input bord">
+          <input type="text" class="mixInput">
+          <span>%</span>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">公积金利率：</label>
+        <div class="content select select-content">
+          <span class="itemName"></span>
+          <span class="arrow"></span>
+          <ul>
+          </ul>
+        </div>
+        <div class="input">
+          <input type="text" class="mixInput">
+          <span>%</span>
+        </div>
+      </div>
+      <div class="row">
+        <label for="">商业贷款金额：</label>
+        <div class="content"><input type="text"><span class="unit">万元</span></div>
+      </div>
+      <div class="row">
+        <label for="">公积金贷款金额：</label>
+        <div class="content"><input type="text"><span class="unit">万元</span></div>
+      </div>
+      <div class="row btn"><button>开始计算</button></div>
+    </div>
+    <div class="loan-right">
+      <div class="sm-title" id="sm-title">
+        <span class="fl sm-select" data-target="#interestbox">等额本息还款</span>
+        <span class="fr" data-target="#capitalbox">等额本金还款</span>
+      </div>
+      <div class="interest" id="interestbox">
+        <div class="item">
+          <span class="name">月供：</span>
+          <span class="value repayment" id=""></span>
+          <span class="unit">元</span>
+          <div class="des"></div>
+        </div>
+        <div class="item">
+          <span class="name">还款月数：</span>
+          <span class="value monthNum" id="">360</span>
+          <span class="unit">月</span>
+        </div>
+        <div class="item">
+          <span class="name">总利息：</span>
+          <span class="value totalInterest" id=""></span>
+          <span class="unit">元</span>
+
+        </div>
+        <div class="item">
+          <span class="name">本息合计：</span>
+          <span class="value totalMoney" id=""></span>
+          <span class="unit">元</span>
+        </div>
+      </div>
+      <div class="capital" id="capitalbox">
+        <div class="item">
+          <span class="name">月供：</span>
+          <span class="value repayment" id=""></span>
+          <span class="unit">元</span>
+          <div class="des"><div>首月后每月递减<span id="decrease">12.50</span>元</div></div>
+        </div>
+        <div class="item">
+          <span class="name">还款月数：</span>
+          <span class="value monthNum" id=""></span>
+          <span class="unit">月</span>
+        </div>
+        <div class="item">
+          <span class="name">总利息：</span>
+          <span class="value totalInterest" id=""></span>
+          <span class="unit">元</span>
+        </div>
+        <div class="item">
+          <span class="name">本息合计：</span>
+          <span class="value totalMoney" id=""></span>
+          <span class="unit">元</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+                  </div>
+                <!-- 看房记录 -->
+        <div class="newwrap">
+          <div class="record" id="record">
+            <div class="list">
+              <div class="title">看房记录
+                  <span class="next disable"><i></i></span>
+                  <span class="pre disable"><i></i></span>
+              </div>
+              <div class="content">
+                <div class="record-header">
+                  <div class="item mytime">带看时间</div>
+                  <div class="item myname">带看经纪人</div>
+                  <div class="item mytotal">本房总带看</div>
+                  <div class="phone" style="margin-left:12px;">咨询电话</div>
+                </div>
+                <div class="row"><span class="noData">暂无看房记录</span></div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-title">近7天带看次数</div>
+              <div class="count">0</div>
+              <div class="totalCount">- 30日带看<span>0</span>次 -</div>
+              <!-- <div class="msyy">马上预约看房</div> -->
+            </div>
+          </div>
+        </div>
+        <!-- 价格变动 -->
+        <div class="newwrap">
+          <div class="priceChange">
+            <div class="pchangeheader">
+              <span class="title">价格变动</span>
+              <span class="subTitle">当前房源共有过<span></span>条价格记录</span>
+              <span class="btn">
+                <span class="pre disable"><i></i></span>
+                <span class="next disable"><i></i></span>
+              </span>
+            </div>
+            <div class="container" id="priceChangeBar">
+              <ul></ul>
+              <!-- <div class="boxp blue">
+                <div class="inin">
+                  <span class="pricename">挂牌价</span><br>
+                  <span class="pricevalue">2500万</span>
+                </div>
+              </div>
+              <div class="boxp red"></div>
+              <div class="boxp green"></div> -->
+            </div>
+          </div>
+        </div>
+        <div id="resblockCardContainer" ></div>
+        <div id="resblockBannerContainer"></div>
+        <!-- 小区成交价格 -->
+        <div class="newwrap" id="dealPrice">
+          <div class="dealPrice">
+            <div class="priceheader">
+              <div class="title">小区成交价格</div>
+              <div class="des">
+                <div class="from"><i></i>数据来源：成交系统数据统计</div>
+                <div class="update"><i></i>更新日期：<span id="dealDataUpdateTime"></span></div>
+              </div>
+            </div>
+            <div class="averagePriceContainer">
+              <div class="averagePriceCharts" style="height: 300px;"></div>
+              <ol class="averagePriceTabs">
+                <li class="on" data-type="total">全部</li>
+                <li data-type="1_bed">一居</li>
+                <li data-type="2_bed">二居</li>
+                <li data-type="3_bed">三居</li>
+                <li data-type="other">其他</li>
+              </ol>
+            </div>
+          </div>
+          <!-- 同小区成交记录 -->
+          <div class="dealRecord" style="margin-top:35px;">
+            <div class="title">
+              <span class="resblockDeal" data-target="#resblockDeal">同小区成交记录</span>
+              <span class="bizcircleDeal" data-target="#bizcircleDeal">同商圈成交记录</span>
+            </div>
+            <div id="bizcircleDeal">
+            </div>
+            <div id="resblockDeal">
+              <div class="noData">暂无成交记录</div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <div class="box-r">
+        <div class="agbox">
+          <div class="myAgent hide-cart" log-mod="ershoufang_detail_diamond-many">
+            <div class="topinfor clear">
+              <span class="fl">联系经纪人</span>
+              <span class="fr LOGCLICK" id="changeAgentBtn" data-log_id="20001" data-bl="switch"><span class="change"></span>换一换</span>
+            </div>
+            <div id="diamondAgent"></div>
+            <div class="myfollow myfollowcss followbtn">关注房源</div>
+            <div class="mycartcss add-to-cart" data-lj_dianji="10047">预约看房</div>
+            <div class="mycartcss move-from-cart hide" data-lj_dianji="10049">已加入待看</div>
+                        <div class="compareFixBtn LOGCLICK" log-mod="107100328528" data-bl="right_bottom" data-log_evtid="10231">
+              <span class="compareIcon"></span>
+              <span class="compareText">加入对比</span>
+            </div>
+                        <div class="myline"></div>
+            <!-- <div class="looknum"><span id="haslook"></span></div> -->
+            <!-- <div class="addyuyue">加入预约带看</div> -->
+          </div>
+        </div>
+    </div>
+</div>
+<!-- 周边配套 -->
+<div class="around" id="around">
+  <h2 class="aroundTitle">周边配套</h2>
+  <div class="aroundContainer">
+    <div class="aroundMap" id="map">
+    </div>
+    <div class="tabBox">
+      <ul class="aroundType">
+        <li class="LOGCLICK" data-log_evtid='10242'  data-bl="traffic" data-key="地铁站,公交站" data-index="subway,bus" data-length="10,10">交通</li>
+        <li class="LOGCLICK" data-log_evtid='10242'  data-bl="education" data-key="幼儿园,小学,中学,大学"
+            data-index="kindergarten,primary-school,middle-school,University"
+            data-length="10,10,10,10"
+        >教育</li>
+        <li class="LOGCLICK" data-log_evtid='10242'  data-bl="medical" data-key="医院,药店" data-index="hospital,pharmacy" data-length="10,10">医疗</li>
+        <li class="LOGCLICK" data-log_evtid='10242'  data-bl="shopping" data-key="商场,超市,市场" data-index="mall,supermarket,market" data-length="10,10,10">购物</li>
+        <li class="LOGCLICK" data-log_evtid='10242'  data-bl="life" data-key="银行,ATM,餐厅,咖啡馆" data-index="bank,atm,restaurant,coffee" data-length="10,10,10,10">生活</li>
+        <li class="LOGCLICK" data-log_evtid='10242'  data-bl="entertainment" data-key="公园,电影院,健身房,体育馆" data-index="park,cinema,gym,sport" data-length="10,10,10,10">娱乐</li>
+      </ul>
+      <div class="itemTagBox"></div>
+      <div class="aroundList" id="mapListContainer"></div>
+      <div class="loading">
+        <img src="https://s1.ljcdn.com/feroot/pc/asset/ershoufang/sellDetail/img/loading.gif?_v=20180926210301" class="loadingImg">
+        <span class="loadingText">努力加载中...</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="agentCredentialsPop">
+  <div class="pop-close"></div>
+  <img src="http://image1.ljcdn.com/ehr-personnel/20180822155730058OYNNTWWY.jpg!m_original,lg_north_west,lx_0,ly_0,l_rorate_logo,f_jpg,ls_70" alt="">
+</div> -->
+
+
+
+<div id="pushContainer" log-mod="ershoufang_detail_recommend-ershoufang" class="LOGVIEWDATA"></div>
+<div id="pushXinfang"></div>
+<div class="promise">
+  <div class="item zhen">
+    <a href="//www.lianjia.com/zhuanti/index">
+      <i></i>
+      <div class="text">
+        <div class="title">真实房源</div>
+        <div class="sub">真房源&nbsp;假一赔百元</div>
+      </div>
+    </a>
+  </div>
+  <div class="item jianguan">
+    <a href="//nj.lianjia.com/baike/285.html">
+      <i></i>
+      <div class="text">
+        <div class="title">交易资金监管</div>
+        <div class="sub">保障交易安全</div>
+      </div>
+    </a>
+  </div>
+  <div class="item huigou">
+    <a href="//www.lianjia.com/zhuanti/detail02">
+    <i></i>
+    <div class="text">
+      <div class="title">最高原价回购</div>
+      <div class="sub">辐射/凶宅</div>
+    </div>
+    </a>
+  </div>
+  <div class="item dianfu">
+    <a href="//www.lianjia.com/zhuanti/detail04">
+    <i></i>
+    <div class="text">
+      <div class="title">损失先行垫付</div>
+      <div class="sub">物业欠费/签前查封</div>
+    </div>
+    </a>
+  </div>
+  <span class="justify_fix"></span>
+</div>
+
+<div class="m-yezhu"><div class="wrap"><div class="hd">我有房子要卖</div><ul><li class="item-gujia"><div class="marsk"></div><div class="tit">不知道如何定价</div><div class="sub-tit">每天超过30000次估价请求量</div><a href="/yezhu/gujia/" class="btn-link" target="_blank">我要估价&nbsp;&gt;</a></li><li class="item-maifang"><div class="marsk"></div><div class="tit">把房源委托给链家</div><div class="sub-tit">10万+专业经纪人·8000+链家门店</div><a href="/yezhu/maifang/" class="btn-link" target="_blank">发布房源&nbsp;&gt;</a></li><li class="item-xiazai"><div class="marsk"></div><div class="tit">已有房源在链家销售</div><div class="sub-tit">去链家APP业主中心管理委托</div><span href="javascript:;" class="btn-link btn-app"><span>去APP管理委托&nbsp;&gt;</span><span class="layer-qrcode"><span class="icon-qrcode"></span><span class="txt">去链家APP提升卖房速度</span><span class="sub-txt">APP·移动卖房新体验</span></span></span></li></ul></div></div>
+<div class="layoutpicbg"></div>
+<div class="layoutpic">
+  <img src="" alt="" class="pic-img fl"> <span class="closepic">×</span>
+  <div class="fr list">
+    <div class="title">
+      <b>户型分间</b>
+                        </div>
+    <div class="lists">
+      <ul id="layoutList">
+                              <li>
+              <span class="col-1">客厅</span>
+              <span class="col-2">15.76平米</span>
+              <span class="col-3">无</span>
+              <span class="col-4">无窗</span>
+            </li>
+                      <li>
+              <span class="col-1">卧室A</span>
+              <span class="col-2">8.96平米</span>
+              <span class="col-3">南</span>
+              <span class="col-4">普通窗</span>
+            </li>
+                      <li>
+              <span class="col-1">卧室B</span>
+              <span class="col-2">13.03平米</span>
+              <span class="col-3">南</span>
+              <span class="col-4">普通窗</span>
+            </li>
+                      <li>
+              <span class="col-1">卫生间</span>
+              <span class="col-2">3.82平米</span>
+              <span class="col-3">西</span>
+              <span class="col-4">普通窗</span>
+            </li>
+                      <li>
+              <span class="col-1">阳台</span>
+              <span class="col-2">3.71平米</span>
+              <span class="col-3">南 西</span>
+              <span class="col-4">普通窗</span>
+            </li>
+                        </ul>
+    </div>
+    <!--       <div class="agent-tips">
+        <div class="fl">
+          <div>
+            <a class="name" href="https://dianpu.lianjia.com/1000000022156814" target="_blank">刘小娟</a><span class="tag">/户型顾问</span>
+            <a class="lianjiaim-createtalkAll new-talk" style="display: none;" title="在线咨询" data-ucid="1000000022156814">
+              <span class="im-icon"></span>
+            </a>
+          </div>
+            <p>4008772335转27132</p>
+        </div>
+        <div class="fr"><a class="name" href="https://dianpu.lianjia.com/1000000022156814" target="_blank"><img src="https://image1.ljcdn.com/usercenter/images/uc_ehr_avatar/b739bab3-d070-44ba-ac86-8e0307f6c018.jpg.40x40.jpg" alt="刘小娟"></a></div>
+      </div>
+     -->
+  </div>
+</div>
+<div class="bigImg">
+  <div class="mask"></div>
+  <div class="list">
+    <img src="" alt="">
+    <div class="loading"></div>
+    <div class="pre"><span></span></div>
+    <div class="next"><span></span></div>
+  </div>
+  <div class="close"></div>
+  <div class="slide">
+    <div class="desc"></div>
+    <ul>
+              <li data-src="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.710x400.jpg" data-desc="客厅 1/5">
+          <img src="https://image1.ljcdn.com/310000-inspection/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.710x400.jpg" alt="">
+        </li>
+              <li data-src="https://image1.ljcdn.com/310000-inspection/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.710x400.jpg" data-desc="客厅 2/5">
+          <img src="https://image1.ljcdn.com/310000-inspection/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.710x400.jpg" alt="">
+        </li>
+              <li data-src="https://image1.ljcdn.com/310000-inspection/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.710x400.jpg" data-desc="卧室A 3/5">
+          <img src="https://image1.ljcdn.com/310000-inspection/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.710x400.jpg" alt="">
+        </li>
+              <li data-src="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.533x400.jpg" data-desc="户型图 4/5">
+          <img src="https://image1.ljcdn.com/x-se/hdic-frame/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.533x400.jpg" alt="">
+        </li>
+              <li data-src="https://image1.ljcdn.com/310000-inspection/test-24189112-1485-4ced-a324-fb019d0fbba9.png.710x400.jpg" data-desc="卧室B 5/5">
+          <img src="https://image1.ljcdn.com/310000-inspection/test-24189112-1485-4ced-a324-fb019d0fbba9.png.710x400.jpg" alt="">
+        </li>
+            <!-- <li data-src="//image2.ljcdn.com/appro/group2/M00/B7/AA/rBAF7FX6sUqAeuhGAADSk3x5cr4639.jpg.1024x768.jpg" data-desc="客厅1"><img src="//image2.ljcdn.com/appro/group2/M00/B7/AA/rBAF7FX6sUqAeuhGAADSk3x5cr4639.jpg.89x67.jpg" alt="客厅1"></li> -->
+    </ul>
+  </div>
+</div>
+<div class="shareBackground">
+  <div class="shareDialog">
+    <div class="shareCloseBtn"></div>
+    <div class="shareToWeixin">
+            <img class="shareWeixinImg" src="/verifycode/gethouseqr?hid=107100328528" alt="房源二维码">
+      
+      <div class="shareWeixinText1">微信“扫一扫”</div>
+      <div class="shareWeixinText2">分享好友</div>
+    </div>
+    <div class="shareLine"></div>
+    <div class="shareWeibo">
+      <a class="jiathis_button_tsina"><i class="xinlang"></i></a>
+      <div class="weiboText">点击分享到微博</div>
+    </div>
+  </div>
+</div>
+
+<script type="text/template" id="seeRecordList">
+    <div class="title">看房记录</div>
+    <div class="content">
+      <div class="record-header">
+        <div class="item mytime">带看时间</div>
+        <div class="item myname">带看经纪人</div>
+        <div class="item mytotal">本房总带看</div>
+        <div class="phone" style="margin-left:12px;">咨询电话</div>
+      </div>
+      <%if(list.length != 0){%>
+        <%for(var i = 0;i < list.length;i++){%>
+          <%if(list[i].agentId){%>
+          <%if(agent[list[i].agentId].agent_information_card === undefined || agent[list[i].agentId].agent_information_card){%>
+            <div class="row">
+              <div class="item mytime"><%=list[i].seeTime%></div>
+              <div class="item agentName myname">
+              <%if(agent[list[i].agentId]){%>
+                <a class="agent-icon" target="_blank" href="<%=agent[list[i].agentId].agent_url%>">
+                  <img src="<%=agent[list[i].agentId].agent_photo?agent[list[i].agentId].agent_photo+'.37x37.jpg':defaultBrokerIcon%>" alt="">
+                  <span><%=agent[list[i].agentId].agentName%></span>
+                </a>
+                <%if(agent[list[i].agentId].appid != '2' && agent[list[i].agentId].appid != '104') {%>
+                    <div class="dy no_f">
+                        <span class="dy_tag" style="color:#9399a5 !important;background-color:#eff0f2"><%=agent[list[i].agentId].company_name%></span>
+                        <%if(agent[list[i].agentId].appid === '3' || agent[list[i].agentId].appid === '105') {%>
+                            <i class="xiaowenhao" style="top:3px;"></i><b class="dy_desc">德佑地产是链家集团旗下品牌，致力于为消费者提供个性化的房产服务。</b>
+                        <%}%>
+                    </div>
+                <%}%>
+                <%if (agent[list[i].agentId].agent_information_card){%>
+                <div class="agentCredentials agent_information_card" data-card_info="<%=agent[list[i].agentId].agent_information_card%>"></div>
+                <%}%>
+                  <%if(agent[list[i].agentId].isValid == 1){%><a class="lianjiaim-createtalk im-talk LOGCLICKDATA" style="display: none;" title="在线咨询" data-ucid="<%=list[i].agentId%>" data-source-port="PC:ershou_ershoufang_kanfangjilu" data-lj_evtid="11048" data-lj_action_type="Display_Record" data-lj_action_resblock_id="<%=houseCode.resblockId%>" data-lj_action_housedel_id="<%=houseCode.houseCode.house_code%>" data-lj_action_ucid="<%=list[i].agentId%>" data-source-extends=<%=JSON.stringify(houseCode.houseCode)%>></a><%}%>
+                </div>
+                <div class="item mytotal"><%=list[i].seeCnt%>次</div>
+                <div class="phone"><%=agent[list[i].agentId].agent_phone%></div>
+              <%}else{%>
+
+              <%}%>
+
+            </div>
+          <%}%>
+          <%}%>
+        <%}%>
+      <%}else{%>
+        <div class="row"><span class="noData">暂无看房记录</span></div>
+      <%}%>
+    </div>
+    <%if(totalPage > 1){%>
+        <div class="pagination">
+          <span class="pre <%if(currentPage == 1){%>disable<%}%>"><</span>
+          <span class="next <%if(currentPage == totalPage){%>disable<%}%>">></span>
+        </div>
+    <%}%>
+</script>
+<script type="text/template" id="seeRecordPanel">
+    <div class="panel-title">近7天带看次数</div>
+    <div class="count"><%=thisWeek%></div>
+    <div class="totalCount">- 30日带看<span><%=totalCnt%></span>次 -</div>
+</script>
+<script type="text/tempalte" id="dealRecordTpl">
+    <div class="title">
+      <span class="resblockDeal select" data-target="#resblockDeal">同小区成交记录</span>
+      <span class="bizcircleDeal" data-target="#bizcircleDeal">同商圈成交记录</span>
+    </div>
+    <div class="bizcircleDeal" id="bizcircleDeal">
+        <%if(bizcircleSold.length != 0){%>
+          <div class="tableHeader">
+            <div class="house">房屋户型</div>
+            <div class="area">面积</div>
+            <div class="date">签约日期</div>
+            <div class="price">成交价</div>
+            <div class="unitPrice">成交单价</div>
+            <div class="from"><span style="display:inline-block;margin-right:8px;">数据来源<div></div>
+          </div>
+          <%for(var i = 0;i<bizcircleSold.length;i++){%>
+          <div class="row">
+            <div class="house">
+              <a <%if(bizcircleSold[i].isDisplay){%>href="<%=bizcircleSold[i].viewUrl%>"<%}%>><img src="<%=bizcircleSold[i].pic_url?bizcircleSold[i].pic_url+'.56x56.jpg':defaultImg%>" alt=""></a>
+              <div class="desc">
+                <div class="frame"><a <%if(bizcircleSold[i].isDisplay){%> href="<%=bizcircleSold[i].viewUrl%>" <%}%> ><%=bizcircleSold[i].title%></a></div>
+                <div class="floor"><%=bizcircleSold[i].floor%>/<%=bizcircleSold[i].totalFloor%>层 <%=bizcircleSold[i].orientation%> <%=bizcircleSold[i].decoration%></div>
+                <a href="<%=bizcircleSold[i].resblockUrl%>" class="address"><%=bizcircleSold[i].resblockName%></a>
+              </div>
+            </div>
+            <div class="area"><%=bizcircleSold[i].area%>㎡</div>
+            <div class="date"><%=bizcircleSold[i].transDate%></div>
+            <div class="price"><%=parseInt(bizcircleSold[i].price) ? bizcircleSold[i].price + '万' : '暂无'%></div>
+            <div class="unitPrice"><%=parseInt(bizcircleSold[i].unitPrice) ? bizcircleSold[i].unitPrice + '元/平米' : '暂无'%></div>
+            <div class="from"><%=bizcircleSold[i].signSourceCn%></div>
+          </div>
+          <%}%>
+          <%if(bizcircleSoldCnt>5){%>
+          <a href="<%=bizcircleSoldUrl%>" class="more">查看全部<%=bizcircleSoldCnt%>条成交信息</a>
+          <%}%>
+        <%}else{%>
+          <div class="noData">暂无成交记录</div>
+        <%}%>
+    </div>
+    <div id="resblockDeal">
+        <%if(resblockSold.length != 0 && bizcircleSold.length != 0){%>
+          <div class="tableHeader">
+            <div class="house">房屋户型</div>
+            <div class="area">面积</div>
+            <div class="date">签约日期</div>
+            <div class="price">成交价</div>
+            <div class="unitPrice">成交单价</div>
+            <div class="from"><span style="display:inline-block;margin-right:8px;">数据来源<span></div>
+          </div>
+          <%for(var i = 0;i<resblockSold.length;i++){%>
+          <div class="row">
+            <div class="house">
+              <a <%if(resblockSold[i].isDisplay){%>href="<%=resblockSold[i].viewUrl%>"<%}%> ><img src="<%=resblockSold[i].pic_url?resblockSold[i].pic_url+'.56x56.jpg':defaultImg%>" alt=""></a>
+              <div class="desc">
+                <div class="frame">
+                  <a <%if(resblockSold[i].isDisplay){%> href="<%=resblockSold[i].viewUrl%>" <%}%>><%=resblockSold[i].title%></a>
+                  <%if(resblockSold[i].tag === 1){%>
+                    <span class="same">同户型</span>
+                  <%}else if(resblockSold[i].tag === 2){%>
+                    <span class="diff">反户型</span>
+                  <%}%>
+                </div>
+                <div class="floor"><%=resblockSold[i].floor%>/<%=resblockSold[i].totalFloor%>层 <%=resblockSold[i].orientation%> <%=resblockSold[i].decoration%></div>
+                <a class="address" href="<%=resblockSold[i].resblockUrl%>"><%=resblockSold[i].resblockName%></a>
+              </div>
+            </div>
+            <div class="area"><%=resblockSold[i].area%>㎡</div>
+            <div class="date"><%=resblockSold[i].transDate%></div>
+            <div class="price"><%=parseInt(resblockSold[i].price) ? resblockSold[i].price + '万' : '暂无'%></div>
+            <div class="unitPrice"><%=parseInt(resblockSold[i].unitPrice) ? resblockSold[i].unitPrice + '元/平米' : '暂无'%></div>
+            <div class="from"><%=resblockSold[i].signSourceCn%></div>
+          </div>
+          <%}%>
+          <%if(resblockSoldCnt>5){%>
+          <a href="<%=resblockSoldUrl%>" class="more">查看全部<%=resblockSoldCnt%>条成交信息</a>
+          <%}%>
+        <%}else{%>
+          <div class="noData">暂无成交记录</div>
+        <%}%>
+    </div>
+</script>
+<script type="text/template" id="prichangeTpl"></script>
+<script type="text/template" id="brokerTpl">
+    <div class="broheader">
+      <span class="title">联系经纪人</span>
+      <span class="subTitle">您可以通过拨打电话或在线咨询的方式联系经纪人</span>
+      <%if(totalPage > 1){%>
+      <span class="btn">
+        <span class="pre <%if(currentPage == 1){%>disable<%}else{%>LOGCLICK<%}%>" data-log_id="20001" data-bl="switch"><i></i></span>
+        <span class="next <%if(currentPage == totalPage){%>disable<%}else{%>LOGCLICK<%}%>" data-log_id="20001" data-bl="switch"><i></i></span>
+      </span>
+      <%}%>
+    </div>
+    <ul>
+      <%for(var i = 0;i < list.length;i++){%>
+      <li>
+        <a target="_blank" href="<%=agent[list[i]].agent_url%>"><img src="<%=agent[list[i]].agent_photo?agent[list[i]].agent_photo+'.60x80.jpg':defaultBrokerIcon%>" alt="" class="LOGVIEW LOGCLICK" data-log_id="20001" data-bl="agent" data-el="<%=list[i]%>" data-log_index="<%=i+1%>"></a>
+        <div class="desc">
+          <div class="brotitle">
+            <a target="_blank" href="<%=agent[list[i]].agent_url%>" class="name LOGCLICK" data-log_id="20001" data-bl="agent" data-el="<%=list[i]%>" data-log_index="<%=i+1%>"><%=agent[list[i]].agentName%></a>
+            <a class="lianjiaim-createtalkAll new-talks im-talk LOGCLICK" style="display: none;" title="在线咨询" data-ucid="<%=list[i]%>" data-log_id="20001" data-bl="agentim" data-el="<%=list[i]%>" data-log_index="<%=i+1%>"></a>
+            <div class="rate">
+              <%if(agent[list[i]].commentCount > 0){%>
+                评分:<%=agent[list[i]].totalCommentScore%>/<a href="<%=agent[list[i]].agent_url%>/?w=pingjia"><%=agent[list[i]].commentCount%>人评价 </a>
+              <%}else{%>
+                暂无评价
+              <%}%>
+            </div>
+            <div class="describes"><%=agent[list[i]].reason%></div>
+          </div>
+          <div class="phone"><%=agent[list[i]].agent_phone%></div>
+        </div>
+      </li>
+      <%}%>
+      <li class="fix_align"></li>
+      <li class="fix_align"></li>
+      <li class="fix_align"></li>
+    </ul>
+</script>
+<script type="text/template" id="pushTpl">
+  <div class="push">
+    <h3 class="pushheader">好房为你推荐</h3>
+    <ul class="pushList">
+    <%for(var i = 0;i < list.length && i < 8;i++){%>
+      <li class="pushListItem">
+        <div class="pic"><a target="_blank" href="<%=list[i].viewUrl%>" class="LOGVIEW LOGCLICK LOGVIEWDATA LOGCLICKDATA xiangqingRecommendList" data-bl="list" data-log_index="<%=i+1%>" data-log_id="30001" data-lj_view_evtid="10878" data-lj_evtid="10879" data-lj_action_location="<%=i%>" data-lj_action_house_code="<%=list[i].houseCode%>" data-lj_action_strategy_id="<%=list[i].strategy_id||'default'%>" data-lj_action_recommend_module="pc_ershou_xiangqing" data-lj_action_fb_service_id="<%=list[i].strategy_info.fb_service_id%>" data-lj_action_fb_context_id='<%=list[i].strategy_info.fb_context_id%>' data-lj_action_fb_expo_id="<%=list[i].strategy_info.fb_expo_id%>" data-lj_action_fb_strategy_id="<%=list[i].strategy_info.fb_strategy_id%>" data-lj_action_fb_item_type="<%=list[i].strategy_info.fb_item_type%>" data-lj_action_fb_item_detail="<%=list[i].strategy_info.fb_item_detail%>" data-lj_action_fb_item_location="<%=list[i].strategy_info.fb_item_location%>" data-lj_action_fb_ab_test_flag="<%=list[i].strategy_info.fb_ab_test_flag%>" data-lj_action_fb_response_ts="<%=list[i].strategy_info.fb_response_ts%>" data-lj_action_fb_query_id="<%=list[i].strategy_info.fb_query_id%>"><img class='new-default-icon' src="<%=list[i].picture?list[i].picture+'.280x210.jpg':defaultImg%>" alt="<%=list[i].resblockName%>"></a><span><%=list[i].price%>万</span></div>
+        <div class="htitle">
+          <span class="name"><a target="_blank" href="<%=list[i].viewUrl%>"><%=list[i].resblockName%></a></span>
+          <span class="info"><%=list[i].jushi%>/<%=list[i].area%>平米</span>
+        </div>
+        <div class="desc"><%=list[i].desc%></div>
+      </li>
+    <%}%>
+    </ul>
+  </div>
+</script>
+<script type='text/template' id="mapListTpl">
+    <!-- <div class="name"><%=keyword%></div> -->
+    <ul class="itemBox">
+      <%for(var i = 0;i < list.length;i++){%>
+        <li data-index="<%=i%>">
+          <div class="itemText">
+            <span class="itemTitle"><%=list[i].title%></span>
+            <span class="itemdistance"><%=list[i].distance%></span>
+            <span class="itemTime"><%=list[i].time%></span>
+          </div>
+          <div class="itemInfo"><%=list[i].address%></div>
+        </li>
+      <%}%>
+    </ul>
+</script>
+<script type='text/template' id="diamondAgentTpl">
+    <%if(agentArr.length === 0){%>
+      <div class="noData">暂无相关经纪人，请直接联系客服  10109666</div>
+    <%}else{%>
+      <%for(var i = 0; i < agentArr.length; i++){%>
+        <div class="brokerInfoFixed">
+          <a target="_blank" data-log_id="20001" data-bl="agent" data-el="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-log_index="<%=i+1%>" class="agent_item_url LOGCLICK" href="<%=agentInfo[agentArr[i]].agent_url%>"><img class="agent-icon" src="<%=agentInfo[agentArr[i]].photo_url ? agentInfo[agentArr[i]].photo_url + '.45x60.jpg' : defaultImg%>" alt=""></a>
+          <div class="brokerInfoText">
+            <div class="brokerName">
+              <a target="_blank"  data-log_id="20001" data-bl="agent" data-el="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-log_index="<%=i+1%>" href="<%=agentInfo[agentArr[i]].agent_url%>" class="name LOGVIEW LOGCLICK"><%=agentInfo[agentArr[i]].name%></a>
+              <%if (agentInfo[agentArr[i]].agent_information_card){%>
+              <div class="agentCredentials agent_information_card" data-card_info="<%=agentInfo[agentArr[i]].agent_information_card%>"></div>
+              <%}%>
+              <!-- <%if(agentInfo[agentArr[i]].appid == '2' || agentInfo[agentArr[i]].appid == '104') {%>
+                <div class="dy no_f"><span class="dy_tag lj_tag" style="display:none">链家</span></div>
+                <%}
+                else if (agentInfo[agentArr[i]].appid == '6' || agentInfo[agentArr[i]].appid == '201'){%>
+                  <div class="dy no_f" style="color:black;font-size: 12px;padding-left:10px;"><%=agentInfo[agentArr[i]].company_name%></div>
+                <%}
+                else if(agentInfo[agentArr[i]].appid == '3' || agentInfo[agentArr[i]].appid == '105') {%>
+                 <div class="dy no_f"><span class="dy_tag" style="color:#9399a5 !important;background-color:#eff0f2">德佑</span><i class="xiaowenhao"></i><b class="dy_desc">德佑地产是链家集团旗下品牌，致力于为消费者提供个性化的房产服务。</b></div>
+              <%}%> -->
+              <span class="tag first" >
+                <%if(agentInfo[agentArr[i]].appid == '2' || agentInfo[agentArr[i]].appid == '104') {%>
+                <%if(agentInfo[agentArr[i]].commentCount > 0){%>
+                评分:<%=agentInfo[agentArr[i]].totalCommentScore%>/<a href="<%=agentInfo[agentArr[i]].agent_url%>/?w=pingjia"><%=agentInfo[agentArr[i]].commentCount%>人评价 </a>
+                <%}else{%>
+                暂无评价
+                <%}%>
+                <%}else if(agentInfo[agentArr[i]].appid == '3' || agentInfo[agentArr[i]].appid == '105') {%>
+                链家旗下德佑品牌经纪人
+                <!--<div class="dy no_f"><span class="dy_tag" style="color:#9399a5 !important;background-color:#eff0f2">德佑</span><i class="xiaowenhao"></i><b class="dy_desc">德佑地产是链家集团旗下品牌，致力于为消费者提供个性化的房产服务。</b></div>-->
+                <%}%>
+              </span>
+            </div>
+            <div class="evaluate"><%=agentInfo[agentArr[i]].reason%></div>
+
+            <%if (test_400_hide){%>
+              <div class="phoneCover LOGCLICK" data-log_id="10011" data-bl="test_400_hide" >点击查看电话</div>
+            <%}%>
+            <div class="phone" style="<%if (test_400_hide){%> display:none <%}%>">
+              <%=agentPhone[agentArr[i]].virtual_main_number%>
+              <%=agentPhone[agentArr[i]].virtual_ext_number ? '<span>转</span>' + agentPhone[agentArr[i]].virtual_ext_number : ''%>
+            </div>
+            <div>
+              微信扫码拨号
+
+            </div>
+          </div>
+          <!-- <a class="fixAgent-im-button im-talk LOGCLICK LOGCLICKDATA" title="在线咨询" data-ucid="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-log_id="20001" data-bl="agentim" data-el="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-log_index="<%=i+1%>" data-source-port="PC:ershou_ershoufang_gold" data-lj_evtid="11048" data-lj_action_type="Display_Hover" data-lj_action_resblock_id="<%=resblockId%>" data-lj_action_housedel_id="<%=houseId%>" data-lj_action_ucid="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-source-extends=<%=JSON.stringify(houseCode)%>>
+            <span class="im-icon"></span>沟通
+          </a> -->
+          <span class="agent_chat LOGCLICK LOGCLICKDATA im-talk" data-ucid="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-log_id="20001" data-bl="agentim" data-el="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-log_index="<%=i+1%>" data-source-port="PC:ershou_ershoufang_gold" data-lj_evtid="11048" data-lj_action_type="Display_Hover" data-lj_action_resblock_id="<%=resblockId%>" data-lj_action_housedel_id="<%=houseId%>" data-lj_action_ucid="<%=agentInfo[agentArr[i]].ucid ? agentInfo[agentArr[i]].ucid : ''%>" data-source-extends=<%=JSON.stringify(houseCode)%>>  
+            <i></i>
+            <span>咨询</span>
+          </span>
+        </div>
+      <%}%>
+    <%}%>
+</script>
+<script type='text/template' id="resblockBannerTpl">
+    <%if(resblockCard.hasGonglue && resblockCard.gonglue != ""){%>
+      <div class="newwrap">
+        <div class="resblockBanner clear">
+          <div class="fl">
+            <span class="icon fl"></span>
+            <div class="fl">
+              <span><%=resblockCard.name%>50问</span>
+              <p>关于这个小区你想了解的一切都在这里 － 最后更新：<%=resblockCard.gonglue.mtime%></p>
+            </div>
+          </div>
+          <div class="fr">
+            <a href="<%=resblockCard.gonglue.viewUrl%>" target="_blank">去看看</a>
+          </div>
+        </div>
+      </div>
+    <%}%>
+</script>
+<script type='text/template' id='pushXinfangTpl'>
+  <div class="xinfangPush" log-mod="xinfangRecommand">
+    <h3 class="xinfangPushTitle">同总价新房</h3>
+    <ul class="xinfangPushList" log-mod="ershoufang_detail_newHouseRecommand">
+        <%for (var i = 0; i < list.length && i < 5; i++){%>
+          <li class="xinfangPushItem">
+            <a class="xinfangPushPic LOGVIEW LOGCLICK" href="<%=list[i].view_url%>" data-bl="detail" data-log_id="40001" data-el="<%=strategy_version%>" target="_blank" data-log_index="<%=i+1%>">
+              <%if (list[i].cover_pic) {%>
+                <img class="xinfangPushImg" src="<%=list[i].cover_pic%>.222x167.jpg" alt="<%=list[i].resblock_name%>">
+              <%}else{%>
+                <div class="nullImgstyle"></div>
+              <%}%>
+              <div class="xinfangPushbg"></div>
+              <div class="xinfangPushDescription">
+                <div class="title" title="<%=list[i].district_name%>－<%=list[i].resblock_name%>">
+                  <%=list[i].district_name%>
+                  <% if(list[i].resblock_name && list[i].district_name){%>
+                    －
+                  <%}%>
+                  <%=list[i].resblock_name%>
+                </div>
+                <%if (list[i].house_type) {%>
+                  <div class="type"><span><%=list[i].house_type%></span></div>
+                <%}%>
+              </div>
+            </a>
+            <div class="xinfangPushInfo">
+              <%if (list[i].rooms){%>
+                <p class="xinfangPushArea">
+                  <%=list[i].rooms%>
+                  <%if (list[i].min_frame_area != '' &&  list[i].max_frame_area != ''){%>
+                    - <%=list[i].min_frame_area%>~<%=list[i].max_frame_area%>平
+                  <%}%>
+                </p>
+              <%}%>
+              <p class="xinfangPushPrice">
+                <span class="average">
+                  <%if (list[i].show_price_desc){%>
+                    <%=list[i].show_price_desc%>:
+                  <%}%>
+                  <%if (list[i].show_price && list[i].show_price != 0){%>
+                    <span><%=list[i].show_price%></span>
+                    <%=list[i].show_price_unit%>
+                  <%}else{%>
+                    价格待定
+                  <%}%>
+                </span>
+              </p>
+            </div>
+          </li>
+        <%}%>
+    </ul>
+  </div>
+</script>
+
+<script type='text/template' id='resblockCardTpl'>
+  <div class="newwrap">
+    <div class="xiaoquCard">
+      <div class="xiaoqu_header clear">
+        <h3><span class="fl"><%=resblockCard.name%>简介</span></h3><a class="fr" href="<%=resblockCard.viewUrl%>" target="_blank" data-lj_dianji="10023">查看小区详情</a>
+      </div>
+      <div class="xiaoqu_content clear">
+        <div class="xiaoqu_main fl">
+          <div class="xiaoqu_info">
+            <label class="xiaoqu_main_label">小区均价</label>
+            <span class="xiaoqu_main_info price_red">
+              <%if(resblockCard.unitPrice != 0){%>
+                <%=resblockCard.unitPrice%> 元/㎡
+              <%}else{%>
+                暂无数据
+              <%}%>
+            </span>
+          </div>
+          <%if (resblockCard.hasBuildYear){%>
+            <div class="xiaoqu_info">
+              <label class="xiaoqu_main_label">建筑年代</label>
+              <span class="xiaoqu_main_info"><%=resblockCard.buildYear%></span>
+            </div>
+          <%}%>
+          <div class="xiaoqu_info clear">
+              <label class="xiaoqu_main_label">建筑类型</label>
+              <span class="xiaoqu_main_info"><%=resblockCard.buildType%></span>
+          </div>
+          <div class="xiaoqu_info">
+            <label class="xiaoqu_main_label">楼栋总数</label>
+            <span class="xiaoqu_main_info"><%=resblockCard.buildNum%></span>
+          </div>
+          <div class="xiaoqu_info clear">
+              <label class="xiaoqu_main_label">户型总数</label>
+              <span class="xiaoqu_main_info">
+                <%if(resblockCard.frameNum != "" && resblockCard.frameNum != '0'){%>
+                  <a href="<%=resblockCard.frameUrl%>" target="_blank"><%=resblockCard.frameNum%>个</a>
+                <%}else{%>
+                  暂无数据
+                <%}%>
+              </span>
+          </div>
+          <div class="xiaoqu_info">
+            <label class="xiaoqu_main_label">挂牌房源</label>
+            <span class="xiaoqu_main_info"><a href="<%=resblockCard.sellUrl%>" target="_blank" data-lj_dianji="10024"><%=resblockCard.sellNum%>套在售二手房</a></span>
+            <span class="xiaoqu_main_info"><a href="<%=resblockCard.rentUrl%>" target="_blank" data-lj_dianji="10025"><%=resblockCard.rentNum%>套出租房源</a></span>
+          </div>
+        </div>
+        <a href="<%=resblockCard.viewUrl%>" class="xiaoqu_img fr" data-lj_dianji="10023">
+        <%if(resblockCard.picUrl){%>
+          <img src="<%=resblockCard.picUrl%>.225x170.jpg" alt="<%=resblockCard.name%>">
+        <%}else{%>
+          <span class="no_img">暂无图片</span>
+        <%}%>
+        </a>
+      </div>
+    </div>
+  </div>
+</script>
+
+<div class="footer"><div class="wrapper"><div class="f-title"><div class="fl"><ul><li><a href="https://www.lianjia.com/zhuanti/home/" rel="nofollow" target="_blank">了解链家</a></li><li><a href="https://sh.lianjia.com/about/aboutlianjia/" rel="nofollow" target="_blank">关于链家</a></li><li><a href="https://sh.lianjia.com/about/contactus/" rel="nofollow" target="_blank">联系我们</a></li><li><a href="http://join.lianjia.com/" rel="nofollow" target="_blank">加入我们</a></li><li><a href="https://www.lianjia.com/privacy/" rel="nofollow" target="_blank">隐私声明</a></li><li><a href="https://sh.lianjia.com/sitemap/" target="_blank">网站地图</a></li><li><a href="https://page.lianjia.com/subject/youlian.html" rel="nofollow" target="_blank">友情链接</a></li><li><a href="https://agent.lianjia.com/" rel="nofollow" target="_blank">经纪人登录</a></li></ul></div><div class="fr">官方客服 1010 9666</div></div><div class="lianjia-link-box"><div class="fl"><div class="tab"><span  class="hover">城市二手房</span><span >房产资讯</span><span >城区二手房</span><span >城区租房</span><span >城区小区</span><span >热门小区</span><span >热门问答</span><span >热门百科</span></div><div class="link-list"><div><dd><a target="_blank" href="https://bj.lianjia.com/">北京房产网</a><a target="_blank" href="https://gz.lianjia.com/">广州房产网</a><a target="_blank" href="https://sz.lianjia.com/">深圳房产网</a><a target="_blank" href="https://tj.lianjia.com/">天津房产网</a><a target="_blank" href="https://cd.lianjia.com/">成都房产网</a><a target="_blank" href="https://nj.lianjia.com/">南京房产网</a><a target="_blank" href="https://hz.lianjia.com/">杭州房产网</a><a target="_blank" href="https://qd.lianjia.com/">青岛房产网</a><a target="_blank" href="https://dl.lianjia.com/">大连房产网</a><a target="_blank" href="https://xm.lianjia.com/">厦门房产网</a><a target="_blank" href="https://wh.lianjia.com/">武汉房产网</a><a target="_blank" href="https://cq.lianjia.com/">重庆房产网</a><a target="_blank" href="https://cs.lianjia.com/">长沙房产网</a><a target="_blank" href="https://jn.lianjia.com/">济南房产网</a><a target="_blank" href="https://fs.lianjia.com/">佛山房产网</a><a target="_blank" href="https://dg.lianjia.com/">东莞房产网</a><a target="_blank" href="https://xa.lianjia.com/">西安房产网</a><a target="_blank" href="https://sjz.lianjia.com/">石家庄房产网</a><a target="_blank" href="https://yt.lianjia.com/">烟台房产网</a><a target="_blank" href="https://zs.lianjia.com/">中山房产网</a><a target="_blank" href="https://zh.lianjia.com/">珠海房产网</a><a target="_blank" href="https://hui.lianjia.com/">惠州房产网</a><a target="_blank" href="https://sy.lianjia.com/">沈阳房产网</a><a target="_blank" href="https://hk.lianjia.com/">海口房产网</a><a target="_blank" href="https://wx.lianjia.com/">无锡房产网</a><a target="_blank" href="https://hf.lianjia.com/">合肥房产网</a><a target="_blank" href="https://zz.lianjia.com/">郑州房产网</a></dd></div><div><dd><a target="_blank" href="https://news.lianjia.com/">房产资讯</a><a target="_blank" href="https://news.lianjia.com/bj/">北京房产资讯</a><a target="_blank" href="https://news.lianjia.com/bj/baike/">北京房产百科</a><a target="_blank" href="https://bj.lianjia.com/wenda/">北京房产知识</a><a target="_blank" href="https://news.lianjia.com/gz/">广州房产资讯</a><a target="_blank" href="https://news.lianjia.com/gz/baike/">广州房产百科</a><a target="_blank" href="https://gz.lianjia.com/wenda/">广州房产知识</a><a target="_blank" href="https://news.lianjia.com/sz/">深圳房产资讯</a><a target="_blank" href="https://news.lianjia.com/sz/baike/">深圳房产百科</a><a target="_blank" href="https://sz.lianjia.com/wenda/">深圳房产知识</a><a target="_blank" href="https://news.lianjia.com/tj/">天津房产资讯</a><a target="_blank" href="https://news.lianjia.com/tj/baike/">天津房产百科</a><a target="_blank" href="https://tj.lianjia.com/wenda/">天津房产知识</a><a target="_blank" href="https://news.lianjia.com/cd/">成都房产资讯</a><a target="_blank" href="https://news.lianjia.com/cd/baike/">成都房产百科</a><a target="_blank" href="https://cd.lianjia.com/wenda/">成都房产知识</a><a target="_blank" href="https://news.lianjia.com/nj/">南京房产资讯</a><a target="_blank" href="https://news.lianjia.com/nj/baike/">南京房产百科</a><a target="_blank" href="https://nj.lianjia.com/wenda/">南京房产知识</a><a target="_blank" href="https://news.lianjia.com/hz/">杭州房产资讯</a><a target="_blank" href="https://news.lianjia.com/hz/baike/">杭州房产百科</a><a target="_blank" href="https://hz.lianjia.com/wenda/">杭州房产知识</a><a target="_blank" href="https://news.lianjia.com/qd/">青岛房产资讯</a><a target="_blank" href="https://news.lianjia.com/qd/baike/">青岛房产百科</a><a target="_blank" href="https://qd.lianjia.com/wenda/">青岛房产知识</a><a target="_blank" href="https://news.lianjia.com/dl/">大连房产资讯</a><a target="_blank" href="https://news.lianjia.com/dl/baike/">大连房产百科</a><a target="_blank" href="https://dl.lianjia.com/wenda/">大连房产知识</a><a target="_blank" href="https://news.lianjia.com/xm/">厦门房产资讯</a><a target="_blank" href="https://news.lianjia.com/xm/baike/">厦门房产百科</a><a target="_blank" href="https://news.lianjia.com/wh/">武汉房产资讯</a><a target="_blank" href="https://news.lianjia.com/wh/baike/">武汉房产百科</a><a target="_blank" href="https://news.lianjia.com/cq/">重庆房产资讯</a><a target="_blank" href="https://news.lianjia.com/cq/baike/">重庆房产百科</a><a target="_blank" href="https://cq.lianjia.com/wenda/">重庆房产知识</a><a target="_blank" href="https://news.lianjia.com/cs/">长沙房产资讯</a><a target="_blank" href="https://news.lianjia.com/cs/baike/">长沙房产百科</a><a target="_blank" href="https://cs.lianjia.com/wenda/">长沙房产知识</a><a target="_blank" href="https://news.lianjia.com/jn/">济南房产资讯</a><a target="_blank" href="https://news.lianjia.com/jn/baike/">济南房产百科</a><a target="_blank" href="https://jn.lianjia.com/wenda/">济南房产知识</a><a target="_blank" href="https://news.lianjia.com/fs/">佛山房产资讯</a><a target="_blank" href="https://news.lianjia.com/fs/baike/">佛山房产百科</a><a target="_blank" href="https://fs.lianjia.com/wenda/">佛山房产知识</a><a target="_blank" href="https://news.lianjia.com/dg/">东莞房产资讯</a><a target="_blank" href="https://news.lianjia.com/dg/baike/">东莞房产百科</a><a target="_blank" href="https://dg.lianjia.com/wenda/">东莞房产知识</a><a target="_blank" href="https://news.lianjia.com/xa/">西安房产资讯</a><a target="_blank" href="https://news.lianjia.com/xa/baike/">西安房产百科</a><a target="_blank" href="https://xa.lianjia.com/wenda/">西安房产知识</a><a target="_blank" href="https://news.lianjia.com/sjz/">石家庄房产资讯</a><a target="_blank" href="https://news.lianjia.com/sjz/baike/">石家庄房产百科</a><a target="_blank" href="https://sjz.lianjia.com/wenda/">石家庄房产知识</a><a target="_blank" href="https://news.lianjia.com/yt/">烟台房产资讯</a><a target="_blank" href="https://news.lianjia.com/yt/baike/">烟台房产百科</a><a target="_blank" href="https://news.lianjia.com/sy/">沈阳房产资讯</a><a target="_blank" href="https://news.lianjia.com/sy/baike/">沈阳房产百科</a><a target="_blank" href="https://sy.lianjia.com/wenda/">沈阳房产知识</a><a target="_blank" href="https://news.lianjia.com/hf/">合肥房产资讯</a><a target="_blank" href="https://news.lianjia.com/hf/baike/">合肥房产百科</a><a target="_blank" href="https://hf.lianjia.com/wenda/">合肥房产知识</a><a target="_blank" href="https://news.lianjia.com/zz/">郑州房产资讯</a><a target="_blank" href="https://news.lianjia.com/zz/baike/">郑州房产百科</a></dd></div><div><dd><a target="_blank" href="https://sh.lianjia.com/ershoufang/shanghaizhoubian/">上海周边二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/jiading/">嘉定二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/fengxian/">奉贤二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/baoshan/">宝山二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/chongming/">崇明二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/xuhui/">徐汇二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/putuo/">普陀二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/yangpu/">杨浦二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/songjiang/">松江二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/pudong/">浦东二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/haiwai/">海外二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/hongkou/">虹口二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/jinshan/">金山二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/changning/">长宁二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/minhang/">闵行二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/zhabei/">闸北二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/qingpu/">青浦二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/jingan/">静安二手房</a><a target="_blank" href="https://sh.lianjia.com/ershoufang/huangpu/">黄浦二手房</a></dd></div><div><dd><a target="_blank" href="https://sh.lianjia.com/zufang/shanghaizhoubian/">上海周边租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/jiading/">嘉定租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/fengxian/">奉贤租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/baoshan/">宝山租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/chongming/">崇明租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/xuhui/">徐汇租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/putuo/">普陀租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/yangpu/">杨浦租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/songjiang/">松江租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/pudong/">浦东租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/haiwai/">海外租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/hongkou/">虹口租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/jinshan/">金山租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/changning/">长宁租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/minhang/">闵行租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/zhabei/">闸北租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/qingpu/">青浦租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/jingan/">静安租房</a><a target="_blank" href="https://sh.lianjia.com/zufang/huangpu/">黄浦租房</a></dd></div><div><dd><a target="_blank" href="https://sh.lianjia.com/xiaoqu/shanghaizhoubian/">上海周边小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/jiading/">嘉定小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/fengxian/">奉贤小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/baoshan/">宝山小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/chongming/">崇明小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/xuhui/">徐汇小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/putuo/">普陀小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/yangpu/">杨浦小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/songjiang/">松江小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/pudong/">浦东小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/haiwai/">海外小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/hongkou/">虹口小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/jinshan/">金山小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/changning/">长宁小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/minhang/">闵行小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/zhabei/">闸北小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/qingpu/">青浦小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/jingan/">静安小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/huangpu/">黄浦小区</a></dd></div><div><dd><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012034/">海尚明城</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000014736/">康桥花园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000013890/">宜川六村</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000013128/">西南名苑</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012108/">新城盛景园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000017409/">沪东新村</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012592/">梧桐城邦(二期)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000001232/">合景叠翠峰苑</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000015069/">潍坊九村</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000003886/">旭辉城</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000001067/">新凯城银杏苑</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000013723/">阳光花城</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000019333/">阁游路777弄</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000016872/">汤臣高尔夫(别墅)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012764/">高景花园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000013735/">长岛公寓</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012357/">新南家园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000015365/">文华苑(宝山)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012946/">金帝城市岸泊(公寓)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000016009/">赤峰小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000015381/">华光花园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000015067/">三林世博家园(大道站路94弄)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012205/">华高一村</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000017378/">济阳一村</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000011974/">龙源星城</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000011738/">蔷薇新村</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011102208191/">绿地新江桥城</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000014720/">文翔名苑(公寓)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000000268/">永德小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000003495/">昌鑫花园(公寓)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000000300/">星纳家园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000010990/">保利湖畔阳光苑</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000014054/">金巷小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000012690/">汇丽苑</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011063202649/">凯德新视界(一期)</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000018226/">达安花园</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000009199/">浦江东旭公寓</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000008439/">白洋苑</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000015822/">密云小区</a><a target="_blank" href="https://sh.lianjia.com/xiaoqu/5011000003539/">森林公馆</a></dd></div><div><dd></dd></div><div><dd><a target="_blank" href="https://news.lianjia.com/sh/baike/0033/">房产政策</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0035/">购房建议</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0036/">购房资质</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0037/">房屋贷款</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0039/">保障住房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0040/">产权/变更</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0041/">法律纠纷</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0042/">房屋装修</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0044/">准备买房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0045/">看房/选房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0046/">签约/定房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0047/">全款/贷款</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0048/">缴税/过户</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0049/">入住/交接</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0050/">买房风险</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0051/">准备买房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0052/">看房/选房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0053/">认购新房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0054/">签约/定房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0055/">全款/贷款</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0056/">收房/验房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0057/">装修/入住</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0058/">退房/维权</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0059/">各国概况</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0060/">计划买房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0061/">签约定房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0062/">银行贷款</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0063/">交易过户</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0064/">房屋代理</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0066/">准备卖房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0067/">产权核验</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0068/">收定金/签约</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0069/">分步收款</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0070/">缴税/过户</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0071/">交房须知</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0072/">卖房风险</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0073/">准备换房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0074/">换房方案</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0075/">卖旧/买新</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0077/">缴税/过户</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0078/">交房/收房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/0079/">换房风险</a><a target="_blank" href="https://news.lianjia.com/sh/baike/00779/">找房看房</a><a target="_blank" href="https://news.lianjia.com/sh/baike/00780/">签约付款</a><a target="_blank" href="https://news.lianjia.com/sh/baike/00781/">物业交割</a><a target="_blank" href="https://news.lianjia.com/sh/baike/00782/">租房纠纷</a><a target="_blank" href="https://news.lianjia.com/sh/baike/00783/">我是房东</a></dd></div></div></div><div class="clear"></div></div><div class="bottom"><div class="copyright fl">链家网（北京）科技有限公司 | 网络经营许可证 京ICP备16057509号-2 | © Copyright©2010-2018 链家网Lianjia.com版权所有</div><div style="width:300px;color: #888c8e;font-size: 12px;line-height: 20px;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802024019" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://s1.ljcdn.com/feroot/pc/asset/img/home/beian.png?_v=20180926210301"" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;color: #888c8e;">京公网安备 11010802024019号</p></a></div></div></div></div>
+
+<div class="validate"><div id="validateOverlay"></div><div id="valideteMain" class="animated"><div class="validateTop"><a href="javascript:;" class="validateCloseBtn"></a></div><form action="" method="post" class="validForm"><h3>举报</h3><div class="infju_me infju_med"><p>本套房源已有客户举报，我们正在积极核实中，感谢您对链家的支持与监督<a href="/anxinchengnuo?type=ershoufang&skip=jypb" target="_blank" >查看详细赔付标准>></a></p><ul class="clear"><li class="jiudin" id="wyjbcancel"><a href="#" class="lvrebg">确定</a></li></ul></div><div class="infju_me"><p>您举报该房源的理由是：<span class="light_gray">(必填)</span></p><label><input name="reason" type="radio" value="1"><span>房源不存在</span></label><label><input name="reason" type="radio" value="2"><span>房源已售</span></label><label><input name="reason" type="radio" value="3"><span>价格不真实</span></label><label><input name="reason" type="radio" value="4"><span>图片不真实</span></li></label><label class="other-label"><input name="reason" id="qita" type="radio" value="0"><span>其他</span></label><p></p><p>补充说明：<span class="light_gray">(必填)</span></p><textarea class="others" placeholder="最少15个字"></textarea><ul class="clear"><li class="sdind">验证码</li><li><input name="yanzhengma" type="text" class="dfequ"></li><img id="yanzhengmasrcs" src="" /></ul><p class="note">注：“其他”类型不在假一赔百元范围内，<a href="/anxinchengnuo?type=ershoufang&skip=jypb" target="_blank" >查看详细赔付标准>></a></p><p class="checkReason"></p><ul class="clear"><li class="jiudin" id="wyjbconfrm"><a href="#" class="lvrebg">确定</a></li></ul></div></form></div></div>
+<script src="https://s1.ljcdn.com/feroot/pc/asset/base/fe.js?_v=20180926210301"></script><script src="https://s1.ljcdn.com/feroot/pc/asset/common/common.js?_v=20180926210301"></script><div style="display:none"><script src="https://s1.ljcdn.com/feroot/dep/ljanalytics.js?_v=20180926210301"></script></div><div id="only" data-city="sh" data-page="ershoufang_view"></div>
+<script>var path = 'https://s1.ljcdn.com/feroot/pc/asset?_v=20180926210301'.split("?");require.config({baseUrl: path[0],paths: {'echarts' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/bar' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/line' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/pie' : '../../dep/echarts-1.4.1/build/echarts','echarts3' : '../../dep/echarts3/echarts3','common': 'common','jquery-ui': '../../dep/jquery-ui/jquery-ui.min','zeroclipboard': '../../dep/zeroclipboard-2.2.0/ZeroClipboard'},urlArgs:  path[1]});var feData = {"cityName": "北京","getFavHouseUrl":       "/api/gethousefav","setFavHouseUrl":       "/api/sethousefav","getLastSearch":        "/api/getlastsearch","getCommunityHistory":  "/api/getcommunityhistory","verifyHouse":          "/api/verifyHouse","getUser":              "/api/getUser","verifyCode":           "/verifycode/getVerifyCode","complaint":            "/api/complaint","getDecoration":        "/api/getDecoration","trendData" :           "/site/getpicinfo"}</script>
+<script type="text/javascript" src="//g.alicdn.com/de/prismplayer/1.9.2/prism-flash-min.js"></script>
+<script>
+   window.__STAT_LJ_CONF = window.__STAT_LJ_CONF || {};
+   window.__STAT_LJ_CONF.params = window.__STAT_LJ_CONF.params || {};
+   window.__STAT_LJ_CONF.params.is_yanjiao=0;
+        window.__STAT_LJ_CONF.params.is_focus=1;</script>
+<script>
+  require(['ershoufang/sellDetail/detailV3'],function(init){
+    init({
+      ucid:'',
+      houseType:'普通住宅',
+      isUnique:'唯一住宅',
+      registerTime:'满五年',
+      area:'57.15',
+      totalPrice:'263',
+      price:'46020',
+      houseId:'107100328528',
+      resblockId:'5011000003281',
+      resblockName:'富特三村',
+      isRemove:'0',
+      defaultImg:'https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180926210301',
+      defaultBrokerIcon:'https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180926210301',
+      resblockPosition:'121.595495,31.340002',
+      cityId:'310000',
+      changedate:[1,3,4,5,3],
+      changenum:[123,567,232,347,122],
+      diamondAgent:[1000000022156814,1000000022123829,1000000022138773,1000000022194813,1000000022244417,1000000022120011,1000000022250621,1000000022171774],
+      diamondAgentPhone:{"1000000022156814":{"virtual_phone_number":"4008019959-06231","phone_number":"13585834754","port":"PC:agent_diamond","virtual_main_number":"4008019959","virtual_ext_number":"06231","fourPhoneOne":"4008019959\u8f6c06231"},"1000000022123829":{"virtual_phone_number":"4008772335-27130","phone_number":"13472618960","port":"PC:agent_ershoufang","virtual_main_number":"4008772335","virtual_ext_number":"27130","fourPhoneOne":"4008772335\u8f6c27130"},"1000000022138773":{"virtual_phone_number":"4008772335-27113","phone_number":"13916169850","port":"PC:agent_ershoufang","virtual_main_number":"4008772335","virtual_ext_number":"27113","fourPhoneOne":"4008772335\u8f6c27113"},"1000000022194813":{"virtual_phone_number":"4008857556-82637","phone_number":"13917558617","port":"PC:agent_ershoufang","virtual_main_number":"4008857556","virtual_ext_number":"82637","fourPhoneOne":"4008857556\u8f6c82637"},"1000000022244417":{"virtual_phone_number":"4008772335-27096","phone_number":"18110865987","port":"PC:agent_ershoufang","virtual_main_number":"4008772335","virtual_ext_number":"27096","fourPhoneOne":"4008772335\u8f6c27096"},"1000000022120011":{"virtual_phone_number":"4008772335-27093","phone_number":"13764299862","port":"PC:agent_ershoufang","virtual_main_number":"4008772335","virtual_ext_number":"27093","fourPhoneOne":"4008772335\u8f6c27093"},"1000000022250621":{"virtual_phone_number":"4008797717-67099","phone_number":"13761345336","port":"PC:agent_ershoufang","virtual_main_number":"4008797717","virtual_ext_number":"67099","fourPhoneOne":"4008797717\u8f6c67099"},"1000000022171774":{"virtual_phone_number":"4008857556-73067","phone_number":"15000159323","port":"PC:agent_ershoufang","virtual_main_number":"4008857556","virtual_ext_number":"73067","fourPhoneOne":"4008857556\u8f6c73067"}},
+      agentInfo:{"1000000022156814":{"ucid":"1000000022156814","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u548c\u623f\u4e3b\u7b7e\u7684\u4e13\u5c5e\u59d4\u6258\uff0c\u623f\u4e3b\u4fe1\u8d56","name":"\u5218\u5c0f\u5a1f","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/b739bab3-d070-44ba-ac86-8e0307f6c018.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022156814","agent_level":"\u9ad8\u7ea7\u7ecf\u7eaa\u4eba","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"25"},"1000000022123829":{"ucid":"1000000022123829","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f3\u6b21\uff0c\u6e05\u695a\u672c\u623f\u7279\u8272","name":"\u738b\u519b","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/28fd0213-e413-41d3-b498-6b26d8a2936b.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022123829","agent_level":"\u5e97\u7ecf\u7406","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"3"},"1000000022138773":{"ucid":"1000000022138773","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f3\u6b21\uff0c\u6e05\u695a\u672c\u623f\u7279\u8272","name":"\u738b\u6797","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/9fe421fe-389d-4429-a786-e7d121f868f3.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022138773","agent_level":"\u5e97\u7ecf\u7406","feedbackGoodRate":"90%","totalCommentScore":"4.8","commentCount":"20"},"1000000022194813":{"ucid":"1000000022194813","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f2\u6b21\uff0c\u4e86\u89e3\u672c\u623f\u7279\u8272","name":"\u5b59\u51ef\u51ef","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/f03d4e19-c1a0-4beb-a28c-fd94e375647d.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022194813","agent_level":"\u5e97\u7ecf\u7406","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"11"},"1000000022244417":{"ucid":"1000000022244417","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f1\u6b21\uff0c\u4e86\u89e3\u672c\u623f\u7279\u8272","name":"\u59dc\u5b89","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/0f357cd3-6615-44eb-a42c-fbd4d292d0bb.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022244417","agent_level":"\u9ad8\u7ea7\u7ecf\u7eaa\u4eba","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"6"},"1000000022120011":{"ucid":"1000000022120011","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f1\u6b21\uff0c\u4e86\u89e3\u672c\u623f\u7279\u8272","name":"\u59da\u51ac\u4e91","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/0158d9b9-0215-45e4-8877-f983e1733c39.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022120011","agent_level":"\u5e97\u7ecf\u7406","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"4"},"1000000022250621":{"ucid":"1000000022250621","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f1\u6b21\uff0c\u4e86\u89e3\u672c\u623f\u7279\u8272","name":"\u4efb\u4e00\u5f3a","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/7a29bac3-1a2f-48f4-b5d1-cb5be6a348ff.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022250621","agent_level":"\u7ecf\u7eaa\u4eba","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"8"},"1000000022171774":{"ucid":"1000000022171774","appid":"2","company_name":"\u94fe\u5bb6","isQualify":true,"reason":"\u6211\u6700\u8fd1\u5e26\u770b\u672c\u623f1\u6b21\uff0c\u4e86\u89e3\u672c\u623f\u7279\u8272","name":"\u5218\u9ad8\u6d0b","photo_url":"https:\/\/image1.ljcdn.com\/usercenter\/images\/uc_ehr_avatar\/923ecfd3-4de2-411b-b315-e66bd63bc228.jpg","agent_url":"https:\/\/dianpu.lianjia.com\/1000000022171774","agent_level":"\u9ad8\u7ea7\u7ecf\u7eaa\u4eba","feedbackGoodRate":"100%","totalCommentScore":"5.0","commentCount":"8"}},
+      hasDaikan:true,
+      uniqueAgent:false,
+      showCart: '',
+      hasFangjia: false,
+      test_400_hide:'',
+      newTax: false,
+      uuid: 'b52fd37e-32a2-47ea-be3a-86c8fa9d6978',
+      loadingImg: 'https://s1.ljcdn.com/feroot/pc/asset/ershoufang/sellDetail/img/loading.gif?_v=20180926210301',
+      qrImg: '//ajax.api.lianjia.com/qr/getDownloadQr',
+      title: '富特三村新出  精装全南两房  满五唯一税费少  视线好_上海外高桥富特三村二手房推荐',
+      images: [{"roomName":"\u5ba2\u5385","roomType":100900000002,"code":1,"id":6400000004584465,"type":"\u5ba2\u5385","uri":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png","isHead":1,"isVr":0,"url":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-193fe680-ff62-4a1f-b864-17b9d92541ca.png.710x400.jpg"},{"roomName":"\u5ba2\u5385","roomType":100900000002,"code":1,"id":6400000004584462,"type":"\u5ba2\u5385","uri":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png","url":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-dcb5be9a-868b-4e61-ba25-3b94c67b829e.png.710x400.jpg"},{"roomName":"\u5367\u5ba4A","roomType":100900000001,"code":2.1,"id":6400000004584464,"type":"\u5367\u5ba4A","uri":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png","url":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-f70c1cd2-4b8b-4a36-aad7-e879c0220f60.png.710x400.jpg"},{"roomName":"\u6237\u578b\u56fe","roomType":99,"code":99,"id":1,"type":"\u6237\u578b\u56fe","fcSort":0,"isOverground":0,"uri":"https:\/\/image1.ljcdn.com\/x-se\/hdic-frame\/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png","url":"https:\/\/image1.ljcdn.com\/x-se\/hdic-frame\/test-8c95df83-37e9-4cdb-a040-7ed31cad6207.png.533x400.jpg"},{"roomName":"\u5367\u5ba4B","roomType":100900000001,"code":2.2,"id":6400000004584463,"type":"\u5367\u5ba4B","uri":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-24189112-1485-4ced-a324-fb019d0fbba9.png","url":"https:\/\/image1.ljcdn.com\/310000-inspection\/test-24189112-1485-4ced-a324-fb019d0fbba9.png.710x400.jpg"}],
+      videoId: ''
+    });
+  });
+  require(['common/jquery.popups'], function(){});
+  require(['common/jquery.fly'], function(){});
+  require(['ershoufang/sellDetail/comp/imgZoom'], function(){});
+  require(['common/requestAnimationFrame'], function(){});
+  require(['common/initTalk'], function(initTalk) {
+    initTalk()
+  });
+</script>
+<script>require(['common/suggestion'], function (suggestion) {window.defaultSuggest = suggestion.init({requestOptions: {cityId: '310000',cityName: '上海'},url: '/api/headerSearch?channel=ershoufang&q=',main: '#keyword-box',appendTo: '#suggest-cont',redirect: true});});</script><div class="loninContaner"><div class="overlay_bg"></div><div class="panel_login animated" id="dialog"><div class="panel_info"><i class="close_login" >&times</i><div class="panel_tab"><div class="title"><div class="fl">账号密码登录</div></div><div class="clear"></div><div id="con_login_user"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial users" placeholder="请输入手机号"  maxlength="11" /></li><li class="item border-b pwd"><input type="password" class="the_input password" maxlength="20" placeholder="请输入登录密码"/><em class="password-view"></em></li><li class="item checkVerimg" style="display:none;"><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item drag" style="display:none;"><div id="drag"></div></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="remember" value="1" class="mind-login" checked/></span>7天内免登录</label><a href="javascript:;" rel="nofollow" class="toforget">忘记密码</a></li><li class="li_btn"><a class="login-user-btn"  />登录</a></li><li class="footer-link"><a href="javascript:;" rel="nofollow" class="totellogin">手机快捷登录</a></li></ul></form></div><div id="con_login_agent" class="undis"><form action="" method="post"><ul><li class="item"><dd></dd><input type="text" class="the_input users" placeholder="输入经纪人ID号码" /></li><li class="item"><input type="password" class="the_input password"  placeholder="登录密码"/></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="remember" value="1" class="mind-login" checked/></span>7天内免登录</label><a href="https://passport.lianjia.com/register/resources/lianjia/forget.html?service=http://bj.lianjia.com/" rel="nofollow">忘记密码</a></li><li><input class="login-agent-btn" value="立即登录"/></li></ul></form></div></div></div><div class="registered"></div></div><div class="panel_login animated" id="dialog_tel"><div class="panel_info"><i class="close_login">&times</i><div class="panel_tab"><div class="title"><div class="fl">手机快捷登录</div><div class="register_text_tel">别担心，无账号自动注册不会导致手机号被泄露</div></div><div class="clear"></div><div id="con_login_user_tel"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial users_tel" maxlength="11" placeholder="请输入手机号" /></li><!-- <li class="item pwd"><input type="password" class="the_input password_tel"  placeholder="请输入短信验证码"/></li> --><li class="item checkVerimg" style=""><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item border-b Verify"><input type="text" class="the_input verifycode" maxlength="6"  placeholder="请输入短信验证码"/><a class="send_verify_code" id="send_verify_code_tel" href="javascript:;" rel="nofollow"><em>获取验证码</em></a></li><li class="send_verify_code_s" id="send_verify_code_tel_s" href="javascript:;" rel="nofollow"><em>没有收到验证码？</em><a class="voice_a">发送语音验证码</a></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="remember" value="1" class="mind-login" checked/></span>7天内免登录</label></li><li class="li_btn"><a class="login-user-tel-btn"  />登录</a></li><li class="footer-link"><a href="javascript:;" rel="nofollow" class="tologin">账号密码登录</a></li></ul></form></div></div></div><div class="registered"></div></div><div class="panel_login animated" id="dialog_reg"><div class="panel_info"><i class="close_login">&times</i><div class="panel_tab"><div class="title"><div class="fl">手机号码注册</div><label class="fr register_text">已有账号？<a href="javascript:;" rel="nofollow" class="tologin">去登录</a></label></div><div class="clear"></div><div id="con_login_user_reg"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial users_reg"  maxlength="11" placeholder="请输入手机号" /></li><li class="item checkVerimg" style=""><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item border-c Verify"><input type="text" class="the_input verifycode" maxlength="6"  placeholder="请输入短信验证码"/><a class="send_verify_code" id="send_verify_code_reg" href="javascript:;" rel="nofollow"><em>获取验证码</em></a></li><li class="item border-b pwd"><input type="password" class="the_input password_reg" maxlength="20"  placeholder="请输入密码（最少8位，数字+字母）"/><em class="password-view"></em></li><li class="send_verify_code_s" id="send_verify_code_reg_s" href="javascript:;" rel="nofollow"><em>没有收到验证码？</em><a class="voice_a">发送语音验证码</a></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="read" value="1" class="read-protocol" checked/></span>我已阅读并同意</label><a class="toprotocol" href="//www.lianjia.com/zhuanti/protocol" target="_blank" >《链家用户使用协议》</a></li><li class="li_btn"><a class="register-user-btn"  />注册</a></li></ul></form></div></div></div><div class="registered"></div></div><div class="panel_login animated" id="dialog_forget"><div class="panel_info"><i class="close_login">&times</i><div class="panel_tab"><div class="title"><div class="fl">找回密码</div></div><div class="clear"></div><div id="con_forget_user_tel" class="con_forget_user_tel"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial user_forget_phone" placeholder="请输入手机号"  maxlength="11" /></li><li class="item checkVerimg" style=""><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item border-b Verify"><input type="text" class="the_input verifycode" maxlength="6"  placeholder="请输入短信验证码"/><a class="send_verify_code" id="send_verify_code_forget" href="javascript:;" rel="nofollow"><em>获取验证码</em></a></li><li class="item border-t pwd" style="margin-top:-1px;"><input type="password" class="the_input password_reg" maxlength="20"  placeholder="请输入密码（最少8位，数字+字母）"/><em class="password-view"></em></li><li class="send_verify_code_s" id="send_verify_code_forget_s"><em>没有收到验证码？</em><a class="voice_a">发送语音验证码</a></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_btn"><a class="user-forget"  />修改密码</a></li></ul></form></div><div id="con_forget_user_pw" class="con_forget_user_pw"><form action="" method="post"><ul><li class="item border-t pwd"><input type="password" class="the_input password_reg" maxlength="20"  placeholder="请输入密码（最少8位，数字+字母）"/><em class="password-view"></em></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_btn"><a class="modify-user-pswd"  />修改密码</a></li></ul></form></div></div></div><div class="registered"></div></div></div>
+<!-- LianjiaIM Style --><link property='stylesheet' rel="stylesheet" href="https://s1.ljcdn.com/feroot/pc/asset/lianjiaIM/css/lianjiaim.css?_v=20180926210301"/><script src="//s1.ljcdn.com/web-im-sdk/static/1.1/lianjiaim1.1.min.js?v=20180927"></script><!-- <script src="//s1-ljcdn.test.lianjia.com:8400/web-im-sdk/static/1.1/lianjiaim1.1.min.js?v=20180927"></script> --><script>(function() {var imConf = {"ajaxroot":"\/\/ajax.api.lianjia.com\/","imAppid":"LIANJIA_WEB_20160624","imAppkey":"6dfdcee27d78b1107fceeca55d80b7bd"};let login = require('common/login');$.listener.on('userInfo', function (data) {if (data.code === 1) {data.ucid = '';}window.LJIM = new LianjiaIM({appid: imConf.imAppid,appkey: imConf.imAppkey,login: login.openLoginDialog,is_ljbb: true,userData: data,downAppUrl: '//www.lianjia.com/client/',appDesc: '立即下载链家APP，随时随地聊~',staticRoot: 'https://s1.ljcdn.com/feroot/?_v=20180926210301'})});})();</script><script type="text/javascript">var advert = 'https://s1.ljcdn.com/feroot/pc/asset/common/advert.js?_v=20180926210301';
+    $.listener.on('userInfo', function (data) {
+      window.loginData = data;
+    });
+    var mvl = document.createElement('script');
+    mvl.type = 'text/javascript';
+    mvl.async = true;
+    mvl.src = advert;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(mvl, s);
+  </script><script type="text/javascript">(function(){var canonicalURL, curProtocol;var x=document.getElementsByTagName("link");if(x.length > 0){for (i=0;i<x.length;i++){if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){canonicalURL=x[i].href;}}}if (!canonicalURL){curProtocol = window.location.protocol.split(':')[0];}else{curProtocol = canonicalURL.split(':')[0];}if (!canonicalURL) canonicalURL = window.location.href;(function() {var e = /([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r = canonicalURL,t = document.referrer;if (!e.test(r)) {var n = (String(curProtocol).toLowerCase() === 'https') ? "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif" : "//api.share.baidu.com/s.gif";t ? (n += "?r=" + encodeURIComponent(document.referrer), r && (n += "&l=" + r)) : r && (n += "?l=" + r);var i = new Image;i.src = n}})(window);})();</script><!--cookie mapping--><img src='https://cm.e.qq.com/cm.fcg?u=248b9273a849b4bc2bfa58b70247d90a&t=1538031695&p=5f2dc076dea913ddcf11765c2d4df909&platform=PC&gdt_dspid=4169211&gdt_dsp_checksum=5f2dc076dea913ddcf11765c2d4df909&gdt_dsp_timestamp=1538031695' alt="cookie_mapping_url" style="display: none;"></body></html>
