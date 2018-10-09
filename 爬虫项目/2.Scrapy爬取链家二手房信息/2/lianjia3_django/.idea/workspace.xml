@@ -16,12 +16,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjia3/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -29,11 +29,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lianjia3_django/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lianjia3/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianjia3_django/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="2432">
+              <caret line="128" selection-start-line="128" selection-end-line="130" selection-end-column="1" />
               <folding>
                 <element signature="e#316#325#0" expanded="true" />
               </folding>
@@ -41,20 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianjia3/models.py">
+      <file leaf-file-name="table.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="372">
+              <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/table.html">
+      <file leaf-file-name="table2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/table2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+            <state relative-caret-position="95">
+              <caret line="62" column="10" lean-forward="true" selection-start-line="43" selection-end-line="63" selection-end-column="8" />
+              <folding>
+                <element signature="e#2034#2040#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,6 +103,7 @@
         <option value="$PROJECT_DIR$/lianjia3/table.html" />
         <option value="$PROJECT_DIR$/lianjia3_django/settings.py" />
         <option value="$PROJECT_DIR$/lianjia3/models.py" />
+        <option value="$PROJECT_DIR$/templates/table2.html" />
         <option value="$PROJECT_DIR$/lianjia3/views.py" />
         <option value="$PROJECT_DIR$/templates/table.html" />
       </list>
@@ -101,8 +119,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="139" />
-    <option name="y" value="69" />
+    <option name="x" value="66" />
+    <option name="y" value="37" />
     <option name="width" value="1159" />
     <option name="height" value="670" />
   </component>
@@ -111,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,18 +140,12 @@
             <path>
               <item name="lianjia3_django" type="b2602c69:ProjectViewProjectNode" />
               <item name="lianjia3_django" type="462c0819:PsiDirectoryNode" />
-              <item name="lianjia3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lianjia3_django" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lianjia3_django" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,14 +157,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PyCharm_Project\lianjia3_django\templates" />
-      <recent name="E:\PyCharm_Project\lianjia3_django\static" />
-      <recent name="E:\PyCharm_Project\lianjia3_django\lianjia3\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PyCharm_Project\lianjia3_django" />
       <recent name="E:\PyCharm_Project\lianjia3_django\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyCharm_Project\lianjia3_django\static" />
+      <recent name="E:\PyCharm_Project\lianjia3_django\templates" />
+      <recent name="E:\PyCharm_Project\lianjia3_django\lianjia3\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -233,29 +246,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="139" y="69" width="1159" height="670" extended-state="0" />
+    <frame x="66" y="37" width="1159" height="670" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="manage.py@lianjia3_django" order="1" weight="0.42577487" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.4600326" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.19666049" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.43066883" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16469517" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21929026" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32952693" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4649266" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.2820037" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="manage.py@lianjia3_django" order="1" weight="0.42577487" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
     </layout>
@@ -272,20 +285,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianjia3/forms.py">
+    <entry file="file://$PROJECT_DIR$/lianjia3/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="95">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lianjia3_django/urls.py">
+    <entry file="file://$PROJECT_DIR$/lianjia3_django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="779">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding>
-            <element signature="e#639#671#0" expanded="true" />
+            <element signature="e#316#325#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia3/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -296,10 +326,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/table.bak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/table2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="62" column="10" lean-forward="true" selection-start-line="43" selection-end-line="63" selection-end-column="8" />
+          <folding>
+            <element signature="e#2034#2040#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia3/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia3/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia3/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lianjia3_django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        <state relative-caret-position="2432">
+          <caret line="128" selection-start-line="128" selection-end-line="130" selection-end-column="1" />
           <folding>
             <element signature="e#316#325#0" expanded="true" />
           </folding>
@@ -309,24 +371,24 @@
     <entry file="file://$PROJECT_DIR$/lianjia3/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lianjia3/models.py">
+    <entry file="file://$PROJECT_DIR$/lianjia3_django/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="372">
+          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
         </state>
       </provider>
     </entry>
