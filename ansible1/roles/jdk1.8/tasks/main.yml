@@ -3,7 +3,7 @@
 - name: soft link
   file: src=/opt/jdk1.8.0_131 dest=/opt/java state=link
 - name: java_profile config
-  shell: /bin/echo {{ item }} >> /etc/profile && source /etc/profile
+  shell: /bin/echo {{ item }} >> /etc/profile && source /etc/profile && /bin/echo {{ item }} >> /root/.bashrc
   with_items:
     - export JAVA_HOME=/opt/java
     - export JRE_HOME=/opt/java/jre

@@ -14,17 +14,17 @@
 - name: configure node-exporter
   copy: 
     src: "{{ nodeexporter_path }}/templates/node_exporter.conf.j2" 
-    dest: "{{ pro_path }}" 
+    dest: "{{ pro_path }}/node_exporter.conf" 
     mode: 0755
 
 - name: configure start service
   copy: 
     src: "{{ nodeexporter_path }}/templates/node_exporter.service.j2" 
-    dest: "{{ sys_path }}" 
+    dest: "{{ sys_path }}/node_exporter.service" 
     mode: 0755
 
 - name: start service
   service: 
-    name: node-exporter.service 
+    name: node_exporter.service 
     state: started 
     enabled: yes

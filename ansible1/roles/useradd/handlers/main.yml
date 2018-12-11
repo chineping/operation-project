@@ -1,0 +1,2 @@
+- name: reload sshd      #名字要和上面notify的 一致
+  service: name=sshd state=reload

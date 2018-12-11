@@ -1,5 +1,7 @@
 ---
 - hosts: "{{ host }}"
+  vars:
+    user1: develop
   remote_user: root
   roles:
     - useradd

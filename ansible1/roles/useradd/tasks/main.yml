@@ -1,31 +1,47 @@
-- name: Add group ops
+- name: Add group develop
   group: 
-    name: ops 
+    name: develop 
     state: present
 
 - name: Add username
   user: 
-    name: '{{item}}' 
+    name: '{{ user1 }}' 
     shell: /bin/bash
     state: present 
-    groups: ops 
-    create_home: yes
-    home: /home/'{{item}}'
-    password: "{{ '***' |password_hash('sha512') }}"
-  with_items:
-        - taojh
-        - zhangxy
+    groups: develop 
+    createhome: yes
+    home: /home/{{ user1 }}
 
-- name: Config /etc/sudoers
-  lineinfile: 
-    dest: /etc/sudoers 
-    state: present 
-    line: '{{item}}' 
-    validate: 'visudo -cf %s'
-  with_items:
-        - "%ops  ALL=(ALL:ALL)     NOPASSWD: ALL"
+- name: Add .ssh path
+  file:
+    path: /home/{{ user1 }}/.ssh
+    state: directory
+    mode: 0700
+    group: '{{ user1 }}'
+    owner: '{{ user1 }}'
 
-#- name: Config /etc/ssh/sshd_config
-#  shell: sed -ri 's/.*PasswordAuthentication\s+yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
-#- name: reload sshd service
-#  service: name=sshd state=reloaded
+- name: Add authorized_keys
+  file:
+    path: /home/{{ user1 }}/.ssh/authorized_keys
+    state: touch
+    mode: 0600
+    group: '{{ user1 }}'
+    owner: '{{ user1 }}'
+
+#- name: copy id_rsa.pub
+#  copy: 
+#    src: /etc/ansible/roles/useradd/templates/id_rsa.pub
+#    dest: /root
+#
+#- name: input authorized_keys  
+#  shell: cat /root/id_rsa.pub >> /home/{{ user1 }}/.ssh/authorized_keys
+
+- name: dont act 2times
+  shell: cat /home/{{ user1 }}/.ssh/authorized_keys
+  register: result
+  
+- name: input authorized_keys
+  shell: /bin/echo {{ item }} >> /home/{{ user1 }}/.ssh/authorized_keys
+  when: result.stdout.find('develop@kq300061.com') == -1
+  with_items:
+    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3tGyErJ1WFtJGGbeo3QyjImRv3yNdrco3hxyRMpLA3J+9opHaWxzlrOjMLBJOZxK6UvGLa+5NZfwazWCTeHD3R8TZ43/rcktkPmowGUOcwqbSE4uesWYfvyMoX7Dt93z/nFXcvXzZkj9PGSNesWsRk2Zwd2SXmZ7s+MAIGy0KoWMBjf2OSEcoogwhvER0xCDe6FkmNfNC9UnCGpAvr1F5UKonRWuYtPM/TTSrXabLj3TCWcx+0a8c4ACJfLI8wRTIsVzgNPBaRo++EkCnwSPRE5xbuCHkfKLPE5rlfnwS4+i87MZqGVfTzwv68jRkoUSE0NRGZQbcaZ43K6X6wk/P develop@kq300061.com

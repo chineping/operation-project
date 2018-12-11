@@ -5,6 +5,8 @@
     IP: "{{ ansible_eth0['ipv4']['address'] }}"
     dir_check: /root/diskspace
     file_check: /root/diskspace/diskspace_{{ IP }}.txt
+    #cd /etc/ansible/playbooks/check_diskspace/
+    #mkdir zs hs jx sj xk
     dir_pull: /etc/ansible/playbooks/check_diskspace/{{ host }}
   tasks:
     
@@ -37,3 +39,4 @@
         src: "{{ file_check }}"
         dest: "{{ dir_pull }}" 
         mode: pull
+        delete: yes #表示删除dest 中存在而src 中不存在的文件

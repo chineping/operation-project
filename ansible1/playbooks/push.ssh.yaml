@@ -1,0 +1,18 @@
+# Using alternate directory locations:
+- hosts: "{{ host }}"
+  user: root
+  tasks:
+    - name: Add .ssh path 
+      file: 
+        path: /home/root/.ssh 
+        state: directory 
+        mode: 0700 
+    - name: Add authorized_keys 
+      file: 
+        path: /home/root/.ssh/authorized_keys 
+        state: touch 
+        mode: 0600 
+    - name: ssh-copy
+      authorized_key: user=root key="{{ lookup('file','/root/.ssh/id_rsa.pub') }}" state=present
+      tags:
+        - sshkey
