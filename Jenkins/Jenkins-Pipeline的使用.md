@@ -50,7 +50,7 @@ job_name：harbin_dev_products-pipeline
 
 代码生成器可以自动生成一些语法：
 
-http://IP:8080/view/hhbank_dev/job/111/directive-generator/
+http://172.26.22.14:8080/view/hhbank_dev/job/111/directive-generator/
 
 ## 三、新建一个Pipeline类型的job
 
@@ -100,24 +100,33 @@ node {
 
 ```
 pipeline {
+    options {
+        timestamps () 
+        buildDiscarder logRotator(artifactDaysToKeepStr: '3', artifactNumToKeepStr: '1', daysToKeepStr: '3', numToKeepStr: '10')
+    }
     agent any
     parameters {
-        string(name:'serverIP', defaultValue: '172.26.22.13', description: '部署代码所在ip地址')
+        string(name:'server1IP', defaultValue: '10.90.2.40', description: '部署代码所在server1_ip地址')
+        string(name:'server2IP', defaultValue: '10.90.2.47', description: '部署代码所在server2_ip地址')
         string(name:'pomPath', defaultValue: 'plusplatform-fronts/plusplatform-front-products/plusplatform-product-harb/pom.xml', description: 'maven构建pom.xml')
         string(name:'jarPack', defaultValue: 'plusplatform-fronts/plusplatform-front-products/plusplatform-product-harb/target/plusplatform-product-harb-1.0.0-SNAPSHOT.jar', description: 'maven构建出的jar包')
         string(name: 'proPath',defaultValue:'/opt/plusplatform', description: '服务路径')
-}
+        string(name: 'bakPath',defaultValue:'/opt/plusplatform/jar_bak', description: '备份路径')
+    }
     stages {
         stage ('拉取gitlab代码') {
             steps {
-                git branch: 'bj_dev', credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@172.26.22.10:plusplatform/plusplatform.git'
+                git branch: 'master', credentialsId: '75a79a50-ea18-4fb9-9179-6d800118c85a', url: 'git@172.26.22.10:plusplatform/plusplatform.git'
             }
         }
 
         stage ('maven构建') {
             steps {
-                withMaven(jdk: 'jdk1.8', maven: 'maven3') { 
-                    sh "mvn -f ${params.pomPath} -Dmaven.test.skip=true clean install" 
+                // withMaven(jdk: 'jdk1.8', maven: 'maven3', mavenSettingsFilePath: '/opt/apache-maven-3.5.3/conf/settings.xml', mavenLocalRepo: '.repository') {
+                withMaven(jdk: 'jdk1.8', maven: 'maven3', mavenSettingsFilePath: '/var/lib/jenkins/settings.xml', mavenLocalRepo: '/var/lib/jenkins/.m2/repository') {
+                    // sh "mvn -f ${params.pomPath} -Dmaven.repo.local -Dmaven.test.skip=true clean install"
+                    sh "mvn -f ${params.pomPath} -Dmaven.test.skip=true clean install"
+                    // sh "mvn -Dmaven.test.skip=true clean install"
                 }
             }
         }
@@ -131,27 +140,36 @@ pipeline {
             }
         }
 
-        stage ('输出包名') {
+        // stage ('输出包名') {
+        //     steps {
+        //         sh "echo ${jarPackname}"
+        //     }
+        // }
+        
+        stage ('备份生产包') {
             steps {
-                sh "echo ${jarPackname}"
-            }
-        }
-
-        stage ('推送测试包'){
-            steps {
-                sh "scp ${params.jarPack} root@${params.serverIP}:${params.proPath}"
-                sh "scp /var/lib/ms root@${params.serverIP}:${params.proPath}"
+                // sh "ssh -f -n root@${params.server1IP} mkdir ${params.bakPath}"
+                sh "ssh -f -n root@${params.server1IP} mv ${params.proPath}/${jarPackname} ${params.bakPath}/`date +%Y%m%d-%H%M%S`+${jarPackname}"
+                // sh "ssh -f -n root@${params.server2IP} mkdir ${params.bakPath}"
+                sh "ssh -f -n root@${params.server2IP} mv ${params.proPath}/${jarPackname} ${params.bakPath}/`date +%Y%m%d-%H%M%S`+${jarPackname}"
                 }
         }
 
-        stage ('重启服务'){
-            agent {
-               label '172.26.22.13'
-            }
+        stage ('推送生产包') {
+            steps {
+                sh "scp ${params.jarPack} root@${params.server1IP}:${params.proPath}"
+                // sh "scp /var/lib/ms root@${params.server1IP}:${params.proPath}"
+                sh "scp ${params.jarPack} root@${params.server2IP}:${params.proPath}"
+                // sh "scp /var/lib/ms root@${params.server2IP}:${params.proPath}"
+                }
+        }
 
-            steps{
-                sh "chmod +x ${params.proPath}/ms"
-                sh "${params.proPath}/ms ${params.proPath}/${jarPackname}"
+        stage ('重启服务') {
+            steps {
+                // sh "ssh -f -n root@${params.server1IP} chmod +x ${params.proPath}/ms"
+                sh "ssh -f -n root@${params.server1IP} ${params.proPath}/ms ${params.proPath}/${jarPackname} pro"
+                // sh "ssh -f -n root@${params.server2IP} chmod +x ${params.proPath}/ms"
+                sh "ssh -f -n root@${params.server2IP} ${params.proPath}/ms ${params.proPath}/${jarPackname} pro"
             }
         }
     }
@@ -223,7 +241,7 @@ agent {
             }
 ```
 
-标签的操作方式详见参考文档：Jenkins高级篇之Pipeline-补充篇-如何添加一个windows节点的jenkins agent 服务，linux上加node节点同理。点击“系统管理”--“管理节点”，添加url：http://IP:8080/computer/
+标签的操作方式详见参考文档：Jenkins高级篇之Pipeline-补充篇-如何添加一个windows节点的jenkins agent 服务，linux上加node节点同理。点击“系统管理”--“管理节点”，添加url：http://172.26.22.14:8080/computer/
 
 
 
