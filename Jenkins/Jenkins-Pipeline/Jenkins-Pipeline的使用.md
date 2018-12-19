@@ -50,7 +50,7 @@ job_name：harbin_dev_products-pipeline
 
 代码生成器可以自动生成一些语法：
 
-http://172.26.22.14:8080/view/hhbank_dev/job/111/directive-generator/
+IP:8080/view/hhbank_dev/job/111/directive-generator/
 
 ## 三、新建一个Pipeline类型的job
 
@@ -106,8 +106,8 @@ pipeline {
     }
     agent any
     parameters {
-        string(name:'server1IP', defaultValue: '10.90.2.40', description: '部署代码所在server1_ip地址')
-        string(name:'server2IP', defaultValue: '10.90.2.47', description: '部署代码所在server2_ip地址')
+        string(name:'server1IP', defaultValue: 'IP1', description: '部署代码所在server1_ip地址')
+        string(name:'server2IP', defaultValue: 'IP2', description: '部署代码所在server2_ip地址')
         string(name:'pomPath', defaultValue: 'plusplatform-fronts/plusplatform-front-products/plusplatform-product-harb/pom.xml', description: 'maven构建pom.xml')
         string(name:'jarPack', defaultValue: 'plusplatform-fronts/plusplatform-front-products/plusplatform-product-harb/target/plusplatform-product-harb-1.0.0-SNAPSHOT.jar', description: 'maven构建出的jar包')
         string(name: 'proPath',defaultValue:'/opt/plusplatform', description: '服务路径')
@@ -116,7 +116,7 @@ pipeline {
     stages {
         stage ('拉取gitlab代码') {
             steps {
-                git branch: 'master', credentialsId: '75a79a50-ea18-4fb9-9179-6d800118c85a', url: 'git@172.26.22.10:plusplatform/plusplatform.git'
+                git branch: 'master', credentialsId: '75a79a50-ea18-4fb9-9179-6d800118c85a', url: 'git@gitlabIP:plusplatform/plusplatform.git'
             }
         }
 
@@ -182,13 +182,13 @@ pipeline {
 pipeline {
     agent any
     parameters {
-        string(name:'serverIP', defaultValue: '172.26.21.11', description: '部署代码所在ip地址')
+        string(name:'serverIP', defaultValue: 'IP1', description: '部署代码所在ip地址')
         string(name: 'proPath',defaultValue:'/data/harbin', description: '服务路径')
 }
     stages {
         stage ('拉取gitlab代码') {
             steps {
-                git branch: 'master', credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@172.26.22.10:BJ/haerbin-web.git'
+                git branch: 'master', credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@gitlabIP:BJ/haerbin-web.git'
             }
         }
 
@@ -204,7 +204,7 @@ pipeline {
 
         stage ('备份原代码'){
             agent {
-               label '172.26.21.11'
+               label 'IP'
             }
 
             steps{
@@ -233,7 +233,7 @@ sh "ssh -f -n root@${params.serverIP} chmod +x ${params.proPath}/ms"
 
 ```
 agent {
-               label '172.26.22.13'
+               label 'IP'
             }
 
             steps{
@@ -241,7 +241,7 @@ agent {
             }
 ```
 
-标签的操作方式详见参考文档：Jenkins高级篇之Pipeline-补充篇-如何添加一个windows节点的jenkins agent 服务，linux上加node节点同理。点击“系统管理”--“管理节点”，添加url：http://172.26.22.14:8080/computer/
+标签的操作方式详见参考文档：Jenkins高级篇之Pipeline-补充篇-如何添加一个windows节点的jenkins agent 服务，linux上加node节点同理。点击“系统管理”--“管理节点”，添加url：jenkinsIP:8080/computer/
 
 
 
@@ -294,6 +294,68 @@ pipleline {
   // stages and rest of pipleline.
 }
 ```
+
+## 六、实际操作
+
+如需新建一个pipeline的job，先复制一个合适的pipeline脚本，我这边以sit方面的服务为例，
+
+1、copy 项目pipeline/01信审系统/bj_jh-credit-server.groovy 成02用户管理/1bj_jh_idm-rest.groovy
+2、修改1bj_jh_idm-rest.groovy，分别修改serverIP、WarPack、proPath、logPath、bakPath如实写成当前环境上的位置
+
+```
+    parameters {
+        string(name:'serverIP', defaultValue: 'IP', description: '部署代码所在ip地址')
+        string(name:'WarPack', defaultValue: 'smart-idm-rest/build/libs/smart-idm-rest-2.0.0-SNAPSHOT.jar', description: 'gradle构建出的服务jar包')
+        string(name: 'proPath',defaultValue:'/opt/bj-jiaohang', description: '服务路径')
+        string(name: 'logPath',defaultValue:'/opt/bj-jiaohang/logs', description: '日志路径')
+        string(name: 'bakPath',defaultValue:'/opt/bj-jiaohang/bak', description: '备份路径')
+```
+
+3、修改拉取代码库的git url
+
+```
+stage ('拉取代码库') {
+            steps {
+                git branch: 'master', credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@gitlabIP:smart/smart-idm/smart-ms-idm.git'
+            }
+        }
+```
+
+4、注意gradle构建命令
+
+```
+sh "gradle bootjar" 或 sh "gradle bootjar" 
+```
+
+5、停止服务的stage，修改停止服务，后面也可以做成参数化
+
+```
+sh returnStatus: true, script: "stop idm-rest"
+                    script {
+                        def pid = sh returnStdout: true ,script: "ps -ef|grep idm-rest|grep -v grep|awk '{print \$2}'"
+```
+
+6、在jenkins上新建一个view-job，命名，把修改好的pipeline脚本复制进去
+
+7、测试环境的管理节点，系统配置-配置从节点-复制一个已有的node节点，修改以下信息
+
+```
+名称：IP
+描述：如实描述
+远程工作目录：/opt/jenkins_slave  #需要在远程服务器上mkdir创建出来
+标签：IP                         #注意这里要写IP，pipeline里label取的IP
+用法：只允许运行绑定到这台机器
+启动方式-主机：IP                 #这里要修改/root/.bashrc，让jenkins远程可以找到java命令
+可用性：尽量保持代理在线
+```
+
+8、点击保存-launched，出现以下信息即为成功
+
+```
+Agent successfully connected and online
+```
+
+
 
 ## 参考文档
 

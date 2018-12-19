@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <localRepository>E:/m2/mf_repository/</localRepository>
+  <interactiveMode>true</interactiveMode>
+    <offline>false</offline>
+    <pluginGroups>
+        <pluginGroup>org.mortbay.jetty</pluginGroup>
+        <pluginGroup>org.jenkins-ci.tools</pluginGroup>
+    </pluginGroups>
+  
+  <!--配置权限,使用默认用户-->
+  <servers>
+	<server>
+		<id>releases</id>
+      	<username>lyd</username>
+      	<password>lyd123</password>
+   	</server>
+	<server>
+		<id>snapshots</id>
+		<username>lyd</username>
+      	<password>lyd123</password>
+	</server>
+  </servers>
+	
+  <mirrors>  
+  </mirrors>
+	
+  <profiles>
+	<profile>
+		<id>mf</id>
+		<activation>
+			<activeByDefault>false</activeByDefault>
+            <jdk>1.7</jdk>
+        </activation>
+		<!-- 私有库地址·-->
+		<repositories>
+			<repository>
+				<id>nexus</id>
+				<url>http://maven.lingyongdai.com/nexus/content/groups/public/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+				</snapshots>
+			</repository>
+		</repositories>     
+
+		<!--插件库地址-->
+		<pluginRepositories>
+			<pluginRepository>
+				<id>nexus</id>
+				<url>http://maven.lingyongdai.com/nexus/content/groups/public/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+			   </snapshots>
+			</pluginRepository>
+		</pluginRepositories>
+	</profile>
+  </profiles>
+
+  <!--激活profile-->
+  <activeProfiles>
+	<activeProfile>mf</activeProfile>
+  </activeProfiles>
+
+</settings>
