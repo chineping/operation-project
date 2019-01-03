@@ -1,0 +1,15 @@
+$ git remote -v
+origin  http://IP/taojh/devops.git (fetch)
+origin  http://IP/taojh/devops.git (push)
+
+第一种方法：
+git config -e
+把fetch及push路径修改为当前新的gitlab地址：
+origin  http://IP2/taojh/devops.git (fetch)
+origin  http://IP2/taojh/devops.git (push)
+
+第二种方法：
+cd e:devops/
+git remote set-url origin http://IP2/taojh/devops.git
+git remote set-url --push origin http://IP2/taojh/devops.git
+验证一下：git remote -v

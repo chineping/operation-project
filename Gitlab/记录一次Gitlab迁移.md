@@ -3,8 +3,8 @@
 ## 一、背景环境
 
 ```
-原gitlab地址：IP1
-新gitlab地址：IP2
+原gitlab地址：gitlab_bak
+新gitlab地址：gitlab_new
 迁移方式：线下服务器镜像复制
 ```
 
@@ -32,9 +32,9 @@ Revision:       f5babb0
 Directory:      /opt/gitlab/embedded/service/gitlab-rails
 DB Adapter:     postgresql
 DB Version:     9.6.8
-URL:            http://gitlab.*.com
-HTTP Clone URL: http://gitlab.*.com/some-group/some-project.git
-SSH Clone URL:  git@gitlab.*.com:some-group/some-project.git
+URL:            http://gitlab_new
+HTTP Clone URL: http://gitlab_new/some-group/some-project.git
+SSH Clone URL:  git@gitlab_new:some-group/some-project.git
 Elasticsearch:  no
 Geo:            no
 Using LDAP:     no
@@ -79,7 +79,7 @@ find / -name gitlab.yml
 /etc/gitlab/gitlab.rb
 
 1.修改 gitlab.yml（/opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml）文件中的host地址 
-2.修改 gitlab.rb（/etc/gitlab/gitlab.rb）文件中的external_url  [将`external_url = 'http://gitlab.*.com'`修改为自己的IP地址]
+2.修改 gitlab.rb（/etc/gitlab/gitlab.rb）文件中的external_url  [将`external_url = 'http://git.kq300061.com'`修改为自己的IP地址]
 ```
 
 最重要的命令，它会把很多地方的原IP重新配置成输入的新external_url地址
@@ -92,10 +92,10 @@ gitlab-ctl reconfigure
 
 ```
 1、拉代码地址
-git@gitlab.*.com:plusplatform/plusplatform.git
+git@gitlab_new:plusplatform/plusplatform.git
 2、web页面访问地址
-http://gitlab.*.com/ gitlab域名内网访问不到（填写本地hosts即可访问）
-http://IP2/         访问IP正常显示gitlab登录页面
+http://gitlab_new/ gitlab域名内网访问不到（填写本地hosts即可访问）
+http://gitlab_new/         访问IP正常显示gitlab登录页面
 ```
 
 此时配置gitlab与jenkins服务器，测试拉代码
@@ -104,7 +104,7 @@ http://IP2/         访问IP正常显示gitlab登录页面
 1、jenkins页面上：点击系统管理--系统设置，找到gitlab配置
 添加新的gitlab信息
 Connection name：gitlab-new
-Gitlab host URL：http://gitlab.*.com
+Gitlab host URL：http://gitlab_new
 Credentials：使用原gitlab Api验证信息即可
 2、jenkins页面上：点击系统管理--全局工具配置，找到git配置
 	2.1添加新的git自动安装，起个新名字
@@ -120,7 +120,7 @@ Credentials：使用原gitlab Api验证信息即可
 2、此处为什么要新安装一个git客户端呢？如果不安装新的git插件会导致原来的gitlab地址无法使用，报错如下：
 
 ```
-Failed to connect to repository : Command "git ls-remote -h git@gitlab.*.com:plusplatform/plusplatform.git HEAD" returned status code 128:
+Failed to connect to repository : Command "git ls-remote -h git@gitlab_new:plusplatform/plusplatform.git HEAD" returned status code 128:
 stdout: 
 stderr: Host key verification failed. 
 fatal: Could not read from remote repository.
@@ -136,24 +136,24 @@ and the repository exists.
 [root@VM_4_5_centos jenkins]# cd git1.8.3/
 [root@VM_4_5_centos git1.8.3]# pwd
 /data/jenkins_home/jenkins/git1.8.3
-[root@VM_4_5_centos git1.8.3]# git ls-remote -h git@gitlab.*.com:plusplatform/plusplatform.git HEAD
-The authenticity of host 'gitlab.*.com (IP2)' can't be established.
+[root@VM_4_5_centos git1.8.3]# git ls-remote -h git@gitlab_new:plusplatform/plusplatform.git HEAD
+The authenticity of host 'gitlab_new (gitlab_new)' can't be established.
 RSA key fingerprint is SHA256:0yIYW3ghqZNPk44TDQe7V31EONGIw4w82eUcIfWwAB0.
 RSA key fingerprint is MD5:89:07:86:3f:eb:17:00:dd:25:86:84:ad:ad:b3:18:83.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'gitlab.*.com,IP2' (RSA) to the list of known hosts.
-[root@VM_4_5_centos git1.8.3]# git config --global user.name "jenkins_proIP"
-[root@VM_4_5_centos git1.8.3]# git config --global user.email "jenkins_proIP@kq300061.com"    
+Warning: Permanently added 'gitlab_new,gitlab_new' (RSA) to the list of known hosts.
+[root@VM_4_5_centos git1.8.3]# git config --global user.name "jenkins_prod"
+[root@VM_4_5_centos git1.8.3]# git config --global user.email "jenkins_prod@kq300061.com"    
 [root@VM_4_5_centos git1.8.3]# ls -a
 .  ..  .git
 [root@VM_4_5_centos git1.8.3]# git config -l
-user.name=jenkins_proIP
-user.email=jenkins_proIP@kq300061.com
+user.name=jenkins_prod
+user.email=jenkins_prod@kq300061.com
 core.repositoryformatversion=0
 core.filemode=true
 core.bare=false
 core.logallrefupdates=true
-[root@VM_4_5_centos git1.8.3]# git clone git@gitlab.*.com:plusplatform/plusplatform.git
+[root@VM_4_5_centos git1.8.3]# git clone git@gitlab_new:plusplatform/plusplatform.git
 Cloning into 'plusplatform'...
 remote: Counting objects: 14480, done.
 remote: Compressing objects: 100% (5176/5176), done.
@@ -165,10 +165,10 @@ Resolving deltas: 100% (5651/5651), done.
 ```
 
 ```
-Started by user 账号
+Started by user devops
 Building on master in workspace /var/lib/jenkins/workspace/1
 Cloning the remote Git repository
-Cloning repository git@gitlab.*.com:plusplatform/plusplatform.git
+Cloning repository git@gitlab_new:plusplatform/plusplatform.git
  > git init /var/lib/jenkins/workspace/1 # timeout=10
 ERROR: Error cloning remote repo 'origin'
 hudson.plugins.git.GitException: Could not init /var/lib/jenkins/workspace/1
@@ -216,7 +216,7 @@ Finished: FAILURE
 1、对于jenkins服务器而言，新的gitlab服务器是一台新的服务器，通过Credentials key去验证的时候，新gitlab的服务器信息（主机名|IP）不在/root/.ssh/known_hosts内，而jenkins无法交互输入yes，把该主机信息加入known_hosts
 2、原jenkins的git插件内包含config内初始化保存原gitlab信息了
 3、如果是在客户端上更改了远程remote地址，可以执行命令
-客户端 git remote set-url origin gitlab.*.com
+客户端 git remote set-url origin gitlab_new
 ```
 
 ### 迁移计划
@@ -243,26 +243,27 @@ vim /opt/gitlab/embedded/service/gitlab-rails/lib/backup/files.rb
 # 取消--unlink-first --recursive-unlink参数
 gitlab-rake gitlab:backup:restore BACKUP=1545933665_2018_12_28_11.1.2-ee --trace force=yes
 启动服务：gitlab-ctl start
-打开web页面验证：gitlab.*.com（此处需加windows本地hosts解析）
+打开web页面验证：gitlab_new（此处需加windows本地hosts解析）
 ```
 
 ### 迁移之后客户端操作
 
-其实质就是在你本地git仓库路径下，有一个E:/账号/.git/config配置文件，修改其中配置即可，重新推拉代码会让你再次输入密码，输入与原gitlab相同用户名及密码即可
+其实质就是在你本地git仓库路径下，有一个E:/devops/.git/config配置文件，修改其中配置即可，重新推拉代码会让你再次输入密码，输入与原gitlab相同用户名及密码即可
 
 ```
 $ git remote -v
-origin  http://IP1/taojh/账号.git (fetch)
-origin  http://IP1/taojh/账号.git (push)
+origin  http://gitlab_old/taojh/devops.git (fetch)
+origin  http://gitlab_old/taojh/devops.git (push)
 
 git config -e
 把fetch及push路径修改为当前新的gitlab地址：
-origin  http://gitlab.*.com/taojh/账号.git (fetch)
-origin  http://gitlab.*.com/taojh/账号.git (push)
+origin  http://gitlab_new/taojh/devops.git (fetch)
+origin  http://gitlab_new/taojh/devops.git (push)
 
 还有很多文档建议直接使用命令更改：
-git remote set-url origin http://gitlab.*.com/taojh/账号.git
-git remote set-url --push origin http://gitlab.*.com/taojh/账号.git
+cd e:devops/
+git remote set-url origin http://gitlab_new/taojh/devops.git
+git remote set-url --push origin http://gitlab_new/taojh/devops.git
 验证一下：git remote -v
 ```
 
@@ -278,9 +279,9 @@ https://confluence.atlassian.com/bitbucket/change-the-remote-url-to-your-reposit
 
 ```
 点击配置--源码管理--
-1、Repository URL：git@IP1:plusplatform/plusplatform.git 修改为git@gitlab.*.com:plusplatform/plusplatform.git
+1、Repository URL：git@gitlab_old:plusplatform/plusplatform.git 修改为git@gitlab_new:plusplatform/plusplatform.git
 2、Git executable修改为：git2.14.1
-（此处为服务器上源码包安装的git，并已经配置了仓库源为gitlab.*.com，通过了初次验证git ls remote）
+（此处为服务器上源码包安装的git，并已经配置了仓库源为gitlab_new，通过了初次验证git ls remote）
 ```
 
 第二类：采用pipeline流水线风格创建的job，例如jtbank_dev_H5_npm-pipeline
@@ -292,20 +293,20 @@ https://confluence.atlassian.com/bitbucket/change-the-remote-url-to-your-reposit
             //     checkout([$class: 'GitSCM', branches: [[name: '*/bj_dev']], doGenerateSubmoduleConfigurations: false, 
             //         xtensions: [], gitTool: 'git2.14.1', submoduleCfg: [], 
             //         userRemoteConfigs: [[credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', 
-            //         url: 'git@gitlab.*.com:plusplatform/plusplatform.git']]])
+            //         url: 'git@gitlab_new:plusplatform/plusplatform.git']]])
             //     }
          ========================================》第二种
             // steps {
             //     checkout([$class: 'GitSCM', branches: [[name: '*/bj_dev']], gitTool: 'git2.14.1',  
             //         userRemoteConfigs: [[credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', 
-            //         url: 'git@gitlab.*.com:plusplatform/plusplatform.git']]])
+            //         url: 'git@gitlab_new:plusplatform/plusplatform.git']]])
             //     }
          ========================================》第三种
                 tools {
                     git 'git2.14.1'
                 }
                 steps {
-                    git branch: 'master', credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@gitlab.*.com:plusplatform/plusplatform.git'
+                    git branch: 'master', credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@gitlab_new:plusplatform/plusplatform.git'
                 }
             }
 ```
@@ -355,16 +356,18 @@ for jobName in `ls $jobConfigPath`
 do cd $jobConfigPath/$jobName
 if grep "<doGenerateSubmoduleConfigurations>" $configName &> /dev/null;then
         echo "$jobName is freestyle jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/' $configName
         sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git2.14.1</gitTool>' $configName
 else
         echo "$jobName is pipeline jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/g' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
         sed -i '/拉取gitlab代码/a\tools { git &apos;git2.14.1&apos; }' $configName
 fi
 done
-echo "需要重启jenkinsjenkins_devIP"
+echo "需要重启jenkinsjenkins_ceshi"
 ```
+
+
 
 生产环境jenkins：
 
@@ -379,15 +382,15 @@ for jobName in `ls $jobConfigPath`
 do cd $jobConfigPath/$jobName
 if grep "<doGenerateSubmoduleConfigurations>" $configName &> /dev/null;then
         echo "$jobName is freestyle jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/' $configName
         sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' $configName
 else
         echo "$jobName is pipeline jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/g' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
         sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' $configName
 fi
 done
-echo "需要重启jenkinsjenkins_proIP"
+echo "需要重启jenkinsjenkins_prod"
 ```
 
 做了什么操作？测试环境及生产环境有哪些差异？
@@ -400,10 +403,10 @@ echo "需要重启jenkinsjenkins_proIP"
 https://blog.csdn.net/intelrain/article/details/79651389
 注意差异：
 测试环境jenkins2.107、操作系统centos7、git2.4.1
-生产环境的jenkins2.155、操作系统centos6.5、git1.8.3，生产环境本身就包含<gitTool>Default</gitTool>
+生产环境的jenkins2.155、操作系统centos6.9、git1.8.3，生产环境本身就包含<gitTool>Default</gitTool>
 ```
 
-测试环境测试脚本
+##### 测试环境测试脚本
 
 ```
 #!/bin/bash
@@ -413,19 +416,19 @@ configName=config.xml
 cd $jobConfigPath/$jobName
 if grep "<doGenerateSubmoduleConfigurations>" $configName &> /dev/null;then
         echo "$jobName is freestyle jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/' $configName
         sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git2.14.1</gitTool>' $configName
-        curl -u 账号:账号123 -X POST http://jenkins_devIP:8080/view/jtbank_dev_bj/job/1/reload
+        curl -u devops:devops123 -X POST http://jenkins_ceshi:8080/view/jtbank_dev_bj/job/1/reload
 else
 cd $jobConfigPath/$jobName
         echo "$jobName is pipeline jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/g' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
         sed -i '/拉取gitlab代码/a\tools { git &apos;git2.14.1&apos; }' $configName
-        curl -u 账号:账号123 -X POST http://jenkins_devIP:8080/view/jtbank_dev_bj/job/2/reload
+        curl -u devops:devops123 -X POST http://jenkins_ceshi:8080/view/jtbank_dev_bj/job/2/reload
 fi
 ```
 
-生产环境测试脚本
+##### 生产环境测试脚本
 
 ```
 #!/bin/bash
@@ -435,14 +438,110 @@ configName=config.xml
 cd $jobConfigPath/$jobName
 if grep "<doGenerateSubmoduleConfigurations>" $configName &> /dev/null;then
         echo "$jobName is freestyle jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/g' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
         sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' $configName
-        curl -u 账号:密码 -X POST http://jenkins_proIP:8081/view/hhbank_prod/job/1/reload
+        curl -u zhangxy:136446851q5 -X POST http://jenkins_prod:8081/view/hhbank_prod/job/1/reload
 else
 cd $jobConfigPath/$jobName
         echo "$jobName is pipeline jenkins job"
-        sed -i 's/git@IP1/git@gitlab.*.com/g' $configName
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
         sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' $configName
-        curl -u 账号:密码 -X POST http://jenkins_proIP:8081/view/hhbank_prod/job/2/reload
+        curl -u zhangxy:136446851q5 -X POST http://jenkins_prod:8081/view/hhbank_prod/job/2/reload
 fi
 ```
+##### 测试环境正式脚本
+
+```
+#!/bin/bash
+jobConfigPath=/var/lib/jenkins/jobs
+echo "备份jobs/*/config.xml"
+tar --exclude="/var/lib/jenkins/jobs/*/builds" -zcvf /opt/`date +%Y-%m-%d-%H_%M_%S`jenkins_job.tar.gz /var/lib/jenkins/jobs/
+
+configName=config.xml
+for jobName in `ls $jobConfigPath`
+do cd $jobConfigPath/$jobName
+if grep "<doGenerateSubmoduleConfigurations>" $configName &> /dev/null;then
+        echo "$jobName is freestyle jenkins job"
+        sed -i 's/git@gitlab_old/git@gitlab_new/' $configName
+        sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git2.14.1</gitTool>' $configName
+else
+        echo "$jobName is pipeline jenkins job"
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
+        sed -i '/拉取gitlab代码/a\tools { git &apos;git2.14.1&apos; }' $configName
+fi
+done
+echo "需要重启jenkinsjenkins_ceshi"
+```
+
+##### 生产环境正式脚本
+
+```
+#!/bin/bash
+jobConfigPath=/data/jenkins_home/jenkins/jobs
+echo "备份jobs/*/config.xml"
+tar --exclude="/data/jenkins_home/jenkins/jobs/*/builds" -zcvf /opt/`date +%Y-%m-%d-%H_%M_%S`jenkins_job.tar.gz /data/jenkins_home/jenkins/jobs/
+
+configName=config.xml
+for jobName in `ls $jobConfigPath`
+do cd $jobConfigPath/$jobName
+if grep "<doGenerateSubmoduleConfigurations>" $configName &> /dev/null;then
+        echo "$jobName is freestyle jenkins job"
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
+        sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' $configName
+else
+        echo "$jobName is pipeline jenkins job"
+        sed -i 's/git@gitlab_old/git@gitlab_new/g' $configName
+        sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' $configName
+fi
+done
+echo "需要重启jenkinsjenkins_prod"
+```
+
+http://jenkins_prod:8081/reload
+
+迁移后发现的问题
+
+1、原gitlab到gitlab_bak服务器4G传输速度1min，当前新gitlab到3.96传输速度需要10min，每日500M以上备份需要5min左右
+
+```
+===============================================================第一次测试11min
+++ date '+%Y-%m-%d %H:%M:%S'
++ echo 2019-01-02 19:56:00
++ rsync -avzP -e 'ssh -p 22' /var/opt/gitlab/backups/ root@gitlab_bak:/data/gitlab_new-gitlab_bak
+sending incremental file list
+./
+1546423356_2019_01_02_11.1.2-ee_gitlab_backup.tar
+   498106368  90%    2.44MB/s    0:00:20
+   548782080 100%    2.38MB/s    0:03:40 (xfer#1, to-check=90/92)
+1546430189_2019_01_02_11.1.2-ee_gitlab_backup.tar
+   548782080 100%    2.39MB/s    0:03:38 (xfer#2, to-check=89/92)
+gitlab_new-gitlab_bak.sh
+         555 100%    4.97kB/s    0:00:00 (xfer#3, to-check=88/92)
+clean_gitlabpackagedata.log
+        1332 100%   11.93kB/s    0:00:00 (xfer#4, to-check=87/92)
+===============================================================第二次测试6min
+++ date '+%Y-%m-%d %H:%M:%S'
++ echo 2019-01-02 20:11:38
+ + rsync -avzP -e 'ssh -p 22' /var/opt/gitlab/backups/ root@gitlab_bak:/data/gitlab_new-gitlab_bak
+sending incremental file list
+./
+1546431136_2019_01_02_11.1.2-ee_gitlab_backup.tar
+   468058112  85%    2.42MB/s    0:00:32
+   548782080 100%    2.32MB/s    0:03:45 (xfer#1, to-check=89/93)
+clean_gitlabpackagedata.log
+          54 100%   52.73kB/s    0:00:00 (xfer#2, to-check=87/93)
+
+sent 546074251 bytes  received 134 bytes  1829394.92 bytes/sec
+total size is 1646803677  speedup is 3.02
++ '[' 2 -lt 7 ']'
++ echo 'Happy Long holidays'
+```
+
+2、gitlab_bak 时间比正常快1天
+
+```
+2019年 01月 03日 星期四 20:27:07 CST
+正常时间：
+Wed Jan  2 20:22:23 CST 2019
+```
+
