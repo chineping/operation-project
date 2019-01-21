@@ -1,0 +1,369 @@
+1 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ echo 'hhbank_pom_pro is freestyle jenkins job'
+hhbank_pom_pro is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_admin_h5 is freestyle jenkins job'
+jxbank_admin_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_admin_h5_npm is freestyle jenkins job'
+jxbank_admin_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_admin is freestyle jenkins job'
+jxbank_plus_admin is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_auth is freestyle jenkins job'
+jxbank_plus_auth is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_datainner is freestyle jenkins job'
+jxbank_plus_datainner is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_eureka is freestyle jenkins job'
+jxbank_plus_eureka is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_frontmanager is freestyle jenkins job'
+jxbank_plus_frontmanager is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_gateway is freestyle jenkins job'
+jxbank_plus_gateway is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_product is freestyle jenkins job'
+jxbank_plus_product is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_plus_schedule is freestyle jenkins job'
+jxbank_plus_schedule is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_pom_pro is freestyle jenkins job'
+jxbank_pom_pro is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_product_h5 is freestyle jenkins job'
+jxbank_product_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'jxbank_product_h5_npm is freestyle jenkins job'
+jxbank_product_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'sjbank_plus_product is freestyle jenkins job'
+sjbank_plus_product is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'sjbank_product_h5 is freestyle jenkins job'
+sjbank_product_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'sjbank_product_h5_npm is freestyle jenkins job'
+sjbank_product_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'trainingcamp_prod_666H5_npm is freestyle jenkins job'
+trainingcamp_prod_666H5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'trainingcamp_prod_externalservice is freestyle jenkins job'
+trainingcamp_prod_externalservice is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'trainingcamp_prod_frontservice is freestyle jenkins job'
+trainingcamp_prod_frontservice is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'trainingcamp_prod_h5 is freestyle jenkins job'
+trainingcamp_prod_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'trainingcamp_prod_h5_npm is freestyle jenkins job'
+trainingcamp_prod_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ echo 'xkbank_pom_pro is freestyle jenkins job'
+xkbank_pom_pro is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
+
++ echo '1 is freestyle jenkins job'
++ echo 'hhbank_pom_pro is freestyle jenkins job'
++ echo 'jxbank_admin_h5 is freestyle jenkins job'
++ echo 'jxbank_admin_h5_npm is freestyle jenkins job'
++ echo 'jxbank_plus_admin is freestyle jenkins job'
++ echo 'jxbank_plus_auth is freestyle jenkins job'
++ echo 'jxbank_plus_datainner is freestyle jenkins job'
++ echo 'jxbank_plus_eureka is freestyle jenkins job'
++ echo 'jxbank_plus_frontmanager is freestyle jenkins job'
++ echo 'jxbank_plus_gateway is freestyle jenkins job'
++ echo 'jxbank_plus_product is freestyle jenkins job'
++ echo 'jxbank_plus_schedule is freestyle jenkins job'
++ echo 'jxbank_pom_pro is freestyle jenkins job'
++ echo 'jxbank_product_h5 is freestyle jenkins job'
++ echo 'jxbank_product_h5_npm is freestyle jenkins job'
++ echo 'sjbank_plus_product is freestyle jenkins job'
++ echo 'sjbank_product_h5 is freestyle jenkins job'
++ echo 'sjbank_product_h5_npm is freestyle jenkins job'
++ echo 'trainingcamp_prod_666H5_npm is freestyle jenkins job'
++ echo 'trainingcamp_prod_externalservice is freestyle jenkins job'
++ echo 'trainingcamp_prod_frontservice is freestyle jenkins job'
++ echo 'trainingcamp_prod_h5 is freestyle jenkins job'
++ echo 'trainingcamp_prod_h5_npm is freestyle jenkins job'
++ echo 'xkbank_pom_pro is freestyle jenkins job'
+
+[root@VM_4_5_centos gitlab_migrate]# awk -F' ' '{print $1}' 1
+1
+hhbank_pom_pro
+jxbank_admin_h5
+jxbank_admin_h5_npm
+jxbank_plus_admin
+jxbank_plus_auth
+jxbank_plus_datainner
+jxbank_plus_eureka
+jxbank_plus_frontmanager
+jxbank_plus_gateway
+jxbank_plus_product
+jxbank_plus_schedule
+jxbank_pom_pro
+jxbank_product_h5
+jxbank_product_h5_npm
+sjbank_plus_product
+sjbank_product_h5
+sjbank_product_h5_npm
+trainingcamp_prod_666H5_npm
+trainingcamp_prod_externalservice
+trainingcamp_prod_frontservice
+trainingcamp_prod_h5
+trainingcamp_prod_h5_npm
+xkbank_pom_pro
+
+
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/1
++ pwd
+/data/jenkins_home/jenkins/jobs/1
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/hhbank_pom_pro
++ pwd
+/data/jenkins_home/jenkins/jobs/hhbank_pom_pro
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_admin_h5
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_admin
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_admin
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_auth
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_auth
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_datainner
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_datainner
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_eureka
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_eureka
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_gateway
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_gateway
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_product
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_product
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_schedule
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_plus_schedule
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_pom_pro
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_pom_pro
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_product_h5
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm
++ pwd
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/sjbank_plus_product
++ pwd
+/data/jenkins_home/jenkins/jobs/sjbank_plus_product
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/sjbank_product_h5
++ pwd
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm
++ pwd
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm
++ pwd
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice
++ pwd
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice
++ pwd
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5
++ pwd
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm
++ pwd
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/xkbank_pom_pro
++ pwd
+/data/jenkins_home/jenkins/jobs/xkbank_pom_pro
++ sed -i '/doGenerateSubmoduleConfigurations/a\    <gitTool>git1.8.3</gitTool>' config.xml
+
+
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/1
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
+    <gitTool>git1.8.3</gitTool>
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/hhbank_pom_pro
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_admin_h5
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_admin
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_auth
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_datainner
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_eureka
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_gateway
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_product
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_schedule
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_pom_pro
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_product_h5
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/sjbank_plus_product
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/sjbank_product_h5
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>
++ for i in 1 hhbank_pom_pro jxbank_admin_h5 jxbank_admin_h5_npm jxbank_plus_admin jxbank_plus_auth jxbank_plus_datainner jxbank_plus_eureka jxbank_plus_frontmanager jxbank_plus_gateway jxbank_plus_product jxbank_plus_schedule jxbank_pom_pro jxbank_product_h5 jxbank_product_h5_npm sjbank_plus_product sjbank_product_h5 sjbank_product_h5_npm trainingcamp_prod_666H5_npm trainingcamp_prod_externalservice trainingcamp_prod_frontservice trainingcamp_prod_h5 trainingcamp_prod_h5_npm xkbank_pom_pro
++ cd /data/jenkins_home/jenkins/jobs/xkbank_pom_pro
++ grep '<gitTool>git1.8.3</gitTool>' config.xml
+    <gitTool>git1.8.3</gitTool>

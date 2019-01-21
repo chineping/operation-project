@@ -1,0 +1,10 @@
+option echo off
+option batch on
+option confirm off   
+open scp://root:password@jenkinsIP:22
+cd /tmp
+put E:\个人文件\zy_centos_init.sh
+option transfer binary
+option synchdelete off       #是否同步删除  
+remote
+close

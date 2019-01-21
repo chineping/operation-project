@@ -1,0 +1,1 @@
+java -jar agent.jar -jnlpUrl http://jenkinsIP:8080/computer/wwindowsIP/slave-agent.jnlp -secret cc613a1ac9b888bed34ee1ad2a82a0df549041437433c1cbcddf64a1cc0e6692 -workDir "E:\jenkins_slave"

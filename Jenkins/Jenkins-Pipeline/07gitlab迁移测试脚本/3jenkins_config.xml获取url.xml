@@ -1,0 +1,82 @@
+1/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+datainner_full/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+harbin_dev_H5_npm/config.xml:        <url>git@gitlabIP:BJ/haerbin-web.git</url>
+harbin_dev_H5_npm-pipeline/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:BJ/haerbin-web.git&apos;
+harbin_dev_products/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+harbin_dev_products-pipeline/config.xml:                git branch: &apos;bj_dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/plusplatform.git&apos;
+jtbank_dev_account/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-finance-account.git&apos;
+jtbank_dev_batch/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-batch.git&apos;
+jtbank_dev_conductor/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-conductor.git&apos;
+jtbank_dev_credit-server/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-credit-server.git&apos;
+jtbank_dev_finance-product/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-product-config.git&apos;
+jtbank_dev_h5_npm/config.xml:        <url>git@gitlabIP:qiji_web/JTBANK.git</url>
+jtbank_dev_H5_npm-pipeline/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-webpage/financial-manager.git&apos;
+jtbank_dev_idm-manager/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-idm/smart-ms-idm.git&apos;
+jtbank_dev_idm-rest/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-idm/smart-ms-idm.git&apos;
+jtbank_dev_ledger/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-finance-ledger.git&apos;
+jtbank_dev_loanflow/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/loanflow.git&apos;
+jtbank_dev_pom/config.xml:        <url>git@gitlabIP:plusplatform/plusplatformCash.git</url>
+jtbank_dev_quartz/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-quartz.git&apos;
+jtbank_dev_quizrule/config.xml:                        // echo &quot;git@gitlabIP:smart/smart-quizrule/${split[i]}.git&quot;
+jtbank_dev_quizrule/config.xml:                            userRemoteConfigs: [[credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &quot;git@gitlabIP:smart/smart-quizrule/${split[i]}.git&quot;]]])
+jxbank_dev_admin/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_admin_h5/config.xml:        <url>git@gitlabIP:qiji_web/web_backSys.git</url>
+jxbank_dev_auth/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_center1/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_center2/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_datainner/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_dict/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_frontmanager/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_gate/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_H5_npm/config.xml:        <url>git@gitlabIP:qiji_web/JXBANK.git</url>
+jxbank_dev_products/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_schedule/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_dev_test/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_pom_dev/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_admin/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_auth/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_center1/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_center2/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_datainner/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_dict/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_frontmanager/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_gate/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_H5_npm/config.xml:        <url>git@gitlabIP:qiji_web/JXBANK.git</url>
+jxbank_uat_products/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+jxbank_uat_schedule/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+moonstar_dev_admin/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_admin_h5/config.xml:        <url>git@gitlabIP:qiji_web/YueXing_Sys.git</url>
+moonstar_dev_admin_h5_npm-pipline/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:qiji_web/YueXing_Sys.git&apos;
+moonstar_dev_admin-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+moonstar_dev_auth/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_auth-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+moonstar_dev_dict/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_dict-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+moonstar_dev_eureka/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_eureka-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+moonstar_dev_frontmanager/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_frontmanager-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+moonstar_dev_gate/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_gate-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+moonstar_dev_H5_npm/config.xml:        <url>git@gitlabIP:qiji_web/YueXing.git</url>
+moonstar_dev_h5_npm-pipline/config.xml:                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:qiji_web/YueXing.git&apos;
+moonstar_dev_product/config.xml:        <url>git@gitlabIP:plusplatform/moonstar.git</url>
+moonstar_dev_product-pipline/config.xml:                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
+sjbank_dev_h5/config.xml:        <url>git@gitlabIP:qiji_web/SJBANK.git</url>
+sjbank_dev_H5_npm/config.xml:        <url>git@gitlabIP:qiji_web/SJBANK.git</url>
+sjbank_dev_products/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+sjbank_uat_H5_npm/config.xml:        <url>git@gitlabIP:qiji_web/SJBANK.git</url>
+sjbank_uat_products/config.xml:        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
+trainingcamp_dev_666h5_nmp/config.xml:        <url>git@gitlabIP:qiji_web/xinkah5.git</url>
+trainingcamp_dev_center/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_dev_externalservice/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_dev_frontservice/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_dev_gateway/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_dev_h5/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_dev_h5_nmp/config.xml:        <url>git@gitlabIP:qiji_web/trainingCap-register.git</url>
+trainingcamp_uat_666h5_nmp/config.xml:        <url>git@gitlabIP:qiji_web/xinkah5.git</url>
+trainingcamp_uat_center/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_uat_externalservice/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_uat_frontservice/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_uat_gateway/config.xml:        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
+trainingcamp_uat_h5_nmp/config.xml:        <url>git@gitlabIP:qiji_web/trainingCap-register.git</url>

@@ -50,7 +50,7 @@ job_name：harbin_dev_products-pipeline
 
 代码生成器可以自动生成一些语法：
 
-IP:8080/view/hhbank_dev/job/111/directive-generator/
+http://jenkinsIP:8080/view/hhbank_dev/job/111/directive-generator/
 
 ## 三、新建一个Pipeline类型的job
 
@@ -106,8 +106,8 @@ pipeline {
     }
     agent any
     parameters {
-        string(name:'server1IP', defaultValue: 'IP1', description: '部署代码所在server1_ip地址')
-        string(name:'server2IP', defaultValue: 'IP2', description: '部署代码所在server2_ip地址')
+        string(name:'server1IP', defaultValue: 'server1IP', description: '部署代码所在server1_ip地址')
+        string(name:'server2IP', defaultValue: 'server2IP', description: '部署代码所在server2_ip地址')
         string(name:'pomPath', defaultValue: 'plusplatform-fronts/plusplatform-front-products/plusplatform-product-harb/pom.xml', description: 'maven构建pom.xml')
         string(name:'jarPack', defaultValue: 'plusplatform-fronts/plusplatform-front-products/plusplatform-product-harb/target/plusplatform-product-harb-1.0.0-SNAPSHOT.jar', description: 'maven构建出的jar包')
         string(name: 'proPath',defaultValue:'/opt/plusplatform', description: '服务路径')
@@ -182,7 +182,7 @@ pipeline {
 pipeline {
     agent any
     parameters {
-        string(name:'serverIP', defaultValue: 'IP1', description: '部署代码所在ip地址')
+        string(name:'serverIP', defaultValue: 'serverIP', description: '部署代码所在ip地址')
         string(name: 'proPath',defaultValue:'/data/harbin', description: '服务路径')
 }
     stages {
@@ -204,7 +204,7 @@ pipeline {
 
         stage ('备份原代码'){
             agent {
-               label 'IP'
+               label 'serverIP'
             }
 
             steps{
@@ -233,7 +233,7 @@ sh "ssh -f -n root@${params.serverIP} chmod +x ${params.proPath}/ms"
 
 ```
 agent {
-               label 'IP'
+               label 'serverIP'
             }
 
             steps{
@@ -241,7 +241,7 @@ agent {
             }
 ```
 
-标签的操作方式详见参考文档：Jenkins高级篇之Pipeline-补充篇-如何添加一个windows节点的jenkins agent 服务，linux上加node节点同理。点击“系统管理”--“管理节点”，添加url：jenkinsIP:8080/computer/
+标签的操作方式详见参考文档：Jenkins高级篇之Pipeline-补充篇-如何添加一个windows节点的jenkins agent 服务，linux上加node节点同理。点击“系统管理”--“管理节点”，添加url：http://172.26.22.14:8080/computer/
 
 
 
@@ -297,14 +297,14 @@ pipleline {
 
 ## 六、实际操作
 
-如需新建一个pipeline的job，先复制一个合适的pipeline脚本，我这边以sit方面的服务为例，
+如需新建一个pipeline的job，先复制一个合适的pipeline脚本，我这边以交行sit北京方面的服务为例，
 
-1、copy 项目pipeline/01信审系统/bj_jh-credit-server.groovy 成02用户管理/1bj_jh_idm-rest.groovy
+1、copy 交行项目pipeline/01信审系统/bj_jh-credit-server.groovy 成02用户管理/1bj_jh_idm-rest.groovy
 2、修改1bj_jh_idm-rest.groovy，分别修改serverIP、WarPack、proPath、logPath、bakPath如实写成当前环境上的位置
 
 ```
     parameters {
-        string(name:'serverIP', defaultValue: 'IP', description: '部署代码所在ip地址')
+        string(name:'serverIP', defaultValue: 'serverIP', description: '部署代码所在ip地址')
         string(name:'WarPack', defaultValue: 'smart-idm-rest/build/libs/smart-idm-rest-2.0.0-SNAPSHOT.jar', description: 'gradle构建出的服务jar包')
         string(name: 'proPath',defaultValue:'/opt/bj-jiaohang', description: '服务路径')
         string(name: 'logPath',defaultValue:'/opt/bj-jiaohang/logs', description: '日志路径')

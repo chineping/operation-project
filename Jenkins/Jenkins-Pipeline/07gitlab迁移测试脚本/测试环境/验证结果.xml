@@ -1,0 +1,983 @@
++ jobConfigPath=/var/lib/jenkins/jobs
++ echo '备份jobs/*/config.xml'
+备份jobs/*/config.xml
++ configName=config.xml
+++ ls /var/lib/jenkins/jobs
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '1 is freestyle jenkins job'
+1 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/1.1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '1.1 is freestyle jenkins job'
+1.1 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/111
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '111 is pipeline jenkins job'
+111 is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/1-pipeline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '1-pipeline is pipeline jenkins job'
+1-pipeline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+         checkout([$class: 'GitSCM', branches: [[name: '*/bj_dev']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '06c8476d-ef81-4c84-b1eb-71d341abf97b', url: 'git@gitlabIP:plusplatform/plusplatform.git']]]) 
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '2 is pipeline jenkins job'
+2 is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                    git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/plusplatform.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/2.2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '2.2 is pipeline jenkins job'
+2.2 is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                    git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/plusplatform.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/222
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '222 is pipeline jenkins job'
+222 is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/3fanfan
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '3fanfan is freestyle jenkins job'
+3fanfan is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/JTBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/datainner_full
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'datainner_full is freestyle jenkins job'
+datainner_full is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/harbin_dev_H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'harbin_dev_H5_npm is freestyle jenkins job'
+harbin_dev_H5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:BJ/haerbin-web.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/harbin_dev_H5_npm-pipeline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'harbin_dev_H5_npm-pipeline is pipeline jenkins job'
+harbin_dev_H5_npm-pipeline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:BJ/haerbin-web.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/harbin_dev_products
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'harbin_dev_products is freestyle jenkins job'
+harbin_dev_products is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/harbin_dev_products-pipeline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'harbin_dev_products-pipeline is pipeline jenkins job'
+harbin_dev_products-pipeline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;bj_dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/plusplatform.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_account
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_account is pipeline jenkins job'
+jtbank_dev_account is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-finance-account.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_admin
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_admin is pipeline jenkins job'
+jtbank_dev_admin is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_auth
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_auth is pipeline jenkins job'
+jtbank_dev_auth is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_batch
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_batch is pipeline jenkins job'
+jtbank_dev_batch is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-batch.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_center
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_center is pipeline jenkins job'
+jtbank_dev_center is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_conductor
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_conductor is pipeline jenkins job'
+jtbank_dev_conductor is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-conductor.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_credit-server
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_credit-server is pipeline jenkins job'
+jtbank_dev_credit-server is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-credit-server.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_datainner
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_datainner is pipeline jenkins job'
+jtbank_dev_datainner is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_finance-product
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_finance-product is pipeline jenkins job'
+jtbank_dev_finance-product is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-product-config.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_frontmanager
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_frontmanager is pipeline jenkins job'
+jtbank_dev_frontmanager is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_gate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_gate is pipeline jenkins job'
+jtbank_dev_gate is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_h5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_h5_npm is freestyle jenkins job'
+jtbank_dev_h5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/JTBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_H5_npm-pipeline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_H5_npm-pipeline is pipeline jenkins job'
+jtbank_dev_H5_npm-pipeline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-webpage/financial-manager.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_idm-manager
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_idm-manager is pipeline jenkins job'
+jtbank_dev_idm-manager is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-idm/smart-ms-idm.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_idm-rest
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_idm-rest is pipeline jenkins job'
+jtbank_dev_idm-rest is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-idm/smart-ms-idm.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_ledger
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_ledger is pipeline jenkins job'
+jtbank_dev_ledger is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-finance-ledger.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_loanflow
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_loanflow is pipeline jenkins job'
+jtbank_dev_loanflow is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/loanflow.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_pom
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_pom is freestyle jenkins job'
+jtbank_dev_pom is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatformCash.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_product
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_product is pipeline jenkins job'
+jtbank_dev_product is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_quartz
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_quartz is pipeline jenkins job'
+jtbank_dev_quartz is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:smart/smart-services/smart-services-quartz.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_quizrule
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_quizrule is pipeline jenkins job'
+jtbank_dev_quizrule is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                        // echo &quot;git@gitlabIP:smart/smart-quizrule/${split[i]}.git&quot;
+                            userRemoteConfigs: [[credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &quot;git@gitlabIP:smart/smart-quizrule/${split[i]}.git&quot;]]])
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jtbank_dev_schedule
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jtbank_dev_schedule is pipeline jenkins job'
+jtbank_dev_schedule is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_admin
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_admin is freestyle jenkins job'
+jxbank_dev_admin is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_admin_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_admin_h5 is freestyle jenkins job'
+jxbank_dev_admin_h5 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/web_backSys.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_auth
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_auth is freestyle jenkins job'
+jxbank_dev_auth is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_center1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_center1 is freestyle jenkins job'
+jxbank_dev_center1 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_center2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_center2 is freestyle jenkins job'
+jxbank_dev_center2 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_datainner
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_datainner is freestyle jenkins job'
+jxbank_dev_datainner is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_dict
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_dict is freestyle jenkins job'
+jxbank_dev_dict is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_frontmanager
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_frontmanager is freestyle jenkins job'
+jxbank_dev_frontmanager is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_gate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_gate is freestyle jenkins job'
+jxbank_dev_gate is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_H5_npm is freestyle jenkins job'
+jxbank_dev_H5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/JXBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_products
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_products is freestyle jenkins job'
+jxbank_dev_products is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_schedule
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_schedule is freestyle jenkins job'
+jxbank_dev_schedule is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_dev_test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_dev_test is freestyle jenkins job'
+jxbank_dev_test is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_pom_dev
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_pom_dev is freestyle jenkins job'
+jxbank_pom_dev is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_admin
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_admin is freestyle jenkins job'
+jxbank_uat_admin is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_auth
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_auth is freestyle jenkins job'
+jxbank_uat_auth is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_center1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_center1 is freestyle jenkins job'
+jxbank_uat_center1 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_center2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_center2 is freestyle jenkins job'
+jxbank_uat_center2 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_datainner
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_datainner is freestyle jenkins job'
+jxbank_uat_datainner is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_dict
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_dict is freestyle jenkins job'
+jxbank_uat_dict is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_frontmanager
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_frontmanager is freestyle jenkins job'
+jxbank_uat_frontmanager is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_gate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_gate is freestyle jenkins job'
+jxbank_uat_gate is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_H5_npm is freestyle jenkins job'
+jxbank_uat_H5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/JXBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_products
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_products is freestyle jenkins job'
+jxbank_uat_products is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/jxbank_uat_schedule
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_uat_schedule is freestyle jenkins job'
+jxbank_uat_schedule is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/maidanba-business-dev
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'maidanba-business-dev is pipeline jenkins job'
+maidanba-business-dev is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/maidanba-business-test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'maidanba-business-test is pipeline jenkins job'
+maidanba-business-test is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/maidanba-dev
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'maidanba-dev is pipeline jenkins job'
+maidanba-dev is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/maidanba-front-test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'maidanba-front-test is pipeline jenkins job'
+maidanba-front-test is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/maidanba-negate-test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'maidanba-negate-test is pipeline jenkins job'
+maidanba-negate-test is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_admin
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_admin is freestyle jenkins job'
+moonstar_dev_admin is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_admin_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_admin_h5 is freestyle jenkins job'
+moonstar_dev_admin_h5 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/YueXing_Sys.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_admin_h5_npm-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_admin_h5_npm-pipline is pipeline jenkins job'
+moonstar_dev_admin_h5_npm-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:qiji_web/YueXing_Sys.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_admin-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_admin-pipline is pipeline jenkins job'
+moonstar_dev_admin-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_auth
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_auth is freestyle jenkins job'
+moonstar_dev_auth is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_auth-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_auth-pipline is pipeline jenkins job'
+moonstar_dev_auth-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_dict
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_dict is freestyle jenkins job'
+moonstar_dev_dict is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_dict-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_dict-pipline is pipeline jenkins job'
+moonstar_dev_dict-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_eureka
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_eureka is freestyle jenkins job'
+moonstar_dev_eureka is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_eureka-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_eureka-pipline is pipeline jenkins job'
+moonstar_dev_eureka-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_frontmanager
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_frontmanager is freestyle jenkins job'
+moonstar_dev_frontmanager is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_frontmanager-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_frontmanager-pipline is pipeline jenkins job'
+moonstar_dev_frontmanager-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_gate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_gate is freestyle jenkins job'
+moonstar_dev_gate is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_gate-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_gate-pipline is pipeline jenkins job'
+moonstar_dev_gate-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_H5_npm is freestyle jenkins job'
+moonstar_dev_H5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/YueXing.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_h5_npm-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_h5_npm-pipline is pipeline jenkins job'
+moonstar_dev_h5_npm-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:qiji_web/YueXing.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_product
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_product is freestyle jenkins job'
+moonstar_dev_product is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/moonstar.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/moonstar_dev_product-pipline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_dev_product-pipline is pipeline jenkins job'
+moonstar_dev_product-pipline is pipeline jenkins job
++ grep git@gitlabIP config.xml
+                git branch: &apos;dev&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;git@gitlabIP:plusplatform/moonstar.git&apos;
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
+tools { git &apos;git2.14.1&apos; }
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/sjbank_dev_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_dev_h5 is freestyle jenkins job'
+sjbank_dev_h5 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/SJBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/sjbank_dev_H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_dev_H5_npm is freestyle jenkins job'
+sjbank_dev_H5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/SJBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/sjbank_dev_products
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_dev_products is freestyle jenkins job'
+sjbank_dev_products is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/sjbank_uat_H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_uat_H5_npm is freestyle jenkins job'
+sjbank_uat_H5_npm is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/SJBANK.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/sjbank_uat_products
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_uat_products is freestyle jenkins job'
+sjbank_uat_products is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:plusplatform/plusplatform.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/test_Gradle
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'test_Gradle is pipeline jenkins job'
+test_Gradle is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_666h5_nmp
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_666h5_nmp is freestyle jenkins job'
+trainingcamp_dev_666h5_nmp is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/xinkah5.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_center
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_center is freestyle jenkins job'
+trainingcamp_dev_center is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_externalservice
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_externalservice is freestyle jenkins job'
+trainingcamp_dev_externalservice is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_frontservice
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_frontservice is freestyle jenkins job'
+trainingcamp_dev_frontservice is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_gateway
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_gateway is freestyle jenkins job'
+trainingcamp_dev_gateway is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_h5 is freestyle jenkins job'
+trainingcamp_dev_h5 is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_dev_h5_nmp
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_dev_h5_nmp is freestyle jenkins job'
+trainingcamp_dev_h5_nmp is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/trainingCap-register.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_uat_666h5_nmp
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_uat_666h5_nmp is freestyle jenkins job'
+trainingcamp_uat_666h5_nmp is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/xinkah5.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_uat_center
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_uat_center is freestyle jenkins job'
+trainingcamp_uat_center is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_uat_externalservice
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_uat_externalservice is freestyle jenkins job'
+trainingcamp_uat_externalservice is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_uat_frontservice
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_uat_frontservice is freestyle jenkins job'
+trainingcamp_uat_frontservice is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_uat_gateway
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_uat_gateway is freestyle jenkins job'
+trainingcamp_uat_gateway is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:trainingcamp/trainingcamp.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/trainingcamp_uat_h5_nmp
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_uat_h5_nmp is freestyle jenkins job'
+trainingcamp_uat_h5_nmp is freestyle jenkins job
++ grep git@gitlabIP config.xml
+        <url>git@gitlabIP:qiji_web/trainingCap-register.git</url>
++ grep '<gitTool>git2.14.1</gitTool>' config.xml
+    <gitTool>git2.14.1</gitTool>
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank-front-test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank-front-test is pipeline jenkins job'
+zsbank-front-test is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_prod_drools
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_drools is pipeline jenkins job'
+zsbank_prod_drools is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_prod_ifcsmg
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_ifcsmg is pipeline jenkins job'
+zsbank_prod_ifcsmg is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_prod_kcbifcs
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_kcbifcs is pipeline jenkins job'
+zsbank_prod_kcbifcs is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_prod_netgate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_netgate is pipeline jenkins job'
+zsbank_prod_netgate is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_test_drools
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_test_drools is pipeline jenkins job'
+zsbank_test_drools is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_test_ifcsmg
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_test_ifcsmg is pipeline jenkins job'
+zsbank_test_ifcsmg is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_test_kcbifcs
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_test_kcbifcs is pipeline jenkins job'
+zsbank_test_kcbifcs is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_test_netgate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_test_netgate is pipeline jenkins job'
+zsbank_test_netgate is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_uat_drools
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_uat_drools is pipeline jenkins job'
+zsbank_uat_drools is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_uat_ifcsmg
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_uat_ifcsmg is pipeline jenkins job'
+zsbank_uat_ifcsmg is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_uat_kcbifcs
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_uat_kcbifcs is pipeline jenkins job'
+zsbank_uat_kcbifcs is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /var/lib/jenkins/jobs/zsbank_uat_netgate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_uat_netgate is pipeline jenkins job'
+zsbank_uat_netgate is pipeline jenkins job
++ grep git@gitlabIP config.xml
++ grep 'tools { git &apos;git2.14.1&apos; }' config.xml

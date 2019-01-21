@@ -1,0 +1,155 @@
+1 is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+1.1 is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+2 is pipeline jenkins job
+            //         url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;]]])
+            //         url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;]]])
+                    git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;
+tools { git &apos;git1.8.3&apos; }
+2.1 is pipeline jenkins job
+            //         url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;]]])
+            //         url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;]]])
+                    git branch: &apos;master&apos;, credentialsId: &apos;06c8476d-ef81-4c84-b1eb-71d341abf97b&apos;, url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;
+tools { git &apos;git1.8.3&apos; }
+harbin_prod_H5_npm-pipeline is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:BJ/haerbin-web.git&apos;
+tools { git &apos;git1.8.3&apos; }
+hhbank_plus_product is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/plusplatform.git&apos;
+tools { git &apos;git1.8.3&apos; }
+hhbank_pom_pro is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+hsbank_prod_drools-1_ansible is pipeline jenkins job
+hsbank_prod_drools-2_ansible is pipeline jenkins job
+hsbank_prod_ifcsmg-1_ansible is pipeline jenkins job
+hsbank_prod_ifcsmg-2_ansible is pipeline jenkins job
+hsbank_prod_kcbifcs-1_ansible is pipeline jenkins job
+hsbank_prod_kcbifcs-2_ansible is pipeline jenkins job
+hsbank_prod_netgate-1_ansible is pipeline jenkins job
+hsbank_prod_rollbak_ansible is pipeline jenkins job
+jenkins-test is pipeline jenkins job
+jxbank_admin_h5 is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/web_backSys.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_admin_h5_npm is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/web_backSys.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_admin is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_auth is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_datainner is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_eureka is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_frontmanager is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_gateway is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_product is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_plus_schedule is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_pom_pro is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_prod_rollbak_ansible is pipeline jenkins job
+jxbank_product_h5 is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/JXBANK.git</url>
+    <gitTool>git1.8.3</gitTool>
+jxbank_product_h5_npm is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/JXBANK.git</url>
+    <gitTool>git1.8.3</gitTool>
+moon_prod_eureka-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_admin_H5-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:qiji_web/YueXing_Sys.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_admin-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_auth-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_dict-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_frontmanager-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_gate-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_product_H5-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:qiji_web/YueXing.git&apos;
+tools { git &apos;git1.8.3&apos; }
+moonstar_prod_product-pip is pipeline jenkins job
+                git branch: &apos;master&apos;, credentialsId: &apos;75a79a50-ea18-4fb9-9179-6d800118c85a&apos;, url: &apos;gitlabNewIP:plusplatform/moonstar.git&apos;
+tools { git &apos;git1.8.3&apos; }
+plus-eureka1 is pipeline jenkins job
+rollbak_test is pipeline jenkins job
+sjbank_plus_product is freestyle jenkins job
+        <url>gitlabNewIP:plusplatform/plusplatform.git</url>
+    <gitTool>git1.8.3</gitTool>
+sjbank_prod_rollbak_ansible is pipeline jenkins job
+sjbank_product_h5 is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/SJBANK.git</url>
+    <gitTool>git1.8.3</gitTool>
+sjbank_product_h5_npm is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/SJBANK.git</url>
+    <gitTool>git1.8.3</gitTool>
+trainingcamp_prod_666H5_npm is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/xinkah5.git</url>
+    <gitTool>git1.8.3</gitTool>
+trainingcamp_prod_externalservice is freestyle jenkins job
+        <url>gitlabNewIP:trainingcamp/trainingcamp.git</url>
+    <gitTool>git1.8.3</gitTool>
+trainingcamp_prod_frontservice is freestyle jenkins job
+        <url>gitlabNewIP:trainingcamp/trainingcamp.git</url>
+    <gitTool>git1.8.3</gitTool>
+trainingcamp_prod_h5 is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/trainingCap-register.git</url>
+    <gitTool>git1.8.3</gitTool>
+trainingcamp_prod_h5_npm is freestyle jenkins job
+        <url>gitlabNewIP:qiji_web/trainingCap-register.git</url>
+    <gitTool>git1.8.3</gitTool>
+tup_prod_drools-1 is pipeline jenkins job
+tup_prod_drools-2 is pipeline jenkins job
+tup_prod_ifcsmg-1 is pipeline jenkins job
+tup_prod_ifcsmg-2 is pipeline jenkins job
+tup_prod_kcbifcs-1 is pipeline jenkins job
+tup_prod_kcbifcs-2 is pipeline jenkins job
+tup_prod_netgate-1 is pipeline jenkins job
+xkbank_pom_pro is freestyle jenkins job
+        <url>gitlabNewIP:trainingcamp/trainingcamp.git</url>
+    <gitTool>git1.8.3</gitTool>
+xkbank_prod_rollbak_ansible is pipeline jenkins job
+zsbank_prod_drools-1 is pipeline jenkins job
+zsbank_prod_drools-1_1 is pipeline jenkins job
+zsbank_prod_drools-1_ansible is pipeline jenkins job
+zsbank_prod_drools-2 is pipeline jenkins job
+zsbank_prod_drools-2_ansible is pipeline jenkins job
+zsbank_prod_ifcsmg-1 is pipeline jenkins job
+zsbank_prod_ifcsmg-1_ansible is pipeline jenkins job
+zsbank_prod_ifcsmg-2 is pipeline jenkins job
+zsbank_prod_ifcsmg-2_ansible is pipeline jenkins job
+zsbank_prod_kcbifcs-1 is pipeline jenkins job
+zsbank_prod_kcbifcs-1_ansible is pipeline jenkins job
+zsbank_prod_kcbifcs-2 is pipeline jenkins job
+zsbank_prod_kcbifcs-2_ansible is pipeline jenkins job
+zsbank_prod_netgate is pipeline jenkins job
+zsbank_prod_netgate-1_ansible is pipeline jenkins job
+zsbank_prod_rollbak_ansible is pipeline jenkins job

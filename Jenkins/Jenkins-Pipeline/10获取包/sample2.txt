@@ -1,0 +1,11 @@
+option echo off
+option batch on
+option confirm off  
+open scp://root:password@jenkinsIP:22
+cd /opt/projectVersion/avsVersion
+lcd E:\AVS版本
+get *
+option synchdelete on
+call rm -rf ./*
+close
+exit

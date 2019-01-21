@@ -1,0 +1,18 @@
+option echo off
+option batch on
+option confirm off  
+open scp://root:password@jenkinsIP:22
+cd /opt/jenkins2.107/jenkins/workspace/ems_prod_pipeline/ems-server/target
+get ems-server.war E:\AVS发布\tmp\待验证
+cd /opt/jenkins2.107/jenkins/workspace/ems_prod_pipeline/ems-backend/target
+get ems-backend.war E:\AVS发布\tmp\待验证
+cd /opt/jenkins2.107/jenkins/workspace/ems_prod_pipeline/ems-web/target
+get ems-web.war E:\AVS发布\tmp\待验证
+cd /opt/jenkins2.107/jenkins/workspace/ems_prod_pipeline/upload/target
+get upload.war E:\AVS发布\tmp\待验证
+cd /opt/jenkins2.107/jenkins/workspace/ems_prod_pipeline/ems-envelope/target
+get ems-envelope.war E:\AVS发布\tmp\待验证
+option synchdelete off       #是否同步删除  
+Local
+close
+exit

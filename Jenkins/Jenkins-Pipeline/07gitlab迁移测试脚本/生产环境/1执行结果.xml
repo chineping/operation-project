@@ -1,0 +1,891 @@
+[root@VM_4_5_centos gitlab_migrate]# bash -x 1.sh 
++ jobConfigPath=/data/jenkins_home/jenkins/jobs
++ echo '备份jobs/*/config.xml'
+备份jobs/*/config.xml
+++ date +%Y-%m-%d-%H_%M_%S
++ tar '--exclude=/data/jenkins_home/jenkins/jobs/*/builds' -zcvf /opt/2019-01-02-18_26_40jenkins_job.tar.gz /data/jenkins_home/jenkins/jobs/
+tar: Removing leading `/' from member names
+/data/jenkins_home/jenkins/jobs/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/1/
+/data/jenkins_home/jenkins/jobs/1/lastStable
+/data/jenkins_home/jenkins/jobs/1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/1/config.xml
+/data/jenkins_home/jenkins/jobs/1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/build_ifcsmg_PROD.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5/
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_rollbak_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_rollbak_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_rollbak_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5/
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5/lastStable
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5/lastSuccessful
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5/config.xml
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_drools-1/
+/data/jenkins_home/jenkins/jobs/tup_prod_drools-1/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_drools-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_pom_pro/
+/data/jenkins_home/jenkins/jobs/jxbank_pom_pro/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_pom_pro/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_pom_pro/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_pom_pro/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_frontmanager-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_frontmanager-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_frontmanager-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_frontmanager-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_frontmanager-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/xkbank_pom_pro/
+/data/jenkins_home/jenkins/jobs/xkbank_pom_pro/lastStable
+/data/jenkins_home/jenkins/jobs/xkbank_pom_pro/lastSuccessful
+/data/jenkins_home/jenkins/jobs/xkbank_pom_pro/config.xml
+/data/jenkins_home/jenkins/jobs/xkbank_pom_pro/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_rollbak_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_rollbak_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_rollbak_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_rollbak_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_rollbak_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5/
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5/lastStable
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5/lastSuccessful
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5/config.xml
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_drools-1_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_drools-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_drools-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_datainner/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_datainner/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_datainner/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_datainner/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_datainner/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_schedule/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_schedule/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_schedule/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_schedule/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_schedule/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_auth-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_auth-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_auth-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_auth-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_auth-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hhbank_pom_pro/
+/data/jenkins_home/jenkins/jobs/hhbank_pom_pro/lastStable
+/data/jenkins_home/jenkins/jobs/hhbank_pom_pro/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hhbank_pom_pro/config.xml
+/data/jenkins_home/jenkins/jobs/hhbank_pom_pro/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/harbin_prod_H5_npm-pipeline/
+/data/jenkins_home/jenkins/jobs/harbin_prod_H5_npm-pipeline/lastStable
+/data/jenkins_home/jenkins/jobs/harbin_prod_H5_npm-pipeline/lastSuccessful
+/data/jenkins_home/jenkins/jobs/harbin_prod_H5_npm-pipeline/config.xml
+/data/jenkins_home/jenkins/jobs/harbin_prod_H5_npm-pipeline/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product_H5-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product_H5-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product_H5-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product_H5-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_product_H5-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_auth/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_auth/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_auth/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_auth/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_auth/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice/
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice/lastStable
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice/lastSuccessful
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice/config.xml
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_drools-2_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_drools-2_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_drools-2_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/sjbank_prod_rollbak_ansible/
+/data/jenkins_home/jenkins/jobs/sjbank_prod_rollbak_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/sjbank_prod_rollbak_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/sjbank_prod_rollbak_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/sjbank_prod_rollbak_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jenkins-test/
+/data/jenkins_home/jenkins/jobs/jenkins-test/lastStable
+/data/jenkins_home/jenkins/jobs/jenkins-test/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jenkins-test/config.xml
+/data/jenkins_home/jenkins/jobs/jenkins-test/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2/
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2/lastStable
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2/lastSuccessful
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-2/
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-2/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-2/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hhbank_plus_product/
+/data/jenkins_home/jenkins/jobs/hhbank_plus_product/lastStable
+/data/jenkins_home/jenkins/jobs/hhbank_plus_product/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hhbank_plus_product/config.xml
+/data/jenkins_home/jenkins/jobs/hhbank_plus_product/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_gate-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_gate-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_gate-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_gate-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_gate-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin_H5-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin_H5-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin_H5-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin_H5-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin_H5-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm/
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm/lastStable
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm/lastSuccessful
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm/config.xml
+/data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_netgate-1/
+/data/jenkins_home/jenkins/jobs/tup_prod_netgate-1/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_netgate-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/sjbank_plus_product/
+/data/jenkins_home/jenkins/jobs/sjbank_plus_product/lastStable
+/data/jenkins_home/jenkins/jobs/sjbank_plus_product/lastSuccessful
+/data/jenkins_home/jenkins/jobs/sjbank_plus_product/config.xml
+/data/jenkins_home/jenkins/jobs/sjbank_plus_product/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moon_prod_eureka-pip/
+/data/jenkins_home/jenkins/jobs/moon_prod_eureka-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moon_prod_eureka-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moon_prod_eureka-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moon_prod_eureka-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice/
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice/lastStable
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice/lastSuccessful
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice/config.xml
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/rollbak_test/
+/data/jenkins_home/jenkins/jobs/rollbak_test/lastStable
+/data/jenkins_home/jenkins/jobs/rollbak_test/lastSuccessful
+/data/jenkins_home/jenkins/jobs/rollbak_test/config.xml
+/data/jenkins_home/jenkins/jobs/rollbak_test/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_admin-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_product/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_product/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_product/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_product/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_product/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1/
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1/lastStable
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_gateway/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_gateway/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_gateway/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_gateway/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_gateway/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_eureka/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_eureka/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_eureka/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_eureka/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_eureka/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm/
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm/lastStable
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm/lastSuccessful
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm/config.xml
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1/
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1/lastStable
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/moonstar_prod_dict-pip/
+/data/jenkins_home/jenkins/jobs/moonstar_prod_dict-pip/lastStable
+/data/jenkins_home/jenkins/jobs/moonstar_prod_dict-pip/lastSuccessful
+/data/jenkins_home/jenkins/jobs/moonstar_prod_dict-pip/config.xml
+/data/jenkins_home/jenkins/jobs/moonstar_prod_dict-pip/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5/
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/2/
+/data/jenkins_home/jenkins/jobs/2/lastStable
+/data/jenkins_home/jenkins/jobs/2/lastSuccessful
+/data/jenkins_home/jenkins/jobs/2/config.xml
+/data/jenkins_home/jenkins/jobs/2/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible/
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm/
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm/lastStable
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm/lastSuccessful
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm/config.xml
+/data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/xkbank_prod_rollbak_ansible/
+/data/jenkins_home/jenkins/jobs/xkbank_prod_rollbak_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/xkbank_prod_rollbak_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm/
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm/
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible/
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible/svnexternals.txt
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/plus-eureka1/
+/data/jenkins_home/jenkins/jobs/plus-eureka1/config.xml
+/data/jenkins_home/jenkins/jobs/plus-eureka1/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_plus_admin/
+/data/jenkins_home/jenkins/jobs/jxbank_plus_admin/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_plus_admin/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_plus_admin/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_plus_admin/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/jxbank_prod_rollbak_ansible/
+/data/jenkins_home/jenkins/jobs/jxbank_prod_rollbak_ansible/lastStable
+/data/jenkins_home/jenkins/jobs/jxbank_prod_rollbak_ansible/lastSuccessful
+/data/jenkins_home/jenkins/jobs/jxbank_prod_rollbak_ansible/config.xml
+/data/jenkins_home/jenkins/jobs/jxbank_prod_rollbak_ansible/nextBuildNumber
+/data/jenkins_home/jenkins/jobs/tup_prod_drools-2/
+/data/jenkins_home/jenkins/jobs/tup_prod_drools-2/config.xml
+/data/jenkins_home/jenkins/jobs/tup_prod_drools-2/nextBuildNumber
++ configName=config.xml
+++ ls /data/jenkins_home/jenkins/jobs
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '1 is freestyle jenkins job'
+1 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo '2 is pipeline jenkins job'
+2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/harbin_prod_H5_npm-pipeline
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'harbin_prod_H5_npm-pipeline is pipeline jenkins job'
+harbin_prod_H5_npm-pipeline is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hhbank_plus_product
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hhbank_plus_product is pipeline jenkins job'
+hhbank_plus_product is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hhbank_pom_pro
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hhbank_pom_pro is freestyle jenkins job'
+hhbank_pom_pro is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_drools-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_drools-1_ansible is pipeline jenkins job'
+hsbank_prod_drools-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_drools-2_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_drools-2_ansible is pipeline jenkins job'
+hsbank_prod_drools-2_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_ifcsmg-1_ansible is pipeline jenkins job'
+hsbank_prod_ifcsmg-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_ifcsmg-2_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_ifcsmg-2_ansible is pipeline jenkins job'
+hsbank_prod_ifcsmg-2_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_kcbifcs-1_ansible is pipeline jenkins job'
+hsbank_prod_kcbifcs-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_kcbifcs-2_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_kcbifcs-2_ansible is pipeline jenkins job'
+hsbank_prod_kcbifcs-2_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_netgate-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_netgate-1_ansible is pipeline jenkins job'
+hsbank_prod_netgate-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/hsbank_prod_rollbak_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'hsbank_prod_rollbak_ansible is pipeline jenkins job'
+hsbank_prod_rollbak_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jenkins-test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jenkins-test is pipeline jenkins job'
+jenkins-test is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_admin_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_admin_h5 is freestyle jenkins job'
+jxbank_admin_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_admin_h5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_admin_h5_npm is freestyle jenkins job'
+jxbank_admin_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_admin
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_admin is freestyle jenkins job'
+jxbank_plus_admin is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_auth
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_auth is freestyle jenkins job'
+jxbank_plus_auth is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_datainner
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_datainner is freestyle jenkins job'
+jxbank_plus_datainner is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_eureka
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_eureka is freestyle jenkins job'
+jxbank_plus_eureka is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_frontmanager
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_frontmanager is freestyle jenkins job'
+jxbank_plus_frontmanager is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_gateway
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_gateway is freestyle jenkins job'
+jxbank_plus_gateway is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_product
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_product is freestyle jenkins job'
+jxbank_plus_product is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_plus_schedule
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_plus_schedule is freestyle jenkins job'
+jxbank_plus_schedule is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_pom_pro
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_pom_pro is freestyle jenkins job'
+jxbank_pom_pro is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_prod_rollbak_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_prod_rollbak_ansible is pipeline jenkins job'
+jxbank_prod_rollbak_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_product_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_product_h5 is freestyle jenkins job'
+jxbank_product_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/jxbank_product_h5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'jxbank_product_h5_npm is freestyle jenkins job'
+jxbank_product_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moon_prod_eureka-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moon_prod_eureka-pip is pipeline jenkins job'
+moon_prod_eureka-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_admin_H5-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_admin_H5-pip is pipeline jenkins job'
+moonstar_prod_admin_H5-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_admin-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_admin-pip is pipeline jenkins job'
+moonstar_prod_admin-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_auth-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_auth-pip is pipeline jenkins job'
+moonstar_prod_auth-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_dict-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_dict-pip is pipeline jenkins job'
+moonstar_prod_dict-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_frontmanager-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_frontmanager-pip is pipeline jenkins job'
+moonstar_prod_frontmanager-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_gate-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_gate-pip is pipeline jenkins job'
+moonstar_prod_gate-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_product_H5-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_product_H5-pip is pipeline jenkins job'
+moonstar_prod_product_H5-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/moonstar_prod_product-pip
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'moonstar_prod_product-pip is pipeline jenkins job'
+moonstar_prod_product-pip is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/plus-eureka1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'plus-eureka1 is pipeline jenkins job'
+plus-eureka1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/rollbak_test
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'rollbak_test is pipeline jenkins job'
+rollbak_test is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/sjbank_plus_product
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_plus_product is freestyle jenkins job'
+sjbank_plus_product is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/sjbank_prod_rollbak_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_prod_rollbak_ansible is pipeline jenkins job'
+sjbank_prod_rollbak_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/sjbank_product_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_product_h5 is freestyle jenkins job'
+sjbank_product_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/sjbank_product_h5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'sjbank_product_h5_npm is freestyle jenkins job'
+sjbank_product_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_666H5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_prod_666H5_npm is freestyle jenkins job'
+trainingcamp_prod_666H5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_externalservice
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_prod_externalservice is freestyle jenkins job'
+trainingcamp_prod_externalservice is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_frontservice
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_prod_frontservice is freestyle jenkins job'
+trainingcamp_prod_frontservice is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_prod_h5 is freestyle jenkins job'
+trainingcamp_prod_h5 is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/trainingcamp_prod_h5_npm
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'trainingcamp_prod_h5_npm is freestyle jenkins job'
+trainingcamp_prod_h5_npm is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_drools-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_drools-1 is pipeline jenkins job'
+tup_prod_drools-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_drools-2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_drools-2 is pipeline jenkins job'
+tup_prod_drools-2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_ifcsmg-1 is pipeline jenkins job'
+tup_prod_ifcsmg-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_ifcsmg-2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_ifcsmg-2 is pipeline jenkins job'
+tup_prod_ifcsmg-2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_kcbifcs-1 is pipeline jenkins job'
+tup_prod_kcbifcs-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_kcbifcs-2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_kcbifcs-2 is pipeline jenkins job'
+tup_prod_kcbifcs-2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/tup_prod_netgate-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'tup_prod_netgate-1 is pipeline jenkins job'
+tup_prod_netgate-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/xkbank_pom_pro
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'xkbank_pom_pro is freestyle jenkins job'
+xkbank_pom_pro is freestyle jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i 's#<gitTool>Default</gitTool>#<gitTool>git1.8.3</gitTool>#g' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/xkbank_prod_rollbak_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'xkbank_prod_rollbak_ansible is pipeline jenkins job'
+xkbank_prod_rollbak_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_drools-1 is pipeline jenkins job'
+zsbank_prod_drools-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_drools-1_1 is pipeline jenkins job'
+zsbank_prod_drools-1_1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_drools-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_drools-1_ansible is pipeline jenkins job'
+zsbank_prod_drools-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_drools-2 is pipeline jenkins job'
+zsbank_prod_drools-2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_drools-2_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_drools-2_ansible is pipeline jenkins job'
+zsbank_prod_drools-2_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_ifcsmg-1 is pipeline jenkins job'
+zsbank_prod_ifcsmg-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_ifcsmg-1_ansible is pipeline jenkins job'
+zsbank_prod_ifcsmg-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_ifcsmg-2 is pipeline jenkins job'
+zsbank_prod_ifcsmg-2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_ifcsmg-2_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_ifcsmg-2_ansible is pipeline jenkins job'
+zsbank_prod_ifcsmg-2_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_kcbifcs-1 is pipeline jenkins job'
+zsbank_prod_kcbifcs-1 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_kcbifcs-1_ansible is pipeline jenkins job'
+zsbank_prod_kcbifcs-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_kcbifcs-2 is pipeline jenkins job'
+zsbank_prod_kcbifcs-2 is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_kcbifcs-2_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_kcbifcs-2_ansible is pipeline jenkins job'
+zsbank_prod_kcbifcs-2_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_netgate
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_netgate is pipeline jenkins job'
+zsbank_prod_netgate is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_netgate-1_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_netgate-1_ansible is pipeline jenkins job'
+zsbank_prod_netgate-1_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ for jobName in '`ls $jobConfigPath`'
++ cd /data/jenkins_home/jenkins/jobs/zsbank_prod_rollbak_ansible
++ grep '<doGenerateSubmoduleConfigurations>' config.xml
++ echo 'zsbank_prod_rollbak_ansible is pipeline jenkins job'
+zsbank_prod_rollbak_ansible is pipeline jenkins job
++ sed -i s/git@gitlabOldIP/gitlabNewIP/g config.xml
++ sed -i '/拉取gitlab代码/a\tools { git &apos;git1.8.3&apos; }' config.xml
++ echo $'\351\234\200\350\246\201\351\207\215\345\220\257jenkinsIP'
+需要重启jenkinsIP
