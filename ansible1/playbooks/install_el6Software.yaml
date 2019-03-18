@@ -1,0 +1,20 @@
+---
+- hosts: "{{ host }}"
+  user: root
+  vars:
+    dir_src: /opt/software/changyong
+    dir_dest: /opt
+    
+  tasks:
+    - name: copy rpm package to dest host
+      copy: 
+        src: "{{ dir_src }}"
+        dest: "{{ dir_dest }}"
+  
+    - name: install rpm packages
+      shell: cd "{{ dir_dest }}/changyong" ; rpm -ivh {{ item }}
+      with_items: [ iftop-0.17-1.el6.rf.x86_64.rpm, lrzsz-0.12.20-27.1.el6.x86_64.rpm, telnet-0.17-48.el6.x86_64.rpm, tree-1.5.3-3.el6.x86_64.rpm, unzip-6.0-5.el6.x86_64.rpm ]
+
+    - name: verification command
+      shell: cd /usr/bin; ls /usr/sbin/iftop; ls {{ item }}
+      with_items: [ unzip tree sz telnet ]

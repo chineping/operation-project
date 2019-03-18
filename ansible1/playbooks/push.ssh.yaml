@@ -1,4 +1,4 @@
-# Using alternate directory locations:
+# Using alternate directory locations, and optimization sshd_config:
 - hosts: "{{ host }}"
   user: root
   tasks:
@@ -16,3 +16,9 @@
       authorized_key: user=root key="{{ lookup('file','/root/.ssh/id_rsa.pub') }}" state=present
       tags:
         - sshkey
+    - name: optimization sshd_config
+      shell: sed -ri 's/.*GSSAPIAuthentication\s+yes/GSSAPIAuthentication no/g' /etc/ssh/sshd_config && sed -ri 's/.*UseDNS\s+yes/UseDNS no/g' /etc/ssh/sshd_config
+    - name: read sshd service
+      service: 
+        name: sshd
+        state: reloaded
